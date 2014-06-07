@@ -1,0 +1,149 @@
+{
+"heroes" : [ {
+"paragonLevel" : 317,
+"name" : "LuziCrenata",
+"id" : 1784440,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "wizard",
+"last-updated" : 1402106952
+}, {
+"paragonLevel" : 317,
+"name" : "LuziWD",
+"id" : 15663420,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "witch-doctor",
+"last-updated" : 1401981597
+}, {
+"paragonLevel" : 317,
+"name" : "LuziCr",
+"id" : 43789444,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "crusader",
+"last-updated" : 1401640143
+}, {
+"paragonLevel" : 317,
+"name" : "LuziBarBarBa",
+"id" : 2411360,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "barbarian",
+"last-updated" : 1400319805
+}, {
+"paragonLevel" : 317,
+"name" : "LuziDH",
+"id" : 15252206,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "demon-hunter",
+"last-updated" : 1401707267
+}, {
+"paragonLevel" : 317,
+"name" : "Benzaiten",
+"id" : 21535883,
+"level" : 70,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "monk",
+"last-updated" : 1401708059
+}, {
+"paragonLevel" : 0,
+"name" : "Sayaka",
+"id" : 29055258,
+"level" : 8,
+"hardcore" : true,
+"gender" : 1,
+"dead" : false,
+"class" : "barbarian",
+"last-updated" : 1398693374
+}, {
+"paragonLevel" : 317,
+"name" : "StorageB",
+"id" : 46659402,
+"level" : 2,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "monk",
+"last-updated" : 1402020210
+}, {
+"paragonLevel" : 317,
+"name" : "StorageA",
+"id" : 46315607,
+"level" : 1,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "demon-hunter",
+"last-updated" : 1402032365
+}, {
+"paragonLevel" : 317,
+"name" : "Supply",
+"id" : 47046420,
+"level" : 1,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "witch-doctor",
+"last-updated" : 1401707607
+}, {
+"paragonLevel" : 317,
+"name" : "StorageC",
+"id" : 47046679,
+"level" : 1,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "barbarian",
+"last-updated" : 1402032416
+}, {
+"paragonLevel" : 317,
+"name" : "StorageD",
+"id" : 49087238,
+"level" : 1,
+"hardcore" : false,
+"gender" : 1,
+"dead" : false,
+"class" : "crusader",
+"last-updated" : 1402020489
+} ],
+"lastHeroPlayed" : 1784440,
+"lastUpdated" : 1402106952,
+"kills" : {
+"monsters" : 463614,
+"elites" : 40798,
+"hardcoreMonsters" : 832
+},
+"timePlayed" : {
+"barbarian" : 0.302,
+"crusader" : 0.131,
+"demon-hunter" : 0.132,
+"monk" : 0.115,
+"witch-doctor" : 0.939,
+"wizard" : 1.0
+},
+"fallenHeroes" : [ ],
+"paragonLevel" : 317,
+"paragonLevelHardcore" : 0,
+"battleTag" : "luzi82#3202",
+"progression" : {
+"act1" : true,
+"act2" : true,
+"act3" : true,
+"act4" : true,
+"act5" : true
+}
+}

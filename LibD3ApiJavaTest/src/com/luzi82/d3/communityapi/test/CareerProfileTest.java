@@ -8,6 +8,7 @@ import org.junit.Test;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.luzi82.d3.communityapi.CareerProfile;
+import com.luzi82.d3.communityapi.Const;
 import com.luzi82.d3.communityapi.Hero;
 import com.luzi82.d3.communityapi.IO;
 
@@ -29,14 +30,14 @@ public class CareerProfileTest {
 		Assert.assertEquals("wizard", hero.clazz);
 		Assert.assertEquals(1402106952L, hero.lastUpdated);
 		
-		Assert.assertEquals(Hero.GENDER_FEMALE, cp.heroes[0].gender);
+		Assert.assertEquals(Const.GENDER_FEMALE, cp.heroes[0].gender);
 		
-		Assert.assertEquals(Hero.CLASS_WIZARD, cp.heroes[0].clazz);
-		Assert.assertEquals(Hero.CLASS_WITCHDOCTOR, cp.heroes[1].clazz);
-		Assert.assertEquals(Hero.CLASS_CRUSADER, cp.heroes[2].clazz);
-		Assert.assertEquals(Hero.CLASS_BARBARIAN, cp.heroes[3].clazz);
-		Assert.assertEquals(Hero.CLASS_DEMONHUNTER, cp.heroes[4].clazz);
-		Assert.assertEquals(Hero.CLASS_MONK, cp.heroes[5].clazz);
+		Assert.assertEquals(Const.CLASS_WIZARD, cp.heroes[0].clazz);
+		Assert.assertEquals(Const.CLASS_WITCHDOCTOR, cp.heroes[1].clazz);
+		Assert.assertEquals(Const.CLASS_CRUSADER, cp.heroes[2].clazz);
+		Assert.assertEquals(Const.CLASS_BARBARIAN, cp.heroes[3].clazz);
+		Assert.assertEquals(Const.CLASS_DEMONHUNTER, cp.heroes[4].clazz);
+		Assert.assertEquals(Const.CLASS_MONK, cp.heroes[5].clazz);
 		
 		Assert.assertEquals(true, cp.heroes[6].hardcore);
 		

@@ -7,9 +7,8 @@ import org.junit.Test;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.luzi82.d3.communityapi.CareerProfile;
 import com.luzi82.d3.communityapi.Const;
-import com.luzi82.d3.communityapi.Hero;
+import com.luzi82.d3.communityapi.HeroProfile;
 import com.luzi82.d3.communityapi.IO;
 
 public class HeroProfileTest {
@@ -50,15 +49,15 @@ public class HeroProfileTest {
 		Assert.assertEquals("energy-armor-a", hp.skills.active[5].rune.slug);
 		
 		Assert.assertEquals(4, hp.skills.passive.length);
-		Assert.assertEquals("blur", hp.skills.passive[0].slug);
-		Assert.assertEquals("Blur", hp.skills.passive[0].name);
-		Assert.assertEquals("wizard_passive_blur", hp.skills.passive[0].icon);
-		Assert.assertEquals(10, hp.skills.passive[0].level);
-		Assert.assertEquals("skill/wizard/blur", hp.skills.passive[0].tooltipUrl);
-		Assert.assertEquals("Decrease damage taken by 17%.", hp.skills.passive[0].description);
-		Assert.assertEquals("Truly powerful Wizards have been known to turn their magic inward, transmuting the very composition of their own bodies for boundless energy and catlike reflexes.", hp.skills.passive[0].flavor);
-		Assert.assertEquals("Z", hp.skills.passive[0].skillCalcId);
-		Assert.assertEquals("conflagration", hp.skills.passive[3].slug);
+		Assert.assertEquals("blur", hp.skills.passive[0].skill.slug);
+		Assert.assertEquals("Blur", hp.skills.passive[0].skill.name);
+		Assert.assertEquals("wizard_passive_blur", hp.skills.passive[0].skill.icon);
+		Assert.assertEquals(10, hp.skills.passive[0].skill.level);
+		Assert.assertEquals("skill/wizard/blur", hp.skills.passive[0].skill.tooltipUrl);
+		Assert.assertEquals("Decrease damage taken by 17%.", hp.skills.passive[0].skill.description);
+		Assert.assertEquals("Truly powerful Wizards have been known to turn their magic inward, transmuting the very composition of their own bodies for boundless energy and catlike reflexes.", hp.skills.passive[0].skill.flavor);
+		Assert.assertEquals("Z", hp.skills.passive[0].skill.skillCalcId);
+		Assert.assertEquals("conflagration", hp.skills.passive[3].skill.slug);
 		
 		Assert.assertEquals("Unique_Helm_014_x1", hp.items.head.id);
 		Assert.assertEquals("Aughild's Spike", hp.items.head.name);
@@ -70,7 +69,7 @@ public class HeroProfileTest {
 		Assert.assertEquals("unique_helm_016_x1_demonhunter_male", hp.items.head.transmogItem.icon);
 		Assert.assertEquals("green", hp.items.head.transmogItem.displayColor);
 		Assert.assertEquals("recipe/sages-apogee", hp.items.head.transmogItem.tooltipParams);
-		Assert.assertEquals("0", hp.items.head.transmogItem.randomAffixes.length);
+		Assert.assertEquals(0, hp.items.head.transmogItem.randomAffixes.length);
 		Assert.assertEquals("T12_Legendary_Set_Sage_Helm_X1", hp.items.head.transmogItem.recipe.id);
 		Assert.assertEquals("sages-apogee", hp.items.head.transmogItem.recipe.slug);
 		Assert.assertEquals("Sage's Apogee", hp.items.head.transmogItem.recipe.name);
@@ -87,10 +86,11 @@ public class HeroProfileTest {
 		Assert.assertEquals("unique_helm_016_x1_demonhunter_male", hp.items.head.transmogItem.recipe.itemProduced.icon);
 		Assert.assertEquals("green", hp.items.head.transmogItem.recipe.itemProduced.displayColor);
 		Assert.assertEquals("recipe/sages-apogee", hp.items.head.transmogItem.recipe.itemProduced.tooltipParams);
+		Assert.assertEquals(1, hp.items.head.transmogItem.craftedBy.length);
 		Assert.assertEquals("T12_Legendary_Set_Sage_Helm_X1", hp.items.head.transmogItem.craftedBy[0].id);
-		Assert.assertEquals("sages-apogee", hp.items.head.transmogItem.craftedBy[0].id);
-		Assert.assertEquals("Sage's Apogee", hp.items.head.transmogItem.craftedBy[0].id);
-		Assert.assertEquals(36720, hp.items.head.transmogItem.craftedBy[0].id);
+		Assert.assertEquals("sages-apogee", hp.items.head.transmogItem.craftedBy[0].slug);
+		Assert.assertEquals("Sage's Apogee", hp.items.head.transmogItem.craftedBy[0].name);
+		Assert.assertEquals(36720, hp.items.head.transmogItem.craftedBy[0].cost);
 		Assert.assertEquals(5, hp.items.head.transmogItem.craftedBy[0].reagents.length);
 		Assert.assertEquals(1, hp.items.head.transmogItem.craftedBy[0].reagents[0].quantity);
 		Assert.assertEquals("Helm_208", hp.items.head.transmogItem.craftedBy[0].reagents[0].item.id);
@@ -100,9 +100,9 @@ public class HeroProfileTest {
 		Assert.assertEquals("item/ascended-crown", hp.items.head.transmogItem.craftedBy[0].reagents[0].item.tooltipParams);
 		Assert.assertEquals(0, hp.items.head.randomAffixes.length);
 		Assert.assertEquals("T12_Legendary_Set_Aughild_Helm_X1", hp.items.head.recipe.id);
-		Assert.assertEquals("aughilds-spike", hp.items.head.recipe.id);
-		Assert.assertEquals("Aughild's Spike", hp.items.head.recipe.id);
-		Assert.assertEquals(36720, hp.items.head.recipe.id);
+		Assert.assertEquals("aughilds-spike", hp.items.head.recipe.slug);
+		Assert.assertEquals("Aughild's Spike", hp.items.head.recipe.name);
+		Assert.assertEquals(36720, hp.items.head.recipe.cost);
 		Assert.assertEquals(5, hp.items.head.recipe.reagents.length);
 		Assert.assertEquals(1, hp.items.head.recipe.reagents[0].quantity);
 		Assert.assertEquals("Helm_208", hp.items.head.recipe.reagents[0].item.id);
@@ -127,11 +127,11 @@ public class HeroProfileTest {
 		Assert.assertEquals("helm_208_demonhunter_male", hp.items.head.craftedBy[0].reagents[0].item.icon);
 		Assert.assertEquals("white", hp.items.head.craftedBy[0].reagents[0].item.displayColor);
 		Assert.assertEquals("item/ascended-crown", hp.items.head.craftedBy[0].reagents[0].item.tooltipParams);
-		Assert.assertEquals("Unique_Helm_016_x1", hp.items.head.craftedBy[0].itemProduced.id);
-		Assert.assertEquals("Sage's Apogee", hp.items.head.craftedBy[0].itemProduced.name);
-		Assert.assertEquals("unique_helm_016_x1_demonhunter_male", hp.items.head.craftedBy[0].itemProduced.icon);
+		Assert.assertEquals("Unique_Helm_014_x1", hp.items.head.craftedBy[0].itemProduced.id);
+		Assert.assertEquals("Aughild's Spike", hp.items.head.craftedBy[0].itemProduced.name);
+		Assert.assertEquals("unique_helm_014_x1_demonhunter_male", hp.items.head.craftedBy[0].itemProduced.icon);
 		Assert.assertEquals("green", hp.items.head.craftedBy[0].itemProduced.displayColor);
-		Assert.assertEquals("recipe/sages-apogee", hp.items.head.craftedBy[0].itemProduced.tooltipParams);
+		Assert.assertEquals("recipe/aughilds-spike", hp.items.head.craftedBy[0].itemProduced.tooltipParams);
 		
 		Assert.assertNotNull(hp.items.head);
 		Assert.assertNotNull(hp.items.torso);
@@ -163,8 +163,8 @@ public class HeroProfileTest {
 		Assert.assertEquals("blue",hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributes.primary[0].color);
 		Assert.assertEquals(0,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributes.secondary.length);
 		Assert.assertEquals(0,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributes.passive.length);
-		Assert.assertEquals(81.0f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributes.attributesRaw.Resistance_All.min);
-		Assert.assertEquals(85.0f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributes.attributesRaw.Resistance_All.max);
+		Assert.assertEquals(81.0f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributesRaw.Resistance_All.min,0.01f);
+		Assert.assertEquals(85.0f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[0].oneOf[0].attributesRaw.Resistance_All.max,0.01f);
 		Assert.assertEquals(4,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf.length);
 		Assert.assertEquals(1,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.primary.length);
 		Assert.assertEquals("+5% Life",hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.primary[0].text);
@@ -172,8 +172,8 @@ public class HeroProfileTest {
 		Assert.assertEquals("blue",hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.primary[0].color);
 		Assert.assertEquals(0,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.secondary.length);
 		Assert.assertEquals(0,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.passive.length);
-		Assert.assertEquals(0.05f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.attributesRaw.Hitpoints_Max_Percent_Bonus_Item.min);
-		Assert.assertEquals(0.05f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributes.attributesRaw.Hitpoints_Max_Percent_Bonus_Item.max);
+		Assert.assertEquals(0.05f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Hitpoints_Max_Percent_Bonus_Item.min,0.01f);
+		Assert.assertEquals(0.05f,hp.followers.templar.items.offHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Hitpoints_Max_Percent_Bonus_Item.max,0.01f);
 		Assert.assertEquals(14,hp.followers.templar.stats.goldFind);
 		Assert.assertEquals(0,hp.followers.templar.stats.magicFind);
 		Assert.assertEquals(37,hp.followers.templar.stats.experienceBonus);
@@ -191,8 +191,8 @@ public class HeroProfileTest {
 		Assert.assertNotNull(hp.followers.enchantress);
 		
 		Assert.assertEquals(315284, hp.stats.life);
-		Assert.assertEquals(621974.0, hp.stats.damage);
-		Assert.assertEquals(1.399999976158142f, hp.stats.attackSpeed);
+		Assert.assertEquals(621974.0, hp.stats.damage,0.01f);
+		Assert.assertEquals(1.399999976158142f, hp.stats.attackSpeed,0.01f);
 		Assert.assertEquals(5952, hp.stats.armor);
 		Assert.assertEquals(77, hp.stats.strength);
 		Assert.assertEquals(77, hp.stats.dexterity);
@@ -204,26 +204,26 @@ public class HeroProfileTest {
 		Assert.assertEquals(1207, hp.stats.lightningResist);
 		Assert.assertEquals(1047, hp.stats.poisonResist);
 		Assert.assertEquals(1047, hp.stats.arcaneResist);
-		Assert.assertEquals(4.890000000000001f, hp.stats.critDamage);
-		Assert.assertEquals(0.0f, hp.stats.blockChance);
+		Assert.assertEquals(4.890000000000001f, hp.stats.critDamage,0.01f);
+		Assert.assertEquals(0.0f, hp.stats.blockChance,0.01f);
 		Assert.assertEquals(0, hp.stats.blockAmountMin);
 		Assert.assertEquals(0, hp.stats.blockAmountMax);
-		Assert.assertEquals(0.0f, hp.stats.damageIncrease);
-		Assert.assertEquals(0.0f, hp.stats.critChance);
-		Assert.assertEquals(0.0f, hp.stats.damageReduction);
-		Assert.assertEquals(2932.0f, hp.stats.thorns);
-		Assert.assertEquals(0.0f, hp.stats.lifeSteal);
-		Assert.assertEquals(4399.0f, hp.stats.lifePerKill);
-		Assert.assertEquals(0.68f, hp.stats.goldFind);
-		Assert.assertEquals(0.0f, hp.stats.magicFind);
-		Assert.assertEquals(2776.0f, hp.stats.lifeOnHit);
+		Assert.assertEquals(0.0f, hp.stats.damageIncrease,0.01f);
+		Assert.assertEquals(0.0f, hp.stats.critChance,0.01f);
+		Assert.assertEquals(0.0f, hp.stats.damageReduction,0.01f);
+		Assert.assertEquals(2932.0f, hp.stats.thorns,0.01f);
+		Assert.assertEquals(0.0f, hp.stats.lifeSteal,0.01f);
+		Assert.assertEquals(4399.0f, hp.stats.lifePerKill,0.01f);
+		Assert.assertEquals(0.68f, hp.stats.goldFind,0.01f);
+		Assert.assertEquals(0.0f, hp.stats.magicFind,0.01f);
+		Assert.assertEquals(2776.0f, hp.stats.lifeOnHit,0.01f);
 		Assert.assertEquals(120, hp.stats.primaryResource);
 		Assert.assertEquals(0, hp.stats.secondaryResource);
-		Assert.assertEquals(19945, hp.stats.kills.elites);
-		Assert.assertEquals(true, hp.stats.progression.act1.completed);
-		Assert.assertEquals(10, hp.stats.progression.act1.completedQuests.length);
-		Assert.assertEquals("the-fallen-star", hp.stats.progression.act1.completedQuests[0].slug);
-		Assert.assertEquals("The Fallen Star", hp.stats.progression.act1.completedQuests[0].name);
+		Assert.assertEquals(19945, hp.kills.elites);
+		Assert.assertEquals(true, hp.progression.act1.completed);
+		Assert.assertEquals(10, hp.progression.act1.completedQuests.length);
+		Assert.assertEquals("the-fallen-star", hp.progression.act1.completedQuests[0].slug);
+		Assert.assertEquals("The Fallen Star", hp.progression.act1.completedQuests[0].name);
 		Assert.assertEquals(false, hp.dead);
 		Assert.assertEquals(1402106952L, hp.lastUpdated);
 	}

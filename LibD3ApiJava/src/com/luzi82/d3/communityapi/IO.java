@@ -17,4 +17,11 @@ public class IO {
 		return out;
 	}
 
+	public static HeroProfile readHeroProfile(String string)
+			throws JsonParseException, JsonMappingException, IOException {
+		ObjectMapper mapper = new ObjectMapper();
+		HeroProfile out = mapper.readValue(new File(string), HeroProfile.class);
+		return out;
+	}
+
 }

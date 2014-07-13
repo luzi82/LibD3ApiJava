@@ -1,105 +1,236 @@
 {
-"id" : "Unique_Amulet_002_x1",
-"name" : "Kymbo's Gold",
-"icon" : "unique_amulet_002_x1_demonhunter_male",
-"displayColor" : "orange",
-"tooltipParams" : "item/CkAI0eaOugESBwgEFdcsB1sdrNOZOR2wwQlyHZsGAMsdaklp6h3zcAetMIsCOPkCQABQElgEYPkCgAFGtQGwxURkGK6zubAL",
+"id" : "Unique_Orb_012_x1",
+"name" : "Tal Rasha's Unwavering Glare",
+"icon" : "unique_orb_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClsI7LypiQISBwgEFdMehaUdrNOZOR3zGKDgHZsGAMsdU6uOLB3zcAetHX5Wsy4wiwI41gFAAFASWARgmAOAAUalAVOrjiytAbi8IHq1AdrDjnG4AYX7w78BwAEFGNmE16cLUARYAqAB2YTXpwugAajO478CoAH4qs-wCw",
 "requiredLevel" : 70,
-"itemLevel" : 51,
+"itemLevel" : 60,
 "bonusAffixes" : 0,
 "bonusAffixesMax" : 0,
 "accountBound" : true,
-"flavorText" : "This heavy amulet was originally crafted for the fiercest of all fighters. Only the strongest can claim the right to wear it.",
-"typeName" : "Legendary Amulet",
+"flavorText" : "Tal Rasha stored much of his power in this source before sacrificing himself to imprison the demon lord Baal.",
+"typeName" : "Set Source",
 "type" : {
 "twoHanded" : false,
-"id" : "Amulet"
+"id" : "Orb"
 },
 "attributes" : {
 "primary" : [ {
-"text" : "+713 Intelligence",
+"text" : "+99–122 Damage",
 "affixType" : "default",
 "color" : "blue"
 }, {
-"text" : "+715 Vitality",
+"text" : "+666 Intelligence",
 "affixType" : "default",
 "color" : "blue"
 }, {
-"text" : "Critical Hit Damage Increased by 76.0%",
+"text" : "+689 Vitality",
 "affixType" : "default",
 "color" : "blue"
 }, {
-"text" : "+2570 Life per Hit",
+"text" : "Critical Hit Chance Increased by 8.0%",
 "affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 8.0%.",
+"affixType" : "enchant",
 "color" : "blue"
 } ],
 "secondary" : [ {
-"text" : "+96% Extra Gold from Monsters",
+"text" : "+14 Maximum Arcane Power (Wizard Only)",
 "affixType" : "utility",
 "color" : "blue"
 }, {
-"text" : "Health Globes and Potions Grant +20608 Life.",
+"text" : "Health Globes and Potions Grant +20181 Life.",
 "affixType" : "default",
 "color" : "blue"
 } ],
 "passive" : [ ]
 },
 "attributesRaw" : {
-"Hitpoints_On_Hit" : {
-"min" : 2570.0,
-"max" : 2570.0
-},
-"Durability_Max_Before_Reforge" : {
-"min" : 377.0,
-"max" : 377.0
-},
-"Durability_Max" : {
-"min" : 377.0,
-"max" : 377.0
-},
-"Health_Globe_Bonus_Health" : {
-"min" : 20608.0,
-"max" : 20608.0
-},
 "Item_LegendaryItem_Level_Override" : {
 "min" : 70.0,
 "max" : 70.0
 },
-"Intelligence_Item" : {
-"min" : 713.0,
-"max" : 713.0
+"Durability_Max" : {
+"min" : 408.0,
+"max" : 408.0
+},
+"Damage_Delta#Physical" : {
+"min" : 23.0,
+"max" : 23.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.07999999999999996,
+"max" : 0.07999999999999996
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.905181658E9,
+"max" : 1.905181658E9
 },
 "Season" : {
 "min" : 0.0,
 "max" : 0.0
 },
+"Vitality_Item" : {
+"min" : 689.0,
+"max" : 689.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 20181.0,
+"max" : 20181.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 408.0,
+"max" : 408.0
+},
 "Durability_Cur" : {
-"min" : 377.0,
-"max" : 377.0
+"min" : 214.0,
+"max" : 214.0
+},
+"Resource_Max_Bonus#Arcanum" : {
+"min" : 14.0,
+"max" : 14.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.08,
+"max" : 0.08
 },
 "Item_Binding_Level_Override" : {
 "min" : 2.0,
 "max" : 2.0
 },
-"Item_Legendary_Item_Base_Item" : {
-"min" : 1.682228656E9,
-"max" : 1.682228656E9
+"Damage_Min#Physical" : {
+"min" : 99.0,
+"max" : 99.0
 },
-"Gold_Find" : {
-"min" : 0.96,
-"max" : 0.96
-},
-"Crit_Damage_Percent" : {
-"min" : 0.76,
-"max" : 0.76
-},
-"Vitality_Item" : {
-"min" : 715.0,
-"max" : 715.0
+"Intelligence_Item" : {
+"min" : 666.0,
+"max" : 666.0
 }
 },
 "randomAffixes" : [ ],
 "gems" : [ ],
 "socketEffects" : [ ],
+"set" : {
+"name" : "Tal Rasha's Elements",
+"items" : [ {
+"id" : "Unique_Amulet_007_x1",
+"name" : "Tal Rasha's Allegiance",
+"icon" : "unique_amulet_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-allegiance"
+}, {
+"id" : "Unique_Belt_006_x1",
+"name" : "Tal Rasha's Brace",
+"icon" : "unique_belt_006_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-brace"
+}, {
+"id" : "Unique_Helm_010_x1",
+"name" : "Tal Rasha's Guise of Wisdom",
+"icon" : "unique_helm_010_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-guise-of-wisdom"
+}, {
+"id" : "Unique_Chest_014_x1",
+"name" : "Tal Rasha's Relentless Pursuit",
+"icon" : "unique_chest_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-relentless-pursuit"
+}, {
+"id" : "Unique_Orb_012_x1",
+"name" : "Tal Rasha's Unwavering Glare",
+"icon" : "unique_orb_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-unwavering-glare"
+} ],
+"slug" : "tal-rashas-elements",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Fire skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Lightning skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Arcane skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Fire" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Arcane" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Lightning" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+100 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Arcane Power Regeneration by 2.00 per Second (Wizard Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 100.0,
+"max" : 100.0
+},
+"Resource_Regen_Per_Second#Arcanum" : {
+"min" : 2.0,
+"max" : 2.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Damaging enemies with Arcane, Cold, Fire or Lightning will cause a Meteor of the same damage type to fall from the sky. There is an 8 second cooldown for each damage type.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_710_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
 "craftedBy" : [ ]
 }

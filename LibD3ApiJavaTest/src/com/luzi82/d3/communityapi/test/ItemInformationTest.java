@@ -8,7 +8,6 @@ import org.junit.Test;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.luzi82.d3.communityapi.Const;
-import com.luzi82.d3.communityapi.HeroProfile;
 import com.luzi82.d3.communityapi.IO;
 import com.luzi82.d3.communityapi.ItemInformation;
 

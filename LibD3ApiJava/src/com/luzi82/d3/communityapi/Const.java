@@ -12,4 +12,10 @@ public class Const {
 	public static final int GENDER_MALE = 0;
 	public static final int GENDER_FEMALE = 1;
 	
+	public static final String ITEMTYPE_ORB = "Orb";
+	
+	public static final String AFFIXTYPE_DEFAULT = "default";
+	public static final String AFFIXTYPE_ENCHANT = "enchant";
+	public static final String AFFIXTYPE_UTILITY = "utility";
+	
 }

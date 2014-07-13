@@ -24,4 +24,12 @@ public class IO {
 		return out;
 	}
 
+	public static ItemInformation readItemInformation(String string)
+			throws JsonParseException, JsonMappingException, IOException {
+		ObjectMapper mapper = new ObjectMapper();
+		ItemInformation out = mapper.readValue(new File(string),
+				ItemInformation.class);
+		return out;
+	}
+
 }

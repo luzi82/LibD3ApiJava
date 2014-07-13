@@ -175,12 +175,42 @@ public class HeroProfile {
 				public AttributesRaw attributesRaw;
 
 				public static class AttributesRaw {
-					public Value Resistance_All;
-					public Value Hitpoints_Max_Percent_Bonus_Item;
+					public Value<Float> Resistance_All;
+					public Value<Float> Hitpoints_Max_Percent_Bonus_Item;
+					public Value<Integer> Item_LegendaryItem_Level_Override;
+					public Value<Integer> Durability_Max;
+					@JsonProperty("Damage_Delta#Physical")
+					public Value<Integer> Damage_Delta_Physical;
+					public Value<Float> Power_Cooldown_Reduction_Percent_All;
+					public Value<Integer> Item_Legendary_Item_Base_Item;
+					public Value<Integer> Season;
+					public Value<Integer> Vitality_Item;
+					public Value<Integer> Health_Globe_Bonus_Health;
+					public Value<Integer> Durability_Max_Before_Reforge;
+					public Value<Integer> Durability_Cur;
+					@JsonProperty("Resource_Max_Bonus#Arcanum")
+					public Value<Integer> Resource_Max_Bonus_Arcanum;
+					public Value<Float> Crit_Percent_Bonus_Capped;
+					public Value<Integer> Item_Binding_Level_Override;
+					@JsonProperty("Damage_Min#Physical")
+					public Value<Integer> Damage_Min_Physical;
+					public Value<Integer> Intelligence_Item;
+					@JsonProperty("Damage_Dealt_Percent_Bonus#Cold")
+					public Value<Float> Damage_Dealt_Percent_Bonus_Cold;
+					@JsonProperty("Damage_Dealt_Percent_Bonus#Fire")
+					public Value<Float> Damage_Dealt_Percent_Bonus_Fire;
+					@JsonProperty("Damage_Dealt_Percent_Bonus#Arcane")
+					public Value<Float> Damage_Dealt_Percent_Bonus_Arcane;
+					@JsonProperty("Damage_Dealt_Percent_Bonus#Lightning")
+					public Value<Float> Damage_Dealt_Percent_Bonus_Lightning;
+					@JsonProperty("Resource_Regen_Per_Second#Arcanum")
+					public Value<Float> Resource_Regen_Per_Second_Arcanum;
+					@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_710_x1")
+					public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
 
-					public static class Value {
-						public float min;
-						public float max;
+					public static class Value<T> {
+						public T min;
+						public T max;
 					}
 				}
 			}

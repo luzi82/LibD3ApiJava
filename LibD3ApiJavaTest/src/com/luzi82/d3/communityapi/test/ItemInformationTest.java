@@ -110,11 +110,11 @@ public class ItemInformationTest {
 	@Test
 	public void test_001() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_001.json");
-		Assert.assertEquals(660, (int) ii.transmogItem.armor.min);
-		Assert.assertEquals(759, (int) ii.transmogItem.armor.max);
+		Assert.assertEquals(660f, ii.transmogItem.armor.min, 0.000001f);
+		Assert.assertEquals(759f, ii.transmogItem.armor.max, 0.000001f);
 
-		Assert.assertEquals(1, (int) ii.transmogItem.attributesRaw.Sockets.min);
-		Assert.assertEquals(1, (int) ii.transmogItem.attributesRaw.Sockets.max);
+		Assert.assertEquals(1f, ii.transmogItem.attributesRaw.Sockets.min, 0.000001f);
+		Assert.assertEquals(1f, ii.transmogItem.attributesRaw.Sockets.max, 0.000001f);
 
 		Assert.assertEquals(660.0f, ii.transmogItem.attributesRaw.Armor_Item.min, 0.000001f);
 		Assert.assertEquals(759.0f, ii.transmogItem.attributesRaw.Armor_Item.max, 0.000001f);
@@ -130,6 +130,23 @@ public class ItemInformationTest {
 		
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.min, 0.000001f);
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.max, 0.000001f);
+	}
+
+	@Test
+	public void test_002() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_002.json");
+		
+		Assert.assertEquals(2f, ii.attributesRaw.Gold_PickUp_Radius.min, 0.000001f);
+		Assert.assertEquals(2f, ii.attributesRaw.Gold_PickUp_Radius.max, 0.000001f);
+
+		Assert.assertEquals(1f, ii.attributesRaw.Item_Indestructible.min, 0.000001f);
+		Assert.assertEquals(1f, ii.attributesRaw.Item_Indestructible.max, 0.000001f);
+		
+		Assert.assertEquals(500f, ii.set.ranks[0].attributesRaw.Intelligence.min, 0.000001f);
+		Assert.assertEquals(500f, ii.set.ranks[0].attributesRaw.Intelligence.max, 0.000001f);
+		
+		Assert.assertEquals(1.0f, ii.set.ranks[1].attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_727_x1.min, 0.000001f);
+		Assert.assertEquals(1.0f, ii.set.ranks[1].attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_727_x1.min, 0.000001f);
 	}
 
 }

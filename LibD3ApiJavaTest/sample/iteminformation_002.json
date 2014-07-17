@@ -1,0 +1,312 @@
+{
+"id" : "Unique_Chest_Set_13_x1",
+"name" : "Vyr’s Astonishing Aura",
+"icon" : "unique_chest_set_13_x1_wizard_female",
+"displayColor" : "green",
+"tooltipParams" : "item/CuoBCJixuN4BEgcIBBXj6n8PHdPMB2MdcYt38B07J28kHWc-7OQdd4ho6R2bhvbiMIsCOLQCQABIA1ASWARgtAJqKwoMCAAQg-K6y4CAgMA2EhsIqt67sAoSBwgEFdddtnowiwI4AEABWASQAQBqKwoMCAAQjeK6y4CAgMA2EhsIjb3i-QMSBwgEFdddtnowiwI4AEABWASQAQBqKwoMCAAQneL77YCAgKAFEhsIs-fc1g8SBwgEFdddtnowiwI4AEABWASQAQCAAUaNAakZGWClAXeIaOmtAXMjBlC1ATEiGWC4AdeXxskBwAESGMar__cBUARYAqABxqv_9wGgAeSf55QGoAG43YysDw",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Vyr the Vainglorious created his famed obelisk to gather the power of the Archon, a being he claimed existed on a different plane of reality. He is even reputed to have stored this macabre power in armor of his own design.\" —Abd al-Hazir",
+"transmogItem" : {
+"id" : "ChestArmor_002",
+"name" : "Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-doublet",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericChestArmor"
+},
+"armor" : {
+"min" : 18.0,
+"max" : 21.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 18.0,
+"max" : 21.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Armor_Chest",
+"slug" : "apprentice-leather-doublet",
+"name" : "Apprentice Leather Doublet",
+"cost" : 1500,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "ChestArmor_002",
+"name" : "Apprentice Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-leather-doublet"
+}
+} ]
+},
+"typeName" : "Set Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "ChestArmor"
+},
+"armor" : {
+"min" : 668.0,
+"max" : 668.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+493 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+96 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+11% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ignores Durability Loss",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Sockets" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 308.0,
+"max" : 308.0
+},
+"Intelligence_Item" : {
+"min" : 493.0,
+"max" : 493.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.612259889E9,
+"max" : 1.612259889E9
+},
+"Armor_Item" : {
+"min" : 668.0,
+"max" : 668.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Durability_Max" : {
+"min" : 308.0,
+"max" : 308.0
+},
+"Resistance_All" : {
+"min" : 96.0,
+"max" : 96.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 308.0,
+"max" : 308.0
+},
+"Item_Indestructible" : {
+"min" : 1.0,
+"max" : 1.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_19",
+"name" : "Flawless Royal Topaz",
+"icon" : "topaz_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIqt67sAoSBwgEFdddtnowiwI4AEABWASQAQAYrveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+280 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 280.0,
+"max" : 280.0
+}
+}
+}, {
+"item" : {
+"id" : "Topaz_19",
+"name" : "Flawless Royal Topaz",
+"icon" : "topaz_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIjb3i-QMSBwgEFdddtnowiwI4AEABWASQAQAYrveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+280 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 280.0,
+"max" : 280.0
+}
+}
+}, {
+"item" : {
+"id" : "Topaz_19",
+"name" : "Flawless Royal Topaz",
+"icon" : "topaz_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIs-fc1g8SBwgEFdddtnowiwI4AEABWASQAQAYrveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+280 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 280.0,
+"max" : 280.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Vyr's Amazing Arcana",
+"items" : [ {
+"id" : "Unique_Chest_Set_13_x1",
+"name" : "Vyr’s Astonishing Aura",
+"icon" : "unique_chest_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-astonishing-aura"
+}, {
+"id" : "Unique_Pants_Set_13_x1",
+"name" : "Vyr’s Fantastic Finery",
+"icon" : "unique_pants_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-fantastic-finery"
+}, {
+"id" : "Unique_Gloves_Set_13_x1",
+"name" : "Vyr’s Grasping Gauntlets",
+"icon" : "unique_gloves_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-grasping-gauntlets"
+}, {
+"id" : "Unique_Boots_Set_13_x1",
+"name" : "Vyr’s Swaggering Stance",
+"icon" : "unique_boots_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-swaggering-stance"
+} ],
+"slug" : "vyrs-amazing-arcana",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+500 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence" : {
+"min" : 500.0,
+"max" : 500.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Archon gains the effect of every rune.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_727_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

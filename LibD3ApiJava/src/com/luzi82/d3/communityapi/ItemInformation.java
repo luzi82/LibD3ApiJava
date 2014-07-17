@@ -110,9 +110,11 @@ public class ItemInformation {
 				public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
 				@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_715_x1")
 				public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_715_x1;
+				@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_727_x1")
+				public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_727_x1;
 				public Value<Float> Weapon_On_Hit_Blind_Proc_Chance;
 
-				public Value<Integer> Sockets;
+				public Value<Float> Sockets;
 				public Value<Float> Armor_Item;
 				@JsonProperty("Thorns_Fixed#Physical")
 				public Value<Float> Thorns_Fixed_Physical;
@@ -120,6 +122,10 @@ public class ItemInformation {
 
 				@JsonProperty("Resistance#Arcane")
 				public Value<Float> Resistance_Arcane;
+				
+				public Value<Float> Gold_PickUp_Radius;
+				public Value<Float> Item_Indestructible;
+				public Value<Float> Intelligence;
 			}
 		}
 	}

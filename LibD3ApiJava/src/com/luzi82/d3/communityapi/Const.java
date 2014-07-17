@@ -18,4 +18,6 @@ public class Const {
 	public static final String AFFIXTYPE_ENCHANT = "enchant";
 	public static final String AFFIXTYPE_UTILITY = "utility";
 	
+	public static final String SERVER_US = "http://us.battle.net";
+	
 }

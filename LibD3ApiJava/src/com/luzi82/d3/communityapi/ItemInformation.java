@@ -81,6 +81,8 @@ public class ItemInformation {
 				public Value<Float> Power_Cooldown_Reduction_Percent_All;
 				public Value<Integer> Item_Legendary_Item_Base_Item;
 				public Value<Integer> Season;
+				public Value<Integer> Dexterity_Item;
+				public Value<Integer> Strength_Item;
 				public Value<Integer> Vitality_Item;
 				public Value<Integer> Health_Globe_Bonus_Health;
 				public Value<Integer> Durability_Max_Before_Reforge;
@@ -104,6 +106,7 @@ public class ItemInformation {
 				public Value<Float> Resource_Regen_Per_Second_Arcanum;
 				@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_710_x1")
 				public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
+				public Value<Float> Weapon_On_Hit_Blind_Proc_Chance;
 
 				public static class Value<T> {
 					public T min;

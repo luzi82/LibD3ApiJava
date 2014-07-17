@@ -228,4 +228,17 @@ public class HeroProfileTest {
 		Assert.assertEquals(1402106952L, hp.lastUpdated);
 	}
 
+	@Test
+	public void test_001() throws JsonParseException, JsonMappingException,
+			IOException {
+		HeroProfile hp = IO.readHeroProfile("sample/heroprofile_001.json");
+		
+		Assert.assertEquals(0.01f, hp.items.mainHand.transmogItem.randomAffixes[0].oneOf[0].attributesRaw.Weapon_On_Hit_Blind_Proc_Chance.min,0.00001f);
+		Assert.assertEquals(0.0175f, hp.items.mainHand.transmogItem.randomAffixes[0].oneOf[0].attributesRaw.Weapon_On_Hit_Blind_Proc_Chance.max,0.00001f);
+		
+		Assert.assertEquals(36, (int) hp.items.mainHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Dexterity_Item.min);
+		Assert.assertEquals(42, (int) hp.items.mainHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Dexterity_Item.max);
+		Assert.assertEquals(36, (int) hp.items.mainHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Strength_Item.min);
+		Assert.assertEquals(42, (int) hp.items.mainHand.transmogItem.randomAffixes[1].oneOf[0].attributesRaw.Strength_Item.max);
+	}
 }

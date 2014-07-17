@@ -1,0 +1,1815 @@
+{
+"id" : 1784440,
+"name" : "LuziCrenata",
+"class" : "wizard",
+"gender" : 1,
+"level" : 70,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "spectral-blade",
+"name" : "Spectral Blade",
+"icon" : "wizard_spectralblade",
+"level" : 11,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/wizard/spectral-blade",
+"description" : "This is a Signature spell. Signature spells are free to cast.\r\n\r\nSummon a spectral blade that strikes all enemies up to 15 yards in front of you for 168% weapon damage as Arcane.",
+"simpleDescription" : "Signature Spell\r\n\r\nSummon mystic blades that slice through enemies.",
+"skillCalcId" : "W"
+},
+"rune" : {
+"slug" : "spectral-blade-c",
+"type" : "c",
+"name" : "Ice Blades",
+"level" : 57,
+"description" : "Chilled enemies have a 5% chance to be Frozen and Frozen enemies have a 5% increased chance to be critically hit by Spectral Blade.",
+"simpleDescription" : "Chilled enemies have a chance to be Frozen and Frozen enemies have an increased chance to be critically hit by Spectral Blade.",
+"tooltipParams" : "rune/spectral-blade/c",
+"skillCalcId" : "c",
+"order" : 4
+}
+}, {
+"skill" : {
+"slug" : "archon",
+"name" : "Archon",
+"icon" : "wizard_archon",
+"level" : 30,
+"categorySlug" : "mastery",
+"tooltipUrl" : "skill/wizard/archon",
+"description" : "Cooldown: 120 seconds\r\n\r\nTransform into a being of pure arcane energy for 20 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by 20%.\r\n\r\nEach enemy killed while in Archon form increases your damage by 6% for the remaining duration of Archon.",
+"simpleDescription" : "Cooldown: 120 seconds\r\n\r\nBecome a being of pure energy and gain potent new abilities for 20 seconds.",
+"skillCalcId" : "m"
+},
+"rune" : {
+"slug" : "archon-a",
+"type" : "a",
+"name" : "Improved Archon",
+"level" : 60,
+"description" : "Increase the damage of all Archon abilities by 22%.",
+"simpleDescription" : "Increase the damage of all Archon abilities.",
+"tooltipParams" : "rune/archon/a",
+"skillCalcId" : "c",
+"order" : 4
+}
+}, {
+"skill" : {
+"slug" : "magic-weapon",
+"name" : "Magic Weapon",
+"icon" : "wizard_magicweapon",
+"level" : 20,
+"categorySlug" : "conjuration",
+"tooltipUrl" : "skill/wizard/magic-weapon",
+"description" : "Cost: 25 Arcane Power\r\n\r\nImbue your weapon with magical energy, granting it 10% increased damage. Lasts 10 minutes.",
+"simpleDescription" : "Cost: 25 Arcane Power\r\n\r\nImbue your weapon with magical energy, increasing your weapon's effectiveness.",
+"skillCalcId" : "S"
+},
+"rune" : {
+"slug" : "magic-weapon-a",
+"type" : "a",
+"name" : "Ignite",
+"level" : 46,
+"description" : "Attacks burn enemies, dealing 86% weapon damage as Fire over 3 seconds.",
+"simpleDescription" : "Attacks burn enemies.",
+"tooltipParams" : "rune/magic-weapon/a",
+"skillCalcId" : "Y",
+"order" : 3
+}
+}, {
+"skill" : {
+"slug" : "energy-armor",
+"name" : "Energy Armor",
+"icon" : "wizard_energyarmor",
+"level" : 28,
+"categorySlug" : "conjuration",
+"tooltipUrl" : "skill/wizard/energy-armor",
+"description" : "Cost: 25 Arcane Power\r\n\r\nFocus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 10 minutes.\r\n\r\nOnly one Armor may be active at a time.",
+"simpleDescription" : "Cost: 25 Arcane Power\r\n\r\nIncrease your Armor at the cost of decreasing your maximum Arcane Power while Energy Armor is active.\r\n\r\nOnly one Armor may be active at a time.",
+"skillCalcId" : "O"
+},
+"rune" : {
+"slug" : "energy-armor-a",
+"type" : "a",
+"name" : "Prismatic Armor",
+"level" : 60,
+"description" : "Energy Armor also increases your resistance to all damage types 25%.",
+"simpleDescription" : "Energy Armor also increases your resistance to all damage types.",
+"tooltipParams" : "rune/energy-armor/a",
+"skillCalcId" : "c",
+"order" : 4
+}
+}, {
+"skill" : {
+"slug" : "teleport",
+"name" : "Teleport",
+"icon" : "wizard_teleport",
+"level" : 22,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/wizard/teleport",
+"description" : "Cooldown: 16 seconds\r\n\r\nTeleport through the ether to the selected location up to 50 yards away.",
+"simpleDescription" : "Cooldown: 16 seconds\r\n\r\nTeleport instantly to another location.",
+"skillCalcId" : "Q"
+},
+"rune" : {
+"slug" : "teleport-e",
+"type" : "e",
+"name" : "Wormhole",
+"level" : 31,
+"description" : "After casting Teleport, there is a 1 second delay before the cooldown begins, allowing you to Teleport again.",
+"simpleDescription" : "After casting Teleport there is a small delay before the cooldown begins, allowing you to Teleport again.",
+"tooltipParams" : "rune/teleport/e",
+"skillCalcId" : "Z",
+"order" : 1
+}
+}, {
+"skill" : {
+"slug" : "familiar",
+"name" : "Familiar",
+"icon" : "wizard_familiar",
+"level" : 22,
+"categorySlug" : "conjuration",
+"tooltipUrl" : "skill/wizard/familiar",
+"description" : "Cost: 20 Arcane Power\r\n\r\nSummon a Familiar that attacks your enemies for 179% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts 10 minutes.",
+"simpleDescription" : "Cost: 20 Arcane Power\r\n\r\nSummon a mystical Familiar companion. Your Familiar is immune to damage and assists you in combat.",
+"skillCalcId" : "j"
+},
+"rune" : {
+"slug" : "familiar-b",
+"type" : "b",
+"name" : "Cannoneer",
+"level" : 57,
+"description" : "The Familiar's projectiles explode on impact, dealing 240% weapon damage as Arcane to all enemies within 6 yards.",
+"simpleDescription" : "The Familiar's projectile attacks explode on impact.",
+"tooltipParams" : "rune/familiar/b",
+"skillCalcId" : "c",
+"order" : 4
+}
+} ],
+"passive" : [ {
+"skill" : {
+"slug" : "conflagration",
+"name" : "Conflagration",
+"icon" : "wizard_passive_conflagration",
+"level" : 34,
+"tooltipUrl" : "skill/wizard/conflagration",
+"description" : "Fire damage dealt to enemies applies a burning effect, increasing their chance to be critically hit by 6% for 3 seconds.",
+"flavor" : "\"The red hot armor seared their flesh and boiled their blood as they tried desperately to pry it from smoldering bodies. We finished the defenseless creatures as an act of mercy.\" —Tales of Caldeum, Volume XII",
+"skillCalcId" : "e"
+}
+}, {
+"skill" : {
+"slug" : "blur",
+"name" : "Blur",
+"icon" : "wizard_passive_blur",
+"level" : 10,
+"tooltipUrl" : "skill/wizard/blur",
+"description" : "Decrease damage taken by 17%.",
+"flavor" : "Truly powerful Wizards have been known to turn their magic inward, transmuting the very composition of their own bodies for boundless energy and catlike reflexes.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "evocation",
+"name" : "Evocation",
+"icon" : "wizard_passive_evocation",
+"level" : 13,
+"tooltipUrl" : "skill/wizard/evocation",
+"description" : "Reduce all cooldowns by 20%.",
+"flavor" : "So long have you focused on twisting reality to your will that time itself seeks to appease you.",
+"skillCalcId" : "b"
+}
+}, {
+"skill" : {
+"slug" : "elemental-exposure",
+"name" : "Elemental Exposure",
+"icon" : "x1_wizard_passive_elementalexposure",
+"level" : 68,
+"tooltipUrl" : "skill/wizard/elemental-exposure",
+"description" : "Damaging enemies with Arcane, Cold, Fire or Lightning will cause them to take 5% more damage from all sources for 5 seconds. Each different damage type applies a stack, stacking up to 4 times.\r\n\r\nElemental damage from your weapon contributes to Elemental Exposure.",
+"flavor" : "Adding insult to injury may be entertaining, but adding increased injury is a more effective tactic.",
+"skillCalcId" : "R"
+}
+} ]
+},
+"items" : {
+"head" : {
+"id" : "Unique_Helm_010_x1",
+"name" : "Tal Rasha's Guise of Wisdom",
+"icon" : "unique_helm_010_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CosBCKPPt9cMEgcIBBWUc_wTHUV7xt0drLzTUx04neQEHWYjBlAd83AHrR3mFdsNMIsCOGNAAFASWARgkwJqKQoMCAAQy7WNoICAgOAeEhkI3JPZ8gUSBwgEFYUnlLEwjwI4AEABkAEAgAFGjQHavf8TpQHmFdsNrQHmFdsNtQF_-U5duAHBgJP2C8ABAhiozuO_AlAEWAKgAdmE16cLoAGozuO_AqAB-KrPsAs",
+"transmogItem" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee",
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_Sage_Helm_X1",
+"slug" : "sages-apogee",
+"name" : "Sage's Apogee",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Sage_X1",
+"name" : "Mystical Source",
+"icon" : "craftingreagent_legendary_set_sage_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/mystical-source"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Sage_Helm_X1",
+"slug" : "sages-apogee",
+"name" : "Sage's Apogee",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Sage_X1",
+"name" : "Mystical Source",
+"icon" : "craftingreagent_legendary_set_sage_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/mystical-source"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee"
+}
+} ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"torso" : {
+"id" : "Unique_Chest_Set_13_x1",
+"name" : "Vyr’s Astonishing Aura",
+"icon" : "unique_chest_set_13_x1_wizard_female",
+"displayColor" : "green",
+"tooltipParams" : "item/CuoBCJixuN4BEgcIBBXj6n8PHdPMB2MdcYt38B07J28kHWc-7OQdd4ho6R2bhvbiMIsCOLQCQABIA1ASWARgtAJqKwoMCAAQg-K6y4CAgMA2EhsIqt67sAoSBwgEFdddtnowiwI4AEABWASQAQBqKwoMCAAQjeK6y4CAgMA2EhsIjb3i-QMSBwgEFdddtnowiwI4AEABWASQAQBqKwoMCAAQneL77YCAgKAFEhsIs-fc1g8SBwgEFdddtnowiwI4AEABWASQAQCAAUaNAakZGWClAXeIaOmtAXMjBlC1ATEiGWC4AdeXxskBwAESGMar__cBUARYAqABxqv_9wGgAeSf55QGoAG43YysDw",
+"transmogItem" : {
+"id" : "ChestArmor_002",
+"name" : "Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-doublet",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Armor_Chest",
+"slug" : "apprentice-leather-doublet",
+"name" : "Apprentice Leather Doublet",
+"cost" : 1500,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "ChestArmor_002",
+"name" : "Apprentice Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-leather-doublet"
+}
+} ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"feet" : {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CloI7Ln7iAQSBwgEFXz9uHMdm4b24h07J28kHUNORFEdII03VB1yjh0hHdPMB2MwjwI46AJAAEgDUBJYBGDoAo0BFz2bf6UBQ05EUa0BQ05EUbgBydnAzg7AAQgY-PXHuw5QBFgCoAHu-_CZDaAB-PXHuw4",
+"transmogItem" : {
+"id" : "Boots_001",
+"name" : "Shoes",
+"icon" : "boots_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/shoes",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Boots_X1",
+"slug" : "captain-crimsons-waders",
+"name" : "Captain Crimsons Waders",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Boots_208",
+"name" : "Ascended Greaves",
+"icon" : "boots_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-greaves"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Boots_X1",
+"slug" : "captain-crimsons-waders",
+"name" : "Captain Crimsons Waders",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Boots_208",
+"name" : "Ascended Greaves",
+"icon" : "boots_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-greaves"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+}
+} ]
+},
+"hands" : {
+"id" : "Unique_Gloves_Set_13_x1",
+"name" : "Vyr’s Grasping Gauntlets",
+"icon" : "unique_gloves_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CmEI7s3B9QESBwgEFVyXwXodco4dIR1Fe8bdHSCNN1QdmKeOwB1-VrMuHfNwB60wiwI4rgFAAFASWARg8gKAAUaNAUBTkqSlASCNN1StAbi8IHq1AclbkqS4AcSY1qAOwAE1GLjdjKwPUARYAqABxqv_9wGgAeSf55QGoAG43YysDw",
+"transmogItem" : {
+"id" : "Gloves_001",
+"name" : "Gloves",
+"icon" : "gloves_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/gloves",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"shoulders" : {
+"id" : "Unique_Shoulder_008_x1",
+"name" : "Aughild's Power",
+"icon" : "unique_shoulder_008_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClMIyLOw1AwSBwgEFbvhM4sdEC_KKh2bhvbiHbi8IHodOydvJB0_8gnYHXGLd_AwjwI4fkAASBVQElgEYLQCpQEQL8oqrQFDTkRRuAGYqfTJBMABDRiJ-eDMDlAEWAKgAYn54MwOoAHKy8_wBg",
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_Aughild_Shoulders_X1",
+"slug" : "aughilds-power",
+"name" : "Aughild's Power",
+"cost" : 172800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Shoulders_208",
+"name" : "Ascended Pauldrons",
+"icon" : "shoulders_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-pauldrons"
+}
+}, {
+"quantity" : 12,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Shoulder_008_x1",
+"name" : "Aughild's Power",
+"icon" : "unique_shoulder_008_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-power"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Aughild_Shoulders_X1",
+"slug" : "aughilds-power",
+"name" : "Aughild's Power",
+"cost" : 172800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Shoulders_208",
+"name" : "Ascended Pauldrons",
+"icon" : "shoulders_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-pauldrons"
+}
+}, {
+"quantity" : 12,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Shoulder_008_x1",
+"name" : "Aughild's Power",
+"icon" : "unique_shoulder_008_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-power"
+}
+} ]
+},
+"legs" : {
+"id" : "Unique_Pants_Set_13_x1",
+"name" : "Vyr’s Fantastic Finery",
+"icon" : "unique_pants_set_13_x1_wizard_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CrwBCPy8svgDEgcIBBXy50wxHXKOHSEd2T_Unx1DTkRRHdqy8YgdOydvJB2bhvbiMIsCOGBAAEgDUBJYBGCQAmorCgwIABC6kPXYgICAoDYSGwiB5PPFAxIHCAQV1122ejCLAjgAQAFYBJABAGorCgwIABCHg_XYgICAoDYSGwjg55rrDxIHCAQV1122ejCLAjgAQAFYBJABAIABRo0BF4rVpaUB2rLxiK0Bj5DKULUBn5LVpbgB9f-AuAPAAQoY5J_nlAZQBFgCoAHGq__3AaAB5J_nlAagAbjdjKwP",
+"transmogItem" : {
+"id" : "Pants_002",
+"name" : "Leather Pants",
+"icon" : "pants_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-pants",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"bracers" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClEI4qLyqggSBwgEFeXyCTcd3Ne-BB1DTkRRHeYV2w0dm4b24h1xi3fwHXKOHSEwjwI4eEAAUBJYBGCuAqUBQ05EUa0BQ05EUbgB_pbJ0wHAAQoYysvP8AZQBFgCoAGJ-eDMDqABysvP8AY",
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_Aughild_Bracers_X1",
+"slug" : "aughilds-search",
+"name" : "Aughild's Search",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Bracers_208",
+"name" : "Ascended Bracers",
+"icon" : "bracers_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-bracers"
+}
+}, {
+"quantity" : 120,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-search"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Aughild_Bracers_X1",
+"slug" : "aughilds-search",
+"name" : "Aughild's Search",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Bracers_208",
+"name" : "Ascended Bracers",
+"icon" : "bracers_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-bracers"
+}
+}, {
+"quantity" : 120,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-search"
+}
+} ]
+},
+"mainHand" : {
+"id" : "Unique_Sword_1H_101_x1",
+"name" : "Thunderfury, Blessed Blade of the Windseeker",
+"icon" : "unique_sword_1h_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CokBCNPu7O4GEgcIBBVWt3pQHRWh2rodmwYAyx1mIwZQHY9Y1h4d83AHrTCLAjiJAUAAUBJYBGDDAmorCgwIABCsxffpgICAgAYSGwivqaq8CxIHCAQVI5aumDCPAjgAQAFYBJABAIABRo0Bt79JTqUBmwYAy60B0O5oMbUBm9nZ77gBqsKvyQHAAQcYrN3VhwpQBFgC",
+"transmogItem" : {
+"id" : "Unique_Sword_1H_021_x1",
+"name" : "Spectrum",
+"icon" : "unique_sword_1h_021_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/spectrum-1qT7V5",
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "1.0–1.8% Chance to Blind on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Blind_Proc_Chance" : {
+"min" : 0.010000000000000009,
+"max" : 0.01749999999999996
+}
+}
+}, {
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "1.0–1.5% Chance to Blind on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Blind_Proc_Chance" : {
+"min" : 0.010000000000000009,
+"max" : 0.015000000000000013
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+36–42 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Vitality_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Strength_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Intelligence_Item" : {
+"min" : 36.0,
+"max" : 42.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+19–23 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Vitality_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Strength_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Intelligence_Item" : {
+"min" : 19.0,
+"max" : 23.0
+}
+}
+} ]
+} ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Unique_Orb_012_x1",
+"name" : "Tal Rasha's Unwavering Glare",
+"icon" : "unique_orb_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClsI7LypiQISBwgEFdMehaUdrNOZOR3zGKDgHZsGAMsdU6uOLB3zcAetHX5Wsy4wiwI4zgFAAFASWARgmAOAAUalAVOrjiytAbi8IHq1AdrDjnG4AYX7w78BwAEFGNmE16cLUARYAqAB2YTXpwugAajO478CoAH4qs-wCw",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"waist" : {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClII9OHd3gMSBwgEFfcenmkdOydvJB2cwpP3HZuG9uIdQ05EUR3ErTlcHXGLd_AwjwI4wAFAAFASWARgiAOlAZzCk_etASCNN1S4AcuW4_8LwAEHGO778JkNUARYAqAB7vvwmQ2gAfj1x7sO",
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Belt_X1",
+"slug" : "captain-crimsons-silk-girdle",
+"name" : "Captain Crimsons Silk Girdle",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Belt_208",
+"name" : "Archon Sash",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/archon-sash"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 22,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Belt_X1",
+"slug" : "captain-crimsons-silk-girdle",
+"name" : "Captain Crimsons Silk Girdle",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Belt_208",
+"name" : "Archon Sash",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/archon-sash"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 22,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}
+} ]
+},
+"rightFinger" : {
+"id" : "Unique_Ring_019_x1",
+"name" : "Stone of Jordan",
+"icon" : "unique_ring_019_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYI_MOx3gMSBwgEFcegOLkdrNOZOR2L8XpCHdzXvgQdm4b24h0Nv1KzMIsCOMYBQABQElgEYJADgAFGpQGL8XpCrQG4vCB6tQE2VV1EuAGNj5jBA8ABDRjx_LrsCFAEWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"leftFinger" : {
+"id" : "Unique_Ring_107_x1",
+"name" : "Ring of Royal Grandeur",
+"icon" : "unique_ring_107_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClUI7_3LtgcSBwgEFSWYersdco4dIR24vCB6HdKfnkQdfnZVoR2bhvbiMIsCOG1AAFASWARgnwKAAUalAdKfnkStAZinjsC1ATZVXUS4AeGJ858IwAEJGLWfq8gIUARYAg",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"neck" : {
+"id" : "Unique_Amulet_007_x1",
+"name" : "Tal Rasha's Allegiance",
+"icon" : "unique_amulet_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClsIvJ6h0AYSBwgEFbzqCVsdS7X5Sx0do43EHdzXvgQdmwYAyx3zcAetHbDBCXIwiwI4hgFAAFASWARgwAKAAUalAZsGAMutAX5Wsy61AbDFRGS4Aei27-cEwAEEGPiqz7ALUARYAqAB2YTXpwugAajO478CoAH4qs-wCw",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+"templar" : {
+"slug" : "templar",
+"level" : 0,
+"items" : {
+"special" : {
+"id" : "x1_FollowerItem_Templar_Legendary_02",
+"name" : "Relic of Akarat",
+"icon" : "x1_followeritem_templar_legendary_02_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClEIzpO9vQsSBwgEFZBEW9Idco4dIR04ssDVHWpJaeodsMEJch2bBgDLHYGBxsQwiQI4kgNAAFASWAZgkgOAAUa1AewLY0TIAfqJqQTIAc7tkQQY3-2l2gU",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"mainHand" : {
+"id" : "Unique_Sword_1H_011_x1",
+"name" : "Devil Tongue",
+"icon" : "unique_sword_1h_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CogBCOz1tLINEgcIBBU2pzdOHdxVUcEd0O5oMR2BgcbEHdGwUMcdlz-d2h2eT4PcMIsCOI8CQABQElgEYJACaisKDAgAEKDRkLyAgICgLRIbCIO957MKEgcIBBUflq6YMIsCOABAAVgEkAEAgAFGpQHQ7mgxrQFmIwZQtQGb2dnvuAH6oLmoD8ABBxjsnL3jCQ",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Shield_209",
+"name" : "Chivalry Essence",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmUIhtPKmAcSBwgEFRMMO2wdmgYAyx2AgcbEHf6j8o8ddWfm8R1PGawMHcOtOVwiCwgBFYpCAwAYCCAKMIsCOPQDQABQEFgEYPQDjQEIV5wJpQH-o_KPrQFMPxj2uAHei_SOD8ABAximsNjDDQ",
+"transmogItem" : {
+"id" : "Unique_Shield_002_x1",
+"name" : "Ivory Tower",
+"icon" : "unique_shield_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ivory-tower",
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+81–85 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 81.0,
+"max" : 85.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+41–50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 41.0,
+"max" : 50.0
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+5% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+6–12% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.06,
+"max" : 0.12
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–10% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.1
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–16% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.16
+}
+}
+} ]
+} ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Shield",
+"slug" : "sovereign-ascended-shield",
+"name" : "Sovereign Ascended Shield",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 12,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 19,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 15,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Shield_209",
+"name" : "Sovereign Ascended Shield",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-shield"
+}
+} ]
+},
+"rightFinger" : {
+"id" : "Unique_Ring_109_x1",
+"name" : "Pandemonium Loop",
+"icon" : "unique_ring_109_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CmgItv-KpwoSBwgEFeewe7sdQ05EUR2L8XpCHWYjBlAdqSA2ujCLAjiKAkAAUBJYBGCKAmorCgwIABCIjfi7gICAoC0SGwiWydqpARIHCAQVZ_WLXzCLAjgAQAFYBJABAIABRrUBNlVdRBixvKLICA",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"leftFinger" : {
+"id" : "Unique_Ring_003_x1",
+"name" : "Krede’s Flame",
+"icon" : "unique_ring_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIlv-23wwSBwgEFQA-I7kd2T_Unx1nPuzkHTsnbyQdfnZVoR2pIDa6MIsCOJADQABQElgEYKIDgAFGtQE2VV1EGP-H5u0I",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"neck" : {
+"id" : "Amulet17",
+"name" : "Renown Hope",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/ClQIo_36nQUSBwgEFbDFRGQdwNyHGx11Z-bxHZoGAMsdSA-9SB2r05k5IgsIARV4QgMAGCIgHDCLAjivA0AAUA5grwOlAZoGAMutAZoGAMu4AQDAAQEY4JamxAw",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Amulet",
+"slug" : "sovereign-amulet",
+"name" : "Sovereign Amulet",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Ruby_16",
+"name" : "Imperial Ruby",
+"icon" : "ruby_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-ruby"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_16",
+"name" : "Imperial Emerald",
+"icon" : "emerald_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-emerald"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_16",
+"name" : "Imperial Amethyst",
+"icon" : "amethyst_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-amethyst"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Topaz_16",
+"name" : "Imperial Topaz",
+"icon" : "topaz_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-topaz"
+}
+} ],
+"itemProduced" : {
+"id" : "Amulet17",
+"name" : "Sovereign Amulet",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-amulet"
+}
+} ]
+}
+},
+"stats" : {
+"goldFind" : 14,
+"magicFind" : 0,
+"experienceBonus" : 37
+},
+"skills" : [ {
+"skill" : {
+"slug" : "intervene",
+"name" : "Intervene",
+"icon" : "templar_intervene",
+"level" : 5,
+"tooltipUrl" : "skill/templar/intervene",
+"description" : "Cooldown: 10 seconds\r\n\r\nTaunt enemies within 10 yards of you for 3 seconds when you are hit.",
+"simpleDescription" : "Cooldown: 10 seconds\r\n\r\nTaunt enemies near you when you are hit.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "loyalty",
+"name" : "Loyalty",
+"icon" : "templar_loyalty",
+"level" : 10,
+"tooltipUrl" : "skill/templar/loyalty",
+"description" : "Regenerates 4952 Life per second for you and the Templar.",
+"simpleDescription" : "Provides Life regeneration for you and the Templar.",
+"skillCalcId" : "b"
+}
+}, {
+"skill" : {
+"slug" : "charge",
+"name" : "Charge",
+"icon" : "templar_shieldcharge",
+"level" : 15,
+"tooltipUrl" : "skill/templar/charge",
+"description" : "Cooldown: 10 seconds\r\n\r\nCharges a target, dealing 280% weapon damage and stunning all enemies within 8 yards for 3 seconds.",
+"simpleDescription" : "Cooldown: 10 seconds\r\n\r\nCharges an enemy, dealing damage and stunning nearby enemies.",
+"skillCalcId" : "c"
+}
+}, {
+"skill" : {
+"slug" : "guardian",
+"name" : "Guardian",
+"icon" : "templar_guardian",
+"level" : 20,
+"tooltipUrl" : "skill/templar/guardian",
+"description" : "Cooldown: 30 seconds\r\n\r\nRush to your aid, knocking back enemies within 15 yards and healing you for 140295 Life.",
+"simpleDescription" : "Cooldown: 30 seconds\r\n\r\nWhen your Life is low, the Templar will come to your aid, knocking back nearby enemies and healing you.",
+"skillCalcId" : "W"
+}
+} ]
+},
+"scoundrel" : {
+"slug" : "scoundrel",
+"level" : 0,
+"items" : {
+"mainHand" : {
+"id" : "Crossbow_001",
+"name" : "Light Crossbow of Slaying",
+"icon" : "crossbow_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIr6zJ2A8SBwgEFYJTygodR5uKMjAJOIkEQABQBmCJBBiEztKsAQ",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Weapon_Crossbow",
+"slug" : "apprentice-light-crossbow",
+"name" : "Apprentice Light Crossbow",
+"cost" : 465,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "Crossbow_001",
+"name" : "Apprentice Light Crossbow",
+"icon" : "crossbow_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-light-crossbow"
+}
+} ]
+}
+},
+"stats" : {
+"goldFind" : 0,
+"magicFind" : 0,
+"experienceBonus" : 0
+},
+"skills" : [ {
+"skill" : {
+"slug" : "crippling-shot",
+"name" : "Crippling Shot",
+"icon" : "scoundrel_cripplingshot",
+"level" : 5,
+"tooltipUrl" : "skill/scoundrel/crippling-shot",
+"description" : "Cooldown: 4 seconds\r\n\r\nRanged attack that deals 140% weapon damage and slows enemies hit by 80% for 4 seconds.",
+"simpleDescription" : "Cooldown: 4 seconds\r\n\r\nRanged attack that slows enemies.",
+"skillCalcId" : "a"
+}
+}, {
+}, {
+}, {
+} ]
+},
+"enchantress" : {
+"slug" : "enchantress",
+"level" : 0,
+"items" : {
+"special" : {
+"id" : "x1_FollowerItem_Enchantress_Legendary_01",
+"name" : "Smoking Thurible",
+"icon" : "x1_followeritem_enchantress_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI5s_coAUSBwgEFfgkI-Udco4dIR2x5OoRHbDBCXIdmwYAyx07J28kHfNwB60wiwI4ygJAAFASWARgygKAAUa1ATWjYi0Yj-zmrQM",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"mainHand" : {
+"id" : "Unique_Staff_003_x1",
+"name" : "Wormwood",
+"icon" : "unique_staff_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CoMBCN_7o6kMEgcIBBXkg-O3HXKOHSEd3tP1oh31E6E5HZ5Pg9wdblCQBTCLAjjnAkAAUBJYBGDnAmorCgwIABDWzbWBg4CAoCcSGwipjYiVDhIHCAQVIZaumDCPAjgAQAFYBJABAIABRqUB9ROhOa0BZiMGULUBaCnlgbgB0MKP2QzAAQUYt_DjgQk",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"rightFinger" : {
+"id" : "Unique_Ring_004_x1",
+"name" : "Puzzle Ring",
+"icon" : "unique_ring_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIp4Oo5QISBwgEFWHKI7kdOnXajB2L8XpCHX52VaEdP_IJ2B2bhvbiMIsCOK8CQABQElgEYK8CgAFGtQE2VV1EGL3W4e0I",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"leftFinger" : {
+"id" : "Unique_Ring_018_x1",
+"name" : "Nagelring",
+"icon" : "unique_ring_018_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIiJ3jxAoSBwgEFWYUOLkdOnXajB1-dlWhHZuG9uId0p-eRB2svNNTMIsCOMwCQABQElgEYMwCgAFGtQE2VV1EGLOuv-wI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"neck" : {
+"id" : "Unique_Amulet_002_x1",
+"name" : "Kymbo's Gold",
+"icon" : "unique_amulet_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI0eaOugESBwgEFdcsB1sdrNOZOR2wwQlyHZsGAMsdaklp6h3zcAetMIsCOPkCQABQElgEYPkCgAFGtQGwxURkGK6zubAL",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"stats" : {
+"goldFind" : 26,
+"magicFind" : 8,
+"experienceBonus" : 73
+},
+"skills" : [ {
+"skill" : {
+"slug" : "charm",
+"name" : "Charm",
+"icon" : "enchantress_charm",
+"level" : 15,
+"tooltipUrl" : "skill/enchantress/charm",
+"description" : "Cooldown: 18 seconds\r\n\r\nCharms an enemy to fight for you for 8 seconds.",
+"simpleDescription" : "Cooldown: 18 seconds\r\n\r\nTemporarily Charms an enemy to fight for you.",
+"skillCalcId" : "a"
+}
+}, {
+"skill" : {
+"slug" : "missile-ward",
+"name" : "Missile Ward",
+"icon" : "enchantress_missileward",
+"level" : 20,
+"tooltipUrl" : "skill/enchantress/missile-ward",
+"description" : "Buffs you and the Enchantress, reducing damage from ranged attacks by 6%.",
+"simpleDescription" : "Reduces damage from ranged attacks for you and the Enchantress.",
+"skillCalcId" : "b"
+}
+}, {
+"skill" : {
+"slug" : "disorient",
+"name" : "Disorient",
+"icon" : "enchantress_disorient",
+"level" : 25,
+"tooltipUrl" : "skill/enchantress/disorient",
+"description" : "Cooldown: 6 seconds\r\n\r\nCast a flash of light in an area, causing enemies to be disoriented for 2 seconds.",
+"simpleDescription" : "Cooldown: 6 seconds\r\n\r\nDisorients enemies for a short time.",
+"skillCalcId" : "c"
+}
+}, {
+"skill" : {
+"slug" : "mass-control",
+"name" : "Mass Control",
+"icon" : "enchantress_masscharm",
+"level" : 30,
+"tooltipUrl" : "skill/enchantress/mass-control",
+"description" : "Cooldown: 18 seconds\r\n\r\nLob a bulb of magical energy that hexes enemies in an area into chickens for 5 seconds.",
+"simpleDescription" : "Cooldown: 18 seconds\r\n\r\nHexes a nearby group of enemies.",
+"skillCalcId" : "W"
+}
+} ]
+}
+},
+"stats" : {
+"life" : 291881,
+"damage" : 722478.0,
+"attackSpeed" : 1.399999976158142,
+"armor" : 6056,
+"strength" : 77,
+"dexterity" : 77,
+"vitality" : 3523,
+"intelligence" : 8778,
+"physicalResist" : 1508,
+"fireResist" : 1508,
+"coldResist" : 1649,
+"lightningResist" : 1508,
+"poisonResist" : 1508,
+"arcaneResist" : 1800,
+"critDamage" : 4.6,
+"blockChance" : 0.0,
+"blockAmountMin" : 0,
+"blockAmountMax" : 0,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 4672.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 5389.0,
+"goldFind" : 0.35,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 122,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 27696
+},
+"progression" : {
+"act1" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "the-fallen-star",
+"name" : "The Fallen Star"
+}, {
+"slug" : "the-legacy-of-cain",
+"name" : "The Legacy of Cain"
+}, {
+"slug" : "a-shattered-crown",
+"name" : "A Shattered Crown"
+}, {
+"slug" : "reign-of-the-black-king",
+"name" : "Reign of the Black King"
+}, {
+"slug" : "sword-of-the-stranger",
+"name" : "Sword of the Stranger"
+}, {
+"slug" : "the-broken-blade",
+"name" : "The Broken Blade"
+}, {
+"slug" : "the-doom-in-wortham",
+"name" : "The Doom in Wortham"
+}, {
+"slug" : "trailing-the-coven",
+"name" : "Trailing the Coven"
+}, {
+"slug" : "the-imprisoned-angel",
+"name" : "The Imprisoned Angel"
+}, {
+"slug" : "return-to-new-tristram",
+"name" : "Return to New Tristram"
+} ]
+},
+"act2" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "shadows-in-the-desert",
+"name" : "Shadows in the Desert"
+}, {
+"slug" : "the-road-to-alcarnus",
+"name" : "The Road to Alcarnus"
+}, {
+"slug" : "city-of-blood",
+"name" : "City of Blood"
+}, {
+"slug" : "a-royal-audience",
+"name" : "A Royal Audience"
+}, {
+"slug" : "unexpected-allies",
+"name" : "Unexpected Allies"
+}, {
+"slug" : "betrayer-of-the-horadrim",
+"name" : "Betrayer of the Horadrim"
+}, {
+"slug" : "blood-and-sand",
+"name" : "Blood and Sand"
+}, {
+"slug" : "the-black-soulstone",
+"name" : "The Black Soulstone"
+}, {
+"slug" : "the-scouring-of-caldeum",
+"name" : "The Scouring of Caldeum"
+}, {
+"slug" : "lord-of-lies",
+"name" : "Lord of Lies"
+} ]
+},
+"act3" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "the-siege-of-bastions-keep",
+"name" : "The Siege of Bastion's Keep"
+}, {
+"slug" : "turning-the-tide",
+"name" : "Turning the Tide"
+}, {
+"slug" : "the-breached-keep",
+"name" : "The Breached Keep"
+}, {
+"slug" : "tremors-in-the-stone",
+"name" : "Tremors in the Stone"
+}, {
+"slug" : "machines-of-war",
+"name" : "Machines of War"
+}, {
+"slug" : "siegebreaker",
+"name" : "Siegebreaker"
+}, {
+"slug" : "heart-of-sin",
+"name" : "Heart of Sin"
+} ]
+},
+"act4" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "fall-of-the-high-heavens",
+"name" : "Fall of the High Heavens"
+}, {
+"slug" : "the-light-of-hope",
+"name" : "The Light of Hope"
+}, {
+"slug" : "beneath-the-spire",
+"name" : "Beneath the Spire"
+}, {
+"slug" : "prime-evil",
+"name" : "Prime Evil"
+} ]
+},
+"act5" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "the-fall-of-westmarch",
+"name" : "The Fall of Westmarch"
+}, {
+"slug" : "souls-of-the-dead",
+"name" : "Souls of the Dead"
+}, {
+"slug" : "the-harbinger",
+"name" : "The Harbinger"
+}, {
+"slug" : "the-witch",
+"name" : "The Witch"
+}, {
+"slug" : "the-pandemonium-gate",
+"name" : "The Pandemonium Gate"
+}, {
+"slug" : "the-battlefields-of-eternity",
+"name" : "The Battlefields of Eternity"
+}, {
+"slug" : "breaching-the-fortress",
+"name" : "Breaching the Fortress"
+}, {
+"slug" : "angel-of-death",
+"name" : "Angel of Death"
+} ]
+}
+},
+"dead" : false,
+"last-updated" : 1405437667
+}

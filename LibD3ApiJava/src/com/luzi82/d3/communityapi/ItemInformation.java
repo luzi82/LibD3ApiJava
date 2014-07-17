@@ -153,26 +153,56 @@ public class ItemInformation {
 		@JsonProperty("Resource_Regen_Per_Second#Arcanum")
 		public Value<Float> Resource_Regen_Per_Second_Arcanum;
 		
+		@JsonProperty("Damage_Dealt_Percent_Bonus#Arcane")
+		public Value<Float> Damage_Dealt_Percent_Bonus_Arcane;
 		@JsonProperty("Damage_Dealt_Percent_Bonus#Cold")
 		public Value<Float> Damage_Dealt_Percent_Bonus_Cold;
 		@JsonProperty("Damage_Dealt_Percent_Bonus#Fire")
 		public Value<Float> Damage_Dealt_Percent_Bonus_Fire;
-		@JsonProperty("Damage_Dealt_Percent_Bonus#Arcane")
-		public Value<Float> Damage_Dealt_Percent_Bonus_Arcane;
 		@JsonProperty("Damage_Dealt_Percent_Bonus#Lightning")
 		public Value<Float> Damage_Dealt_Percent_Bonus_Lightning;
+		@JsonProperty("Damage_Dealt_Percent_Bonus#Physical")
+		public Value<Float> Damage_Dealt_Percent_Bonus_Physical;
 
+		@JsonProperty("Damage_Delta#Arcane")
+		public Value<Integer> Damage_Delta_Arcane;
+		@JsonProperty("Damage_Delta#Cold")
+		public Value<Integer> Damage_Delta_Cold;
+		@JsonProperty("Damage_Delta#Fire")
+		public Value<Integer> Damage_Delta_Fire;
+		@JsonProperty("Damage_Delta#Lightning")
+		public Value<Integer> Damage_Delta_Lightning;
 		@JsonProperty("Damage_Delta#Physical")
 		public Value<Integer> Damage_Delta_Physical;
 
+		@JsonProperty("Damage_Min#Arcane")
+		public Value<Integer> Damage_Min_Arcane;
+		@JsonProperty("Damage_Min#Cold")
+		public Value<Integer> Damage_Min_Cold;
+		@JsonProperty("Damage_Min#Fire")
+		public Value<Integer> Damage_Min_Fire;
+		@JsonProperty("Damage_Min#Lightning")
+		public Value<Integer> Damage_Min_Lightning;
 		@JsonProperty("Damage_Min#Physical")
 		public Value<Integer> Damage_Min_Physical;
 
-		@JsonProperty("Damage_Weapon_Delta#Physical")
-		public Value<Float> Damage_Weapon_Delta_Physical;
+		@JsonProperty("Damage_Weapon_Delta#Arcane")
+		public Value<Float> Damage_Weapon_Delta_Arcane;
+		@JsonProperty("Damage_Weapon_Delta#Cold")
+		public Value<Float> Damage_Weapon_Delta_Cold;
+		@JsonProperty("Damage_Weapon_Delta#Fire")
+		public Value<Float> Damage_Weapon_Delta_Fire;
 		@JsonProperty("Damage_Weapon_Delta#Lightning")
 		public Value<Float> Damage_Weapon_Delta_Lightning;
+		@JsonProperty("Damage_Weapon_Delta#Physical")
+		public Value<Float> Damage_Weapon_Delta_Physical;
 
+		@JsonProperty("Damage_Weapon_Min#Arcane")
+		public Value<Float> Damage_Weapon_Min_Arcane;
+		@JsonProperty("Damage_Weapon_Min#Cold")
+		public Value<Float> Damage_Weapon_Min_Cold;
+		@JsonProperty("Damage_Weapon_Min#Fire")
+		public Value<Float> Damage_Weapon_Min_Fire;
 		@JsonProperty("Damage_Weapon_Min#Lightning")
 		public Value<Float> Damage_Weapon_Min_Lightning;
 		@JsonProperty("Damage_Weapon_Min#Physical")
@@ -182,6 +212,12 @@ public class ItemInformation {
 		public Value<Float> Resistance_Arcane;
 		@JsonProperty("Resistance#Cold")
 		public Value<Float> Resistance_Cold;
+		@JsonProperty("Resistance#Fire")
+		public Value<Float> Resistance_Fire;
+		@JsonProperty("Resistance#Lightning")
+		public Value<Float> Resistance_Lightning;
+		@JsonProperty("Resistance#Physical")
+		public Value<Float> Resistance_Physical;
 		
 		@JsonProperty("Thorns_Fixed#Physical")
 		public Value<Float> Thorns_Fixed_Physical;

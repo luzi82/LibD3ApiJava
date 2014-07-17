@@ -159,5 +159,10 @@ public class ItemInformation {
 		public Value<Float> Hitpoints_Regen_Per_Second;
 		public Value<Float> Resource_Cost_Reduction_Percent_All;
 		public Value<Float> Crit_Damage_Percent;
+		public Value<Float> Gold_Find;
+		public Value<Float> Damage_Percent_Reduction_From_Melee;
+		public Value<Float> Damage_Percent_Reduction_From_Ranged;
+		public Value<Float> Damage_Percent_Reduction_From_Elites;
+		public Value<Float> Damage_Percent_Bonus_Vs_Elites;
 	}
 }

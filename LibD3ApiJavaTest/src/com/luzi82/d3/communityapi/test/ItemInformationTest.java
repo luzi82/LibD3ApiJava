@@ -175,4 +175,24 @@ public class ItemInformationTest {
 		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.min, 0.000001f);
 		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.max, 0.000001f);
 	}
+
+	@Test
+	public void test_005() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_005.json");
+
+		Assert.assertEquals(0.35f, ii.attributesRaw.Gold_Find.min, 0.000001f);
+		Assert.assertEquals(0.35f, ii.attributesRaw.Gold_Find.max, 0.000001f);
+
+		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Melee.min, 0.000001f);
+		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Melee.max, 0.000001f);
+		
+		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Ranged.min, 0.000001f);
+		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Ranged.max, 0.000001f);
+		
+		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Reduction_From_Elites.min, 0.000001f);
+		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Reduction_From_Elites.max, 0.000001f);
+		
+		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Bonus_Vs_Elites.min, 0.000001f);
+		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Bonus_Vs_Elites.max, 0.000001f);
+	}
 }

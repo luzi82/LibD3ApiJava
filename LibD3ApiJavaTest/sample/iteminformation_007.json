@@ -1,0 +1,341 @@
+{
+"id" : "Unique_Sword_1H_101_x1",
+"name" : "Thunderfury, Blessed Blade of the Windseeker",
+"icon" : "unique_sword_1h_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CokBCNPu7O4GEgcIBBVWt3pQHRWh2rodmwYAyx1mIwZQHY9Y1h4d83AHrTCLAjiJAUAAUBJYBGDDAmorCgwIABCsxffpgICAgAYSGwivqaq8CxIHCAQVI5aumDCPAjgAQAFYBJABAIABRo0Bt79JTqUBmwYAy60B0O5oMbUBm9nZ77gBqsKvyQHAAQcYrN3VhwpQBFgC",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This ancient blade, imbued with unpredictable elemental energies, crossed vast universes and hidden dimensions before arriving in Sanctuary. Thunderfury seeks the hand of a true hero, one capable of safely wielding its awesome power.",
+"transmogItem" : {
+"id" : "Unique_Sword_1H_021_x1",
+"name" : "Spectrum",
+"icon" : "unique_sword_1h_021_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/spectrum-1qT7V5",
+"requiredLevel" : 30,
+"itemLevel" : 32,
+"bonusAffixes" : 4,
+"bonusAffixesMax" : 4,
+"accountBound" : false,
+"flavorText" : "This fantastical blade is the physical manifestation of unicorn smiles, bright rainbow colors, shooting star wishes, and teddy bear giggles.",
+"typeName" : "Legendary Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 39.19999933242798,
+"max" : 39.19999933242798
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 17.0,
+"max" : 17.0
+},
+"maxDamage" : {
+"min" : 39.0,
+"max" : 39.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 17.0,
+"max" : 17.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 22.0,
+"max" : 22.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "1.0–1.8% Chance to Blind on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Blind_Proc_Chance" : {
+"min" : 0.010000000000000009,
+"max" : 0.01749999999999996
+}
+}
+}, {
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "1.0–1.5% Chance to Blind on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Blind_Proc_Chance" : {
+"min" : 0.010000000000000009,
+"max" : 0.015000000000000013
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+36–42 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+36–42 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Strength_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Vitality_Item" : {
+"min" : 36.0,
+"max" : 42.0
+},
+"Intelligence_Item" : {
+"min" : 36.0,
+"max" : 42.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+19–23 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+19–23 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Strength_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Vitality_Item" : {
+"min" : 19.0,
+"max" : 23.0
+},
+"Intelligence_Item" : {
+"min" : 19.0,
+"max" : 23.0
+}
+}
+} ]
+} ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 2194.4999626278877,
+"max" : 2194.4999626278877
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"maxDamage" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1188–1387 Lightning Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+669 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 10.0%.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "2.4% Chance to Stun on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance on hit to blast your enemy with Lightning, dealing 304% weapon damage as Lightning and then jumping to additional nearby enemies. Each enemy hit has their attack speed and movement speed reduced by 30% for 3 seconds. Jumps up to 5 targets.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Lightning" : {
+"min" : 199.0,
+"max" : 199.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 323.0,
+"max" : 323.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Weapon_Min#Lightning" : {
+"min" : 1188.0,
+"max" : 1188.0
+},
+"Durability_Max" : {
+"min" : 323.0,
+"max" : 323.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 224.0,
+"max" : 224.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.70935653E8,
+"max" : -2.70935653E8
+},
+"Intelligence_Item" : {
+"min" : 669.0,
+"max" : 669.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_581_x1" : {
+"min" : 3.04,
+"max" : 3.04
+},
+"Weapon_On_Hit_Stun_Proc_Chance" : {
+"min" : 0.023800000000000043,
+"max" : 0.023800000000000043
+},
+"Durability_Cur" : {
+"min" : 137.0,
+"max" : 137.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_19",
+"name" : "Flawless Royal Emerald",
+"icon" : "emerald_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIr6mqvAsSBwgEFSOWrpgwjwI4AEABWASQAQAYuaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 130.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 1.3,
+"max" : 1.3
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

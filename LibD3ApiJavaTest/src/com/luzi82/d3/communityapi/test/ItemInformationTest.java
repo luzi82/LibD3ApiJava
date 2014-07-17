@@ -203,4 +203,42 @@ public class ItemInformationTest {
 		Assert.assertEquals(5389f, ii.attributesRaw.Hitpoints_On_Kill.min, 0.000001f);
 		Assert.assertEquals(5389f, ii.attributesRaw.Hitpoints_On_Kill.max, 0.000001f);
 	}
+
+	@Test
+	public void test_007() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_007.json");
+
+		Assert.assertEquals(39.19999933242798f, ii.transmogItem.dps.min, 0.000001f);
+		Assert.assertEquals(39.19999933242798f, ii.transmogItem.dps.max, 0.000001f);
+
+		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attacksPerSecond.min, 0.000001f);
+		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attacksPerSecond.max, 0.000001f);
+
+		Assert.assertEquals(17f, ii.transmogItem.minDamage.min, 0.000001f);
+		Assert.assertEquals(17f, ii.transmogItem.minDamage.max, 0.000001f);
+
+		Assert.assertEquals(39f, ii.transmogItem.maxDamage.min, 0.000001f);
+		Assert.assertEquals(39f, ii.transmogItem.maxDamage.max, 0.000001f);
+
+		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attributesRaw.Attacks_Per_Second_Item.min, 0.000001f);
+		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attributesRaw.Attacks_Per_Second_Item.max, 0.000001f);
+		
+		Assert.assertEquals(17f, ii.transmogItem.attributesRaw.Damage_Weapon_Min_Physical.min, 0.000001f);
+		Assert.assertEquals(17f, ii.transmogItem.attributesRaw.Damage_Weapon_Min_Physical.max, 0.000001f);
+		
+		Assert.assertEquals(22f, ii.transmogItem.attributesRaw.Damage_Weapon_Delta_Physical.min, 0.000001f);
+		Assert.assertEquals(22f, ii.transmogItem.attributesRaw.Damage_Weapon_Delta_Physical.max, 0.000001f);
+
+		Assert.assertEquals(199f, ii.attributesRaw.Damage_Weapon_Delta_Lightning.min, 0.000001f);
+		Assert.assertEquals(199f, ii.attributesRaw.Damage_Weapon_Delta_Lightning.max, 0.000001f);
+
+		Assert.assertEquals(1188f, ii.attributesRaw.Damage_Weapon_Min_Lightning.min, 0.000001f);
+		Assert.assertEquals(1188f, ii.attributesRaw.Damage_Weapon_Min_Lightning.max, 0.000001f);
+
+		Assert.assertEquals(3.04f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_581_x1.min, 0.000001f);
+		Assert.assertEquals(3.04f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_581_x1.max, 0.000001f);
+
+		Assert.assertEquals(0.023800000000000043f, ii.attributesRaw.Weapon_On_Hit_Stun_Proc_Chance.min, 0.000001f);
+		Assert.assertEquals(0.023800000000000043f, ii.attributesRaw.Weapon_On_Hit_Stun_Proc_Chance.max, 0.000001f);
+	}
 }

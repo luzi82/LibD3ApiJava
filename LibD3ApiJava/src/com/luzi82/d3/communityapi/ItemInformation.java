@@ -27,6 +27,10 @@ public class ItemInformation {
 	public Type type;
 	
 	public Value<Integer> armor;
+	public Value<Float> dps;
+	public Value<Float> attacksPerSecond;
+	public Value<Float> minDamage;
+	public Value<Float> maxDamage;
 
 	public Attributes attributes;
 	public AttributesRaw attributesRaw;
@@ -134,6 +138,8 @@ public class ItemInformation {
 		public Value<Float> Damage_Dealt_Percent_Bonus_Lightning;
 		@JsonProperty("Resource_Regen_Per_Second#Arcanum")
 		public Value<Float> Resource_Regen_Per_Second_Arcanum;
+		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_581_x1")
+		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_581_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_710_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_715_x1")
@@ -165,5 +171,16 @@ public class ItemInformation {
 		public Value<Float> Damage_Percent_Reduction_From_Elites;
 		public Value<Float> Damage_Percent_Bonus_Vs_Elites;
 		public Value<Float> Hitpoints_On_Kill;
+		public Value<Float> Attacks_Per_Second_Item;
+		public Value<Float> Weapon_On_Hit_Stun_Proc_Chance;
+		
+		@JsonProperty("Damage_Weapon_Min#Physical")
+		public Value<Float> Damage_Weapon_Min_Physical;
+		@JsonProperty("Damage_Weapon_Delta#Physical")
+		public Value<Float> Damage_Weapon_Delta_Physical;
+		@JsonProperty("Damage_Weapon_Delta#Lightning")
+		public Value<Float> Damage_Weapon_Delta_Lightning;
+		@JsonProperty("Damage_Weapon_Min#Lightning")
+		public Value<Float> Damage_Weapon_Min_Lightning;
 	}
 }

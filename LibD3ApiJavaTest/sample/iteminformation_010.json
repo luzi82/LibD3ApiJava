@@ -1,0 +1,113 @@
+{
+"id" : "x1_FollowerItem_Templar_Legendary_02",
+"name" : "Relic of Akarat",
+"icon" : "x1_followeritem_templar_legendary_02_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClEIzpO9vQsSBwgEFZBEW9Idco4dIR04ssDVHWpJaeodsMEJch2bBgDLHYGBxsQwiQI4kgNAAFASWAZgkgOAAUa1AewLY0TIAfqJqQTIAc7tkQQY3-2l2gU",
+"requiredLevel" : 70,
+"itemLevel" : 61,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This fingerbone is reputed to be that of none other than the founder of the Zakarum faith.",
+"typeName" : "Legendary Templar Relic",
+"type" : {
+"twoHanded" : false,
+"id" : "TemplarSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+644 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+718 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 90.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2298 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+143 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +185 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Equip on Follower: Gain access to all skills.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 402.0,
+"max" : 402.0
+},
+"Strength_Item" : {
+"min" : 644.0,
+"max" : 644.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Experience_Bonus" : {
+"min" : 185.0,
+"max" : 185.0
+},
+"Vitality_Item" : {
+"min" : 718.0,
+"max" : 718.0
+},
+"Resistance#Physical" : {
+"min" : 143.0,
+"max" : 143.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.9,
+"max" : 0.9
+},
+"Hitpoints_On_Hit" : {
+"min" : 2298.0,
+"max" : 2298.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.147341804E9,
+"max" : 1.147341804E9
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_515_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max" : {
+"min" : 402.0,
+"max" : 402.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 402.0,
+"max" : 402.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

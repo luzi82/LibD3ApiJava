@@ -130,6 +130,8 @@ public class ItemInformationTest {
 		
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.min, 0.000001f);
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.max, 0.000001f);
+		
+		Assert.assertEquals("Diamond_19", ii.gems[0].item.id);
 	}
 
 	@Test

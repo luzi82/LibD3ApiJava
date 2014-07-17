@@ -167,4 +167,12 @@ public class ItemInformationTest {
 		Assert.assertEquals(0.1f, ii.set.ranks[1].attributesRaw.Resource_Cost_Reduction_Percent_All.min, 0.000001f);
 		Assert.assertEquals(0.1f, ii.set.ranks[1].attributesRaw.Resource_Cost_Reduction_Percent_All.max, 0.000001f);
 	}
+
+	@Test
+	public void test_004() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_004.json");
+		
+		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.min, 0.000001f);
+		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.max, 0.000001f);
+	}
 }

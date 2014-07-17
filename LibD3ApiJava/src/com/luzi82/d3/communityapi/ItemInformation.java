@@ -158,5 +158,6 @@ public class ItemInformation {
 		public Value<Float> Experience_Bonus;
 		public Value<Float> Hitpoints_Regen_Per_Second;
 		public Value<Float> Resource_Cost_Reduction_Percent_All;
+		public Value<Float> Crit_Damage_Percent;
 	}
 }

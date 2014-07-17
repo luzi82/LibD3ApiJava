@@ -1,0 +1,267 @@
+{
+"id" : "Unique_Pants_Set_13_x1",
+"name" : "Vyr’s Fantastic Finery",
+"icon" : "unique_pants_set_13_x1_wizard_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CrwBCPy8svgDEgcIBBXy50wxHXKOHSEd2T_Unx1DTkRRHdqy8YgdOydvJB2bhvbiMIsCOGBAAEgDUBJYBGCQAmorCgwIABC6kPXYgICAoDYSGwiB5PPFAxIHCAQV1122ejCLAjgAQAFYBJABAGorCgwIABCHg_XYgICAoDYSGwjg55rrDxIHCAQV1122ejCLAjgAQAFYBJABAIABRo0BF4rVpaUB2rLxiK0Bj5DKULUBn5LVpbgB9f-AuAPAAQoY5J_nlAZQBFgCoAHGq__3AaAB5J_nlAagAbjdjKwP",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Even though Vyr was a tyrant by all accounts, he still took enormous pride in his appearance. It is believed he was wearing these beautiful silken trousers the day he was murdered by his own acolytes, who believed he would bring a curse down upon them all.\" —Abd al-Hazir",
+"transmogItem" : {
+"id" : "Pants_002",
+"name" : "Leather Pants",
+"icon" : "pants_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-pants",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 18.0,
+"max" : 21.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 18.0,
+"max" : 21.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Set Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 662.0,
+"max" : 662.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+445 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+496 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+98 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+5389 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +176 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Sockets" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 272.0,
+"max" : 272.0
+},
+"Intelligence_Item" : {
+"min" : 445.0,
+"max" : 445.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.512729953E9,
+"max" : -1.512729953E9
+},
+"Armor_Item" : {
+"min" : 662.0,
+"max" : 662.0
+},
+"Durability_Max" : {
+"min" : 272.0,
+"max" : 272.0
+},
+"Resistance_All" : {
+"min" : 98.0,
+"max" : 98.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 496.0,
+"max" : 496.0
+},
+"Durability_Cur" : {
+"min" : 96.0,
+"max" : 96.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 5389.0,
+"max" : 5389.0
+},
+"Experience_Bonus" : {
+"min" : 176.0,
+"max" : 176.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_19",
+"name" : "Flawless Royal Topaz",
+"icon" : "topaz_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIgeTzxQMSBwgEFdddtnowiwI4AEABWASQAQAYrveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+280 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 280.0,
+"max" : 280.0
+}
+}
+}, {
+"item" : {
+"id" : "Topaz_19",
+"name" : "Flawless Royal Topaz",
+"icon" : "topaz_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI4Oea6w8SBwgEFdddtnowiwI4AEABWASQAQAYrveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+280 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 280.0,
+"max" : 280.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Vyr's Amazing Arcana",
+"items" : [ {
+"id" : "Unique_Chest_Set_13_x1",
+"name" : "Vyr’s Astonishing Aura",
+"icon" : "unique_chest_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-astonishing-aura"
+}, {
+"id" : "Unique_Pants_Set_13_x1",
+"name" : "Vyr’s Fantastic Finery",
+"icon" : "unique_pants_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-fantastic-finery"
+}, {
+"id" : "Unique_Gloves_Set_13_x1",
+"name" : "Vyr’s Grasping Gauntlets",
+"icon" : "unique_gloves_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-grasping-gauntlets"
+}, {
+"id" : "Unique_Boots_Set_13_x1",
+"name" : "Vyr’s Swaggering Stance",
+"icon" : "unique_boots_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-swaggering-stance"
+} ],
+"slug" : "vyrs-amazing-arcana",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+500 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence" : {
+"min" : 500.0,
+"max" : 500.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Archon gains the effect of every rune.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_727_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

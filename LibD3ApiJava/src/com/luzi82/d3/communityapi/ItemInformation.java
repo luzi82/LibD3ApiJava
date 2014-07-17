@@ -164,5 +164,6 @@ public class ItemInformation {
 		public Value<Float> Damage_Percent_Reduction_From_Ranged;
 		public Value<Float> Damage_Percent_Reduction_From_Elites;
 		public Value<Float> Damage_Percent_Bonus_Vs_Elites;
+		public Value<Float> Hitpoints_On_Kill;
 	}
 }

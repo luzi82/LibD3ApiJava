@@ -25,6 +25,8 @@ public class ItemInformation {
 		
 	}
 	public Type type;
+	
+	public Value<Integer> armor;
 
 	public RandomAffixe.OneOf.Attributes attributes;
 	public RandomAffixe.OneOf.AttributesRaw attributesRaw;
@@ -108,12 +110,13 @@ public class ItemInformation {
 				public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
 				public Value<Float> Weapon_On_Hit_Blind_Proc_Chance;
 
-				public static class Value<T> {
-					public T min;
-					public T max;
-				}
 			}
 		}
+	}
+
+	public static class Value<T> {
+		public T min;
+		public T max;
 	}
 
 	public static class Recipt {

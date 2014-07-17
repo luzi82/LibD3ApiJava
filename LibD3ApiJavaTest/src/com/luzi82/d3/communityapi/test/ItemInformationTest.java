@@ -252,4 +252,15 @@ public class ItemInformationTest {
 		Assert.assertEquals(0.07f, ii.attributesRaw.Attacks_Per_Second_Percent.min, 0.000001f);
 		Assert.assertEquals(0.07f, ii.attributesRaw.Attacks_Per_Second_Percent.max, 0.000001f);
 	}
+
+	@Test
+	public void test_009() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_009.json");
+		
+		Assert.assertEquals(141f, ii.attributesRaw.Resistance_Cold.min, 0.000001f);
+		Assert.assertEquals(141f, ii.attributesRaw.Resistance_Cold.max, 0.000001f);
+		
+		Assert.assertEquals(0.33f, ii.attributesRaw.CrowdControl_Reduction.min, 0.000001f);
+		Assert.assertEquals(0.33f, ii.attributesRaw.CrowdControl_Reduction.max, 0.000001f);
+	}
 }

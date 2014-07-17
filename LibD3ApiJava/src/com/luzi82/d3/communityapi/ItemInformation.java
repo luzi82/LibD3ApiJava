@@ -156,6 +156,8 @@ public class ItemInformation {
 
 		@JsonProperty("Resistance#Arcane")
 		public Value<Float> Resistance_Arcane;
+		@JsonProperty("Resistance#Cold")
+		public Value<Float> Resistance_Cold;
 		
 		public Value<Float> Gold_PickUp_Radius;
 		public Value<Float> Item_Indestructible;
@@ -175,6 +177,7 @@ public class ItemInformation {
 		public Value<Float> Weapon_On_Hit_Stun_Proc_Chance;
 		public Value<Float> Attribute_Set_Item_Discount;
 		public Value<Float> Attacks_Per_Second_Percent;
+		public Value<Float> CrowdControl_Reduction;
 		
 		@JsonProperty("Damage_Weapon_Min#Physical")
 		public Value<Float> Damage_Weapon_Min_Physical;

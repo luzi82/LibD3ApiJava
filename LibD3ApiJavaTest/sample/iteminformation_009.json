@@ -1,0 +1,224 @@
+{
+"id" : "Unique_Amulet_007_x1",
+"name" : "Tal Rasha's Allegiance",
+"icon" : "unique_amulet_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClsIvJ6h0AYSBwgEFbzqCVsdS7X5Sx0do43EHdzXvgQdmwYAyx3zcAetHbDBCXIwiwI4hgFAAFASWARgwAKAAUalAZsGAMutAX5Wsy61AbDFRGS4Aei27-cEwAEEGPiqz7ALUARYAqAB2YTXpwugAajO478CoAH4qs-wCw",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Tal Rasha valiantly led the Horadrim under the guidance of Tyrael, the archangel of Justice. Their oath is carved onto the surface of this amulet.",
+"typeName" : "Set Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 20% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+731 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 92.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 9.0%",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+141 Cold Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 33%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 134.0,
+"max" : 134.0
+},
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.2,
+"max" : 0.2
+},
+"Crit_Damage_Percent" : {
+"min" : 0.92,
+"max" : 0.92
+},
+"Durability_Max" : {
+"min" : 320.0,
+"max" : 320.0
+},
+"Intelligence_Item" : {
+"min" : 731.0,
+"max" : 731.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.682228656E9,
+"max" : 1.682228656E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance#Cold" : {
+"min" : 141.0,
+"max" : 141.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.33000000000000007,
+"max" : 0.33000000000000007
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.09,
+"max" : 0.09
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 320.0,
+"max" : 320.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Tal Rasha's Elements",
+"items" : [ {
+"id" : "Unique_Amulet_007_x1",
+"name" : "Tal Rasha's Allegiance",
+"icon" : "unique_amulet_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-allegiance"
+}, {
+"id" : "Unique_Belt_006_x1",
+"name" : "Tal Rasha's Brace",
+"icon" : "unique_belt_006_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-brace"
+}, {
+"id" : "Unique_Helm_010_x1",
+"name" : "Tal Rasha's Guise of Wisdom",
+"icon" : "unique_helm_010_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-guise-of-wisdom"
+}, {
+"id" : "Unique_Chest_014_x1",
+"name" : "Tal Rasha's Relentless Pursuit",
+"icon" : "unique_chest_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-relentless-pursuit"
+}, {
+"id" : "Unique_Orb_012_x1",
+"name" : "Tal Rasha's Unwavering Glare",
+"icon" : "unique_orb_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-unwavering-glare"
+} ],
+"slug" : "tal-rashas-elements",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Fire skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Lightning skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Arcane skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Dealt_Percent_Bonus#Arcane" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Fire" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Lightning" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+100 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Arcane Power Regeneration by 2.00 per Second (Wizard Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 100.0,
+"max" : 100.0
+},
+"Resource_Regen_Per_Second#Arcanum" : {
+"min" : 2.0,
+"max" : 2.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Damaging enemies with Arcane, Cold, Fire or Lightning will cause a Meteor of the same damage type to fall from the sky. There is an 8 second cooldown for each damage type.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_710_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

@@ -154,5 +154,9 @@ public class ItemInformation {
 		public Value<Float> Gold_PickUp_Radius;
 		public Value<Float> Item_Indestructible;
 		public Value<Float> Intelligence;
+		public Value<Float> IsCrafted;
+		public Value<Float> Experience_Bonus;
+		public Value<Float> Hitpoints_Regen_Per_Second;
+		public Value<Float> Resource_Cost_Reduction_Percent_All;
 	}
 }

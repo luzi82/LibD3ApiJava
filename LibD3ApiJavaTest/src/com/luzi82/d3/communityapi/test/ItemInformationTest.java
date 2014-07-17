@@ -151,4 +151,20 @@ public class ItemInformationTest {
 		Assert.assertEquals(1.0f, ii.set.ranks[1].attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_727_x1.min, 0.000001f);
 	}
 
+	@Test
+	public void test_003() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_003.json");
+
+		Assert.assertEquals(1f, ii.attributesRaw.IsCrafted.min, 0.000001f);
+		Assert.assertEquals(1f, ii.attributesRaw.IsCrafted.max, 0.000001f);
+
+		Assert.assertEquals(189f, ii.attributesRaw.Experience_Bonus.min, 0.000001f);
+		Assert.assertEquals(189f, ii.attributesRaw.Experience_Bonus.max, 0.000001f);
+
+		Assert.assertEquals(2000f, ii.set.ranks[0].attributesRaw.Hitpoints_Regen_Per_Second.min, 0.000001f);
+		Assert.assertEquals(2000f, ii.set.ranks[0].attributesRaw.Hitpoints_Regen_Per_Second.max, 0.000001f);
+
+		Assert.assertEquals(0.1f, ii.set.ranks[1].attributesRaw.Resource_Cost_Reduction_Percent_All.min, 0.000001f);
+		Assert.assertEquals(0.1f, ii.set.ranks[1].attributesRaw.Resource_Cost_Reduction_Percent_All.max, 0.000001f);
+	}
 }

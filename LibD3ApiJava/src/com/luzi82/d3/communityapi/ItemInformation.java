@@ -173,6 +173,8 @@ public class ItemInformation {
 		public Value<Float> Hitpoints_On_Kill;
 		public Value<Float> Attacks_Per_Second_Item;
 		public Value<Float> Weapon_On_Hit_Stun_Proc_Chance;
+		public Value<Float> Attribute_Set_Item_Discount;
+		public Value<Float> Attacks_Per_Second_Percent;
 		
 		@JsonProperty("Damage_Weapon_Min#Physical")
 		public Value<Float> Damage_Weapon_Min_Physical;

@@ -363,4 +363,12 @@ public class ItemInformationTest {
 		Assert.assertEquals(12f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_513_x1.max, 0.000001f);
 	}
 
+	@Test
+	public void test_019() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_019.json");
+
+		Assert.assertEquals(0.39f, ii.attributesRaw.Magic_Find.min, 0.000001f);
+		Assert.assertEquals(0.39f, ii.attributesRaw.Magic_Find.max, 0.000001f);
+	}
+
 }

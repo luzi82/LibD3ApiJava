@@ -1,0 +1,132 @@
+{
+"id" : "Unique_VoodooMask_102_x1",
+"name" : "Mask of Jeram",
+"icon" : "unique_voodoomask_102_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Cm0Ituez1wgSBwgEFZIeP9AdP_IJ2B06ddqMHTsnbyQdZiMGUB3zcAetMIsCONoCQABQElgEYNoCaisKDAgAEL7moZaAgICgNRIbCJSHm_IKEgcIBBXVXbZ6MI8COABAAVgEkAEAgAFGtQGZAPUkGNuFh_wFUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Long ago, a powerful witch doctor named Jeram waged a one-man war on the khazra after they slew his family. To pursue his vendetta, Jeram crafted this terrible mask, capable of calling all manner of beasts and the walking dead to his service. Those who came across the ruined khazra villages—with their dead half devoured, swollen with venom, and scorched by fire—knew it could only be Jeram's work.",
+"typeName" : "Legendary Voodoo Mask",
+"type" : {
+"twoHanded" : false,
+"id" : "VoodooMask"
+},
+"armor" : {
+"min" : 667.0,
+"max" : 667.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+727 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+98 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 1948 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+34% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Pets deal 97% more damage.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Legendary_Item_Base_Item" : {
+"min" : 6.20036249E8,
+"max" : 6.20036249E8
+},
+"Intelligence_Item" : {
+"min" : 727.0,
+"max" : 727.0
+},
+"Durability_Cur" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Durability_Max" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Gold_Find" : {
+"min" : 0.34,
+"max" : 0.34
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 1948.0,
+"max" : 1948.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_526_x1" : {
+"min" : 0.97,
+"max" : 0.97
+},
+"Resistance_All" : {
+"min" : 98.0,
+"max" : 98.0
+},
+"Armor_Item" : {
+"min" : 667.0,
+"max" : 667.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_17",
+"name" : "Flawless Imperial Topaz",
+"icon" : "topaz_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIlIeb8goSBwgEFdVdtnowjwI4AEABWASQAQAYqveyqw8"
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "37% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Magic_Find" : {
+"min" : 0.37,
+"max" : 0.37
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

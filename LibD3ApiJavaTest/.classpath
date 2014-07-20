@@ -7,5 +7,13 @@
 	<classpathentry kind="lib" path="/3rdparty/jackson/jackson-annotations-2.4.0.jar"/>
 	<classpathentry kind="lib" path="/3rdparty/jackson/jackson-core-2.4.0.jar"/>
 	<classpathentry kind="lib" path="/3rdparty/jackson/jackson-databind-2.4.0.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/fluent-hc-4.3.4.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/httpclient-cache-4.3.4.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/http/httpcomponents-client-4.3.4/lib/httpmime-4.3.4.jar"/>
+	<classpathentry kind="lib" path="/3rdparty/commons-io/commons-io-2.4/commons-io-2.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

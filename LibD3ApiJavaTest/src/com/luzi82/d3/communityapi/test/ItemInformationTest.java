@@ -128,26 +128,26 @@ public class ItemInformationTest {
 
 		Assert.assertEquals(580.0f, ii.attributesRaw.Armor_Bonus_Item.min, 0.000001f);
 		Assert.assertEquals(580.0f, ii.attributesRaw.Armor_Bonus_Item.max, 0.000001f);
-		
+
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.min, 0.000001f);
 		Assert.assertEquals(148.0f, ii.attributesRaw.Resistance_Arcane.max, 0.000001f);
-		
+
 		Assert.assertEquals("Diamond_19", ii.gems[0].item.id);
 	}
 
 	@Test
 	public void test_002() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_002.json");
-		
+
 		Assert.assertEquals(2f, ii.attributesRaw.Gold_PickUp_Radius.min, 0.000001f);
 		Assert.assertEquals(2f, ii.attributesRaw.Gold_PickUp_Radius.max, 0.000001f);
 
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Indestructible.min, 0.000001f);
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Indestructible.max, 0.000001f);
-		
+
 		Assert.assertEquals(500f, ii.set.ranks[0].attributesRaw.Intelligence.min, 0.000001f);
 		Assert.assertEquals(500f, ii.set.ranks[0].attributesRaw.Intelligence.max, 0.000001f);
-		
+
 		Assert.assertEquals(1.0f, ii.set.ranks[1].attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_727_x1.min, 0.000001f);
 		Assert.assertEquals(1.0f, ii.set.ranks[1].attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_727_x1.min, 0.000001f);
 	}
@@ -172,7 +172,7 @@ public class ItemInformationTest {
 	@Test
 	public void test_004() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_004.json");
-		
+
 		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.min, 0.000001f);
 		Assert.assertEquals(0.47f, ii.attributesRaw.Crit_Damage_Percent.max, 0.000001f);
 	}
@@ -186,13 +186,13 @@ public class ItemInformationTest {
 
 		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Melee.min, 0.000001f);
 		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Melee.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Ranged.min, 0.000001f);
 		Assert.assertEquals(0.07f, ii.set.ranks[0].attributesRaw.Damage_Percent_Reduction_From_Ranged.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Reduction_From_Elites.min, 0.000001f);
 		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Reduction_From_Elites.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Bonus_Vs_Elites.min, 0.000001f);
 		Assert.assertEquals(0.15f, ii.set.ranks[1].attributesRaw.Damage_Percent_Bonus_Vs_Elites.max, 0.000001f);
 	}
@@ -223,10 +223,10 @@ public class ItemInformationTest {
 
 		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attributesRaw.Attacks_Per_Second_Item.min, 0.000001f);
 		Assert.assertEquals(1.399999976158142f, ii.transmogItem.attributesRaw.Attacks_Per_Second_Item.max, 0.000001f);
-		
+
 		Assert.assertEquals(17f, ii.transmogItem.attributesRaw.Damage_Weapon_Min_Physical.min, 0.000001f);
 		Assert.assertEquals(17f, ii.transmogItem.attributesRaw.Damage_Weapon_Min_Physical.max, 0.000001f);
-		
+
 		Assert.assertEquals(22f, ii.transmogItem.attributesRaw.Damage_Weapon_Delta_Physical.min, 0.000001f);
 		Assert.assertEquals(22f, ii.transmogItem.attributesRaw.Damage_Weapon_Delta_Physical.max, 0.000001f);
 
@@ -257,10 +257,10 @@ public class ItemInformationTest {
 	@Test
 	public void test_009() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_009.json");
-		
+
 		Assert.assertEquals(141f, ii.attributesRaw.Resistance_Cold.min, 0.000001f);
 		Assert.assertEquals(141f, ii.attributesRaw.Resistance_Cold.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.33f, ii.attributesRaw.CrowdControl_Reduction.min, 0.000001f);
 		Assert.assertEquals(0.33f, ii.attributesRaw.CrowdControl_Reduction.max, 0.000001f);
 	}
@@ -268,7 +268,7 @@ public class ItemInformationTest {
 	@Test
 	public void test_010() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_010.json");
-		
+
 		Assert.assertEquals(2298f, ii.attributesRaw.Hitpoints_On_Hit.min, 0.000001f);
 		Assert.assertEquals(2298f, ii.attributesRaw.Hitpoints_On_Hit.max, 0.000001f);
 
@@ -282,28 +282,39 @@ public class ItemInformationTest {
 
 		Assert.assertEquals(0.08f, ii.attributesRaw.Damage_Weapon_Percent_Bonus_Physical.min, 0.000001f);
 		Assert.assertEquals(0.08f, ii.attributesRaw.Damage_Weapon_Percent_Bonus_Physical.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.010800000000000032f, ii.attributesRaw.Weapon_On_Hit_Immobilize_Proc_Chance.min, 0.000001f);
 		Assert.assertEquals(0.010800000000000032f, ii.attributesRaw.Weapon_On_Hit_Immobilize_Proc_Chance.max, 0.000001f);
 	}
-		
+
 	@Test
 	public void test_012() throws JsonParseException, JsonMappingException, IOException {
 		ItemInformation ii = IO.readItemInformation("sample/iteminformation_012.json");
-		
+
 		Assert.assertEquals(2443f, ii.transmogItem.attributesRaw.Block_Amount_Item_Min.min, 0.000001f);
 		Assert.assertEquals(3053f, ii.transmogItem.attributesRaw.Block_Amount_Item_Min.max, 0.000001f);
-		
+
 		Assert.assertEquals(488f, ii.transmogItem.attributesRaw.Block_Amount_Item_Delta.min, 0.000001f);
 		Assert.assertEquals(1221f, ii.transmogItem.attributesRaw.Block_Amount_Item_Delta.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.1f, ii.transmogItem.attributesRaw.Block_Chance_Item.min, 0.000001f);
 		Assert.assertEquals(0.2f, ii.transmogItem.attributesRaw.Block_Chance_Item.max, 0.000001f);
-		
+
 		Assert.assertEquals(0.1f, ii.transmogItem.blockChance.min, 0.000001f);
 		Assert.assertEquals(0.2f, ii.transmogItem.blockChance.max, 0.000001f);
 
 		Assert.assertEquals(0.1f, ii.attributesRaw.Block_Chance_Bonus_Item.min, 0.000001f);
 		Assert.assertEquals(0.1f, ii.attributesRaw.Block_Chance_Bonus_Item.max, 0.000001f);
+	}
+
+	@Test
+	public void test_013() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_013.json");
+		
+		Assert.assertEquals(0.11380000000000001f, ii.attributesRaw.Weapon_On_Hit_Fear_Proc_Chance.min, 0.000001f);
+		Assert.assertEquals(0.11380000000000001f, ii.attributesRaw.Weapon_On_Hit_Fear_Proc_Chance.max, 0.000001f);
+
+		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_648_x1.min, 0.000001f);
+		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_648_x1.max, 0.000001f);
 	}
 }

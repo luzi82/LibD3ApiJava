@@ -144,12 +144,13 @@ public class ItemInformation {
 		public Value<Float> Damage_Percent_Bonus_Vs_Elites;
 		public Value<Float> Hitpoints_On_Kill;
 		public Value<Float> Attacks_Per_Second_Item;
-		public Value<Float> Weapon_On_Hit_Stun_Proc_Chance;
 		public Value<Float> Attribute_Set_Item_Discount;
 		public Value<Float> Attacks_Per_Second_Percent;
 		public Value<Float> CrowdControl_Reduction;
 		public Value<Float> Hitpoints_On_Hit;
 		public Value<Float> Weapon_On_Hit_Immobilize_Proc_Chance;
+		public Value<Float> Weapon_On_Hit_Fear_Proc_Chance;
+		public Value<Float> Weapon_On_Hit_Stun_Proc_Chance;
 		public Value<Float> Block_Amount_Item_Min;
 		public Value<Float> Block_Amount_Item_Delta;
 		public Value<Float> Block_Chance_Item;
@@ -236,6 +237,8 @@ public class ItemInformation {
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_515_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_581_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_581_x1;
+		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_648_x1")
+		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_648_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_710_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_710_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_715_x1")

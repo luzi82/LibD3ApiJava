@@ -1,0 +1,118 @@
+{
+"id" : "Ring_25",
+"name" : "The Vow",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cl8Iy8G_iQoSBwgEFTZVXUQdaGvZNB2SlNwIHUo8Hr0dnQeVJB1rB3fOHUq1-UsiCwgAFc3-AQAYCCAYMIsCOPEDQABQEFgEYPcDpQFKPB69rQGo1nX8uAG4yt_6CMABBBjs1OrFCFACWAI",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+363 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+88 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 41.0%",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 5.5%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1395 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 15%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 503.0,
+"max" : 503.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.41,
+"max" : 0.41
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.15000000000000002,
+"max" : 0.15000000000000002
+},
+"Resistance_All" : {
+"min" : 88.0,
+"max" : 88.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1395.0,
+"max" : 1395.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.055,
+"max" : 0.055
+},
+"Strength_Item" : {
+"min" : 363.0,
+"max" : 363.0
+},
+"Durability_Max" : {
+"min" : 503.0,
+"max" : 503.0
+},
+"Durability_Cur" : {
+"min" : 497.0,
+"max" : 497.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Ring",
+"slug" : "sovereign-ring",
+"name" : "Sovereign Ring",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 2,
+"item" : {
+"id" : "Diamond_16",
+"name" : "Imperial Diamond",
+"icon" : "diamond_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-diamond"
+}
+} ],
+"itemProduced" : {
+"id" : "Ring_25",
+"name" : "Sovereign Ring",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ring"
+}
+} ]
+}

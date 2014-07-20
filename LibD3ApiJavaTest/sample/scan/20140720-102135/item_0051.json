@@ -1,0 +1,434 @@
+{
+"id" : "Unique_Chest_027_x1",
+"name" : "Demon's Marrow",
+"icon" : "unique_chest_027_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CuEBCJXHj5wMEgcIBBUtN5FOHTsnbyQdQ05EUR2pIDa6HXMjBlAdP_IJ2B3ZP9SfMI8COJYDQABIClASWARgnQNqKwoMCAAQ-YT_s4CAgOANEhsIx9Lc9A0SBwgEFWr1i18wiwI4AEABWASQAQBqKwoMCAAQqLONoYCAgKAdEhsI397zhg4SBwgEFWr1i18wjwI4AEABWASQAQBqKwoMCAAQmuLNnoCAgMAlEhsIkqquuwUSBwgEFWr1i18wjwI4AEABWASQAQCNASwiGWClAdk_1J-tAcStOVy4AcC2uu8JwAEDGNrciekJUApYAqABj5yw4QWgAdrciekJ",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Sulam had a vision of creating a suit of armor, crafted from the flesh of demons, in order to use their power against them.",
+"transmogItem" : {
+"id" : "ChestArmor_203",
+"name" : "Warlord Plate",
+"icon" : "chestarmor_203_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/warlord-plate",
+"requiredLevel" : 59,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericChestArmor"
+},
+"armor" : {
+"min" : 285.0,
+"max" : 322.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 285.0,
+"max" : 322.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Set Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "ChestArmor"
+},
+"armor" : {
+"min" : 715.0,
+"max" : 715.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+436 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+483 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+92 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+33% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 2949 damage per hit",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Sockets" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 413.0,
+"max" : 413.0
+},
+"Strength_Item" : {
+"min" : 436.0,
+"max" : 436.0
+},
+"Gold_Find" : {
+"min" : 0.33,
+"max" : 0.33
+},
+"Thorns_Fixed#Physical" : {
+"min" : 2949.0,
+"max" : 2949.0
+},
+"Armor_Item" : {
+"min" : 715.0,
+"max" : 715.0
+},
+"Durability_Max" : {
+"min" : 413.0,
+"max" : 413.0
+},
+"Resistance_All" : {
+"min" : 92.0,
+"max" : 92.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 483.0,
+"max" : 483.0
+},
+"Durability_Cur" : {
+"min" : 406.0,
+"max" : 406.0
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Ruby_18",
+"name" : "Royal Ruby",
+"icon" : "ruby_18_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIx9Lc9A0SBwgEFWr1i18wiwI4AEABWASQAQAY1NXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+220 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 220.0,
+"max" : 220.0
+}
+}
+}, {
+"item" : {
+"id" : "Ruby_18",
+"name" : "Royal Ruby",
+"icon" : "ruby_18_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI397zhg4SBwgEFWr1i18wjwI4AEABWASQAQAY1NXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+220 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 220.0,
+"max" : 220.0
+}
+}
+}, {
+"item" : {
+"id" : "Ruby_18",
+"name" : "Royal Ruby",
+"icon" : "ruby_18_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIkqquuwUSBwgEFWr1i18wjwI4AEABWASQAQAY1NXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+220 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 220.0,
+"max" : 220.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Demon's Hide",
+"items" : [ {
+"id" : "Unique_Shoulder_009_x1",
+"name" : "Demon's Aileron",
+"icon" : "unique_shoulder_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-aileron"
+}, {
+"id" : "Unique_Bracer_011_x1",
+"name" : "Demon's Animus",
+"icon" : "unique_bracer_011_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-animus"
+}, {
+"id" : "Unique_Chest_027_x1",
+"name" : "Demon's Marrow",
+"icon" : "unique_chest_027_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-marrow"
+}, {
+"id" : "Unique_Pants_014_x1",
+"name" : "Demon's Plate",
+"icon" : "unique_pants_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-plate"
+}, {
+"id" : "Unique_Belt_014_x1",
+"name" : "Demon's Restraint",
+"icon" : "unique_belt_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-restraint"
+} ],
+"slug" : "demons-hide",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 6000 Fire damage per hit.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Thorns_Fixed#Fire" : {
+"min" : 6000.0,
+"max" : 6000.0
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "Chance to Deal 25% Area Damage on Hit.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Splash_Damage_Effect_Percent" : {
+"min" : 0.25,
+"max" : 0.25
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "+15% Damage to Demons",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance to reflect projectiles when you are hit by enemies.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Shoulder_009" : {
+"min" : 0.2,
+"max" : 0.2
+},
+"Damage_Percent_Bonus_Vs_Monster_Type#Demon" : {
+"min" : 0.15000000000000002,
+"max" : 0.15000000000000002
+}
+}
+} ]
+},
+"recipe" : {
+"id" : "T12_Legendary_Set_Demon_Chest_X1",
+"slug" : "demons-marrow",
+"name" : "Demon's Marrow",
+"cost" : 216000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "ChestArmor_208",
+"name" : "Ascended Armor",
+"icon" : "chestarmor_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-armor"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Demon_X1",
+"name" : "Demon Skin",
+"icon" : "craftingreagent_legendary_set_demon_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/demon-skin"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Chest_027_x1",
+"name" : "Demon's Marrow",
+"icon" : "unique_chest_027_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-marrow"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Demon_Chest_X1",
+"slug" : "demons-marrow",
+"name" : "Demon's Marrow",
+"cost" : 216000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "ChestArmor_208",
+"name" : "Ascended Armor",
+"icon" : "chestarmor_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-armor"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Demon_X1",
+"name" : "Demon Skin",
+"icon" : "craftingreagent_legendary_set_demon_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/demon-skin"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Chest_027_x1",
+"name" : "Demon's Marrow",
+"icon" : "unique_chest_027_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-marrow"
+}
+} ]
+}

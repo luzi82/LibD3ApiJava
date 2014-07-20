@@ -1,0 +1,52 @@
+{
+"id" : "Amulet06",
+"name" : "Adventuring Amulet",
+"icon" : "amulet06_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAI1MGvhw0SBwgEFY7FRGQdJ5ZAYDAJOKQEQABQBmCkBBiclqbEDA",
+"requiredLevel" : 27,
+"itemLevel" : 30,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "Monster kills grant +7 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 548.0,
+"max" : 548.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Experience_Bonus" : {
+"min" : 7.0,
+"max" : 7.0
+},
+"Durability_Max" : {
+"min" : 548.0,
+"max" : 548.0
+},
+"Durability_Cur" : {
+"min" : 548.0,
+"max" : 548.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

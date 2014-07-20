@@ -1,0 +1,139 @@
+{
+"id" : "Bow_102",
+"name" : "Sovereign Frost",
+"icon" : "bow_102_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmMIivuAwQwSBwgEFXoyVoMdp1D_Rh1E7gfyHXr2jM8dlL80iiILCAEVakIDABgaICIwCTiiBEAAUAxgogRqJQoMCAAQ7LzQz4CAgIAJEhUIz8uYrgoSBwgEFUn1i18wCTgAQAEYi7bOyg8",
+"requiredLevel" : 34,
+"itemLevel" : 36,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Bow",
+"type" : {
+"twoHanded" : true,
+"id" : "Bow"
+},
+"dps" : {
+"min" : 93.79999840259552,
+"max" : 93.79999840259552
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 37.0,
+"max" : 37.0
+},
+"maxDamage" : {
+"min" : 93.0,
+"max" : 93.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1–3 Cold Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+48 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+61 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "1.4% Chance to Knockback on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 48.0,
+"max" : 48.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 546.0,
+"max" : 546.0
+},
+"Bow" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Vitality_Item" : {
+"min" : 61.0,
+"max" : 61.0
+},
+"Damage_Weapon_Min#Cold" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 56.0,
+"max" : 56.0
+},
+"Weapon_On_Hit_Knockback_Proc_Chance" : {
+"min" : 0.013900000000000023,
+"max" : 0.013900000000000023
+},
+"Damage_Weapon_Delta#Cold" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 546.0,
+"max" : 546.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Cur" : {
+"min" : 546.0,
+"max" : 546.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 12.0,
+"max" : 12.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Ruby_08",
+"name" : "Flawless Square Ruby",
+"icon" : "ruby_08_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChUIz8uYrgoSBwgEFUn1i18wCTgAQAEYktXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+25 Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Bonus_Flat#Physical" : {
+"min" : 25.0,
+"max" : 25.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,366 @@
+{
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CloI7Ln7iAQSBwgEFXz9uHMdm4b24h07J28kHUNORFEdII03VB1yjh0hHdPMB2MwjwI46AJAAEgDUBJYBGDoAo0BFz2bf6UBQ05EUa0BQ05EUbgBydnAzg7AAQgY-PXHuw5QBFgCoAHu-_CZDaAB-PXHuw4",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Captain Crimson, scourge of the Twin Seas, claimed his numerous victories were the result of sensible—yet fashionable—footwear.",
+"transmogItem" : {
+"id" : "Boots_001",
+"name" : "Shoes",
+"icon" : "boots_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/shoes",
+"requiredLevel" : 1,
+"itemLevel" : 3,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Set Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 928.0,
+"max" : 928.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+468 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+473 Vitality",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+91 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+387 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +189 experience.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ignores Durability Loss",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 468.0,
+"max" : 468.0
+},
+"Item_Indestructible" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Experience_Bonus" : {
+"min" : 189.0,
+"max" : 189.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 360.0,
+"max" : 360.0
+},
+"Armor_Item" : {
+"min" : 541.3333129882812,
+"max" : 541.3333129882812
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Cur" : {
+"min" : 360.0,
+"max" : 360.0
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Vitality_Item" : {
+"min" : 473.0,
+"max" : 473.0
+},
+"Armor_Bonus_Item" : {
+"min" : 387.0,
+"max" : 387.0
+},
+"Resistance_All" : {
+"min" : 91.0,
+"max" : 91.0
+},
+"Durability_Max" : {
+"min" : 360.0,
+"max" : 360.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Captain Crimson's Trimmings",
+"items" : [ {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}, {
+"id" : "Unique_Pants_012_x1",
+"name" : "Captain Crimson's Thrust",
+"icon" : "unique_pants_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-thrust"
+}, {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+} ],
+"slug" : "captain-crimsons-trimmings",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 2000 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 10.0%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Regen_Per_Second" : {
+"min" : 2000.0,
+"max" : 2000.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 10%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 50.0,
+"max" : 50.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+}
+}
+} ]
+},
+"recipe" : {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Boots_X1",
+"slug" : "captain-crimsons-waders",
+"name" : "Captain Crimsons Waders",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Boots_208",
+"name" : "Ascended Greaves",
+"icon" : "boots_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-greaves"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Boots_X1",
+"slug" : "captain-crimsons-waders",
+"name" : "Captain Crimsons Waders",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Boots_208",
+"name" : "Ascended Greaves",
+"icon" : "boots_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-greaves"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+}
+} ]
+}

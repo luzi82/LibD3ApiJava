@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Chest_010_x1",
+"name" : "Chaingmail",
+"icon" : "unique_chest_010_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAImIDynQUSBwgEFQVIe04dco4dIR2pIDa6HSCNN1QdOydvJB1DTkRRMIsCOIQDQABQElgEYIQDgAFGtQExIhlgGIqg2ucJUAJYAg",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The magical properties of a piece of armor such as this intrigue the mind. It was constructed from the finest parts of many different armors that were worn by many different heroes.",
+"typeName" : "Legendary Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "ChestArmor"
+},
+"armor" : {
+"min" : 1043.0,
+"max" : 1043.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+432 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+460 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+99 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+375 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +172 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "After earning a survival bonus, quickly heal to full Life.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_616_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.612259889E9,
+"max" : 1.612259889E9
+},
+"Strength_Item" : {
+"min" : 432.0,
+"max" : 432.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance_All" : {
+"min" : 99.0,
+"max" : 99.0
+},
+"Vitality_Item" : {
+"min" : 460.0,
+"max" : 460.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Armor_Item" : {
+"min" : 668.0,
+"max" : 668.0
+},
+"Experience_Bonus" : {
+"min" : 172.0,
+"max" : 172.0
+},
+"Armor_Bonus_Item" : {
+"min" : 375.0,
+"max" : 375.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

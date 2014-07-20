@@ -1,0 +1,113 @@
+{
+"id" : "Unique_BarbBelt_004_x1",
+"name" : "Girdle of Giants",
+"icon" : "unique_barbbelt_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI752yzA0SBwgEFa8-FTcd1jy9SR0KcJEpHWGXU1Adx9kpTh1oa9k0HX52VaEwiwI4rwJAAFASWARgrwKAAUC1AZP35H0Y3vqp8QZQAlgC",
+"requiredLevel" : 61,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "No belt is too big. Except this one.",
+"typeName" : "Legendary Mighty Belt",
+"type" : {
+"twoHanded" : false,
+"id" : "Belt_Barbarian"
+},
+"armor" : {
+"min" : 705.0,
+"max" : 705.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+406 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+329 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Bash Damage by 15% (Barbarian Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+31% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "+10 Maximum Fury (Barbarian Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 303.0,
+"max" : 303.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 2.112157587E9,
+"max" : 2.112157587E9
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 376.0,
+"max" : 376.0
+},
+"Gold_Find" : {
+"min" : 0.31,
+"max" : 0.31
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 303.0,
+"max" : 303.0
+},
+"Durability_Max" : {
+"min" : 303.0,
+"max" : 303.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 64.0,
+"max" : 64.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Power_Damage_Percent_Bonus#Barbarian_Bash" : {
+"min" : 0.15,
+"max" : 0.15
+},
+"Strength_Item" : {
+"min" : 406.0,
+"max" : 406.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Resource_Max_Bonus#Fury" : {
+"min" : 10.0,
+"max" : 10.0
+},
+"Armor_Bonus_Item" : {
+"min" : 329.0,
+"max" : 329.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

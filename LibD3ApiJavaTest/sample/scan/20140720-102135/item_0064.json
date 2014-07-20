@@ -1,0 +1,310 @@
+{
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CjkIheXHqg8SBwgEFc85RuIdxMOCdB1dD-WIHRRrfXYd-YaqSh0o_n0BHbpN-CowDzj1AkAAUBJg9QIY4ZjO2wM",
+"requiredLevel" : 1,
+"itemLevel" : 63,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Crafted of trophies ripped from vanquished foes, none can deny the bravery of a hero who wears a Hellfire Ring.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"armor" : {
+"min" : 264.0,
+"max" : 264.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+19 Minimum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+176 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+264 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+1003 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "14% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Bonus Experience by 35%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance to launch an explosive ball of Hellfire when you attack.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 373.0,
+"max" : 373.0
+},
+"Damage_Bonus_Min#Physical" : {
+"min" : 19.0,
+"max" : 19.0
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Intelligence_Item" : {
+"min" : 176.0,
+"max" : 176.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 373.0,
+"max" : 373.0
+},
+"Experience_Bonus_Percent" : {
+"min" : 0.35,
+"max" : 0.35
+},
+"Durability_Max" : {
+"min" : 373.0,
+"max" : 373.0
+},
+"Magic_Find" : {
+"min" : 0.14,
+"max" : 0.14
+},
+"Armor_Bonus_Item" : {
+"min" : 264.0,
+"max" : 264.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 1003.0,
+"max" : 1003.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_024" : {
+"min" : 0.1,
+"max" : 0.1
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"recipe" : {
+"id" : "Jeweler_ShardRing_Red",
+"slug" : "hellfire-ring-of-strength",
+"name" : "Hellfire Ring of Strength",
+"cost" : 50000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Eye",
+"name" : "Vengeful Eye",
+"icon" : "demonorgan_eye_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/vengeful-eye"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Tooth",
+"name" : "Devil's Fang",
+"icon" : "demonorgan_tooth_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/devils-fang"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_SpineCord",
+"name" : "Writhing Spine",
+"icon" : "demonorgan_spinecord_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/writhing-spine"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/hellfire-ring-of-strength"
+}
+},
+"craftedBy" : [ {
+"id" : "Jeweler_ShardRing_Red",
+"slug" : "hellfire-ring-of-strength",
+"name" : "Hellfire Ring of Strength",
+"cost" : 50000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Eye",
+"name" : "Vengeful Eye",
+"icon" : "demonorgan_eye_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/vengeful-eye"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Tooth",
+"name" : "Devil's Fang",
+"icon" : "demonorgan_tooth_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/devils-fang"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_SpineCord",
+"name" : "Writhing Spine",
+"icon" : "demonorgan_spinecord_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/writhing-spine"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/hellfire-ring-of-strength"
+}
+}, {
+"id" : "Jeweler_ShardRing_Yellow",
+"slug" : "hellfire-ring-of-intelligence",
+"name" : "Hellfire Ring of Intelligence",
+"cost" : 50000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Eye",
+"name" : "Vengeful Eye",
+"icon" : "demonorgan_eye_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/vengeful-eye"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Tooth",
+"name" : "Devil's Fang",
+"icon" : "demonorgan_tooth_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/devils-fang"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_SpineCord",
+"name" : "Writhing Spine",
+"icon" : "demonorgan_spinecord_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/writhing-spine"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/hellfire-ring-of-intelligence"
+}
+}, {
+"id" : "Jeweler_ShardRing_Purple",
+"slug" : "hellfire-ring-of-vitality",
+"name" : "Hellfire Ring of Vitality",
+"cost" : 50000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Eye",
+"name" : "Vengeful Eye",
+"icon" : "demonorgan_eye_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/vengeful-eye"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Tooth",
+"name" : "Devil's Fang",
+"icon" : "demonorgan_tooth_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/devils-fang"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_SpineCord",
+"name" : "Writhing Spine",
+"icon" : "demonorgan_spinecord_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/writhing-spine"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/hellfire-ring-of-vitality"
+}
+}, {
+"id" : "Jeweler_ShardRing_Green",
+"slug" : "hellfire-ring-of-dexterity",
+"name" : "Hellfire Ring of Dexterity",
+"cost" : 50000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Eye",
+"name" : "Vengeful Eye",
+"icon" : "demonorgan_eye_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/vengeful-eye"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_Tooth",
+"name" : "Devil's Fang",
+"icon" : "demonorgan_tooth_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/devils-fang"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "DemonOrgan_SpineCord",
+"name" : "Writhing Spine",
+"icon" : "demonorgan_spinecord_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/writhing-spine"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Ring_024_104",
+"name" : "Hellfire Ring",
+"icon" : "unique_ring_024_104_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/hellfire-ring-of-dexterity"
+}
+} ]
+}

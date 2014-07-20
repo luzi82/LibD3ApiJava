@@ -1,0 +1,156 @@
+{
+"id" : "Unique_Ring_015_x1",
+"name" : "Litany of the Undaunted",
+"icon" : "unique_ring_015_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CkUIyqCI0AcSBwgEFUNvNrkdMAgDuh3x02rVHTsnbyQdOnXajB1LtflLHdk_1J8wiwI4tgNAAFASWARgtgOAAUa1ATZVXUQY-cLM7AhQCFgCoAH5wszsCA",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The names of those who have given their lives to fight the scourge of the Burning Hells are inscribed on this band, each one giving its power to the wearer.",
+"typeName" : "Set Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+489 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+94 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 2095 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces damage from elites by 10.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+4444 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 29%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 438.0,
+"max" : 438.0
+},
+"Dexterity_Item" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.29000000000000004,
+"max" : 0.29000000000000004
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 2095.0,
+"max" : 2095.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 4444.0,
+"max" : 4444.0
+},
+"Resistance_All" : {
+"min" : 94.0,
+"max" : 94.0
+},
+"Durability_Max" : {
+"min" : 438.0,
+"max" : 438.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 438.0,
+"max" : 438.0
+},
+"Damage_Percent_Reduction_From_Elites" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Legacy of Nightmares",
+"items" : [ {
+"id" : "Unique_Ring_015_x1",
+"name" : "Litany of the Undaunted",
+"icon" : "unique_ring_015_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/litany-of-the-undaunted"
+}, {
+"id" : "Unique_Ring_014_x1",
+"name" : "The Wailing Host",
+"icon" : "unique_ring_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/the-wailing-host"
+} ],
+"slug" : "legacy-of-nightmares",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "+15% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "15% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "This ring sometimes summons a Skeleton when you attack.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_015_x1" : {
+"min" : 0.2,
+"max" : 0.2
+},
+"Magic_Find" : {
+"min" : 0.15,
+"max" : 0.15
+},
+"Gold_Find" : {
+"min" : 0.15,
+"max" : 0.15
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

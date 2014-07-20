@@ -1,0 +1,127 @@
+{
+"id" : 46315607,
+"name" : "StorageA",
+"class" : "demon-hunter",
+"gender" : 1,
+"level" : 4,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "hungering-arrow",
+"name" : "Hungering Arrow",
+"icon" : "demonhunter_hungeringarrow",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/demon-hunter/hungering-arrow",
+"description" : "Generate: 3 Hatred\r\n\r\nFire a magically imbued arrow that seeks out enemies for 155% weapon damage and has a 35% chance to pierce through them.",
+"simpleDescription" : "Generate: 3 Hatred\r\n\r\nFire a piercing arrow that seeks additional enemies.",
+"skillCalcId" : "a"
+}
+}, {
+"skill" : {
+"slug" : "impale",
+"name" : "Impale",
+"icon" : "demonhunter_impale",
+"level" : 2,
+"categorySlug" : "secondary",
+"tooltipUrl" : "skill/demon-hunter/impale",
+"description" : "Cost: 20 Hatred\r\n\r\nThrow a knife that impales an enemy for 620% weapon damage.",
+"simpleDescription" : "Cost: 20 Hatred\r\n\r\nThrow a knife that impales enemies.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "caltrops",
+"name" : "Caltrops",
+"icon" : "demonhunter_caltrops",
+"level" : 4,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/demon-hunter/caltrops",
+"description" : "Cost: 6 Discipline\r\n\r\nLay a trap of caltrops on the ground that activates when an enemy approaches. Once sprung, the caltrops Slow the movement of enemies within 12 yards by 60%. This trap lasts 6 seconds.",
+"simpleDescription" : "Cost: 6 Discipline\r\n\r\nPlace a trap that slows enemies.",
+"skillCalcId" : "Y"
+}
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"mainHand" : {
+"id" : "HandXbow_000",
+"name" : "Initiate's Hand Crossbow",
+"icon" : "handxbow_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIkYPYvQUSBwgEFUoVV-owiQI4kANAAGCQAxjrqsfaAlAAWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 202,
+"damage" : 3.65925,
+"attackSpeed" : 1.2000000476837158,
+"armor" : 11,
+"strength" : 11,
+"dexterity" : 19,
+"vitality" : 15,
+"intelligence" : 11,
+"physicalResist" : 1,
+"fireResist" : 1,
+"coldResist" : 1,
+"lightningResist" : 1,
+"poisonResist" : 1,
+"arcaneResist" : 1,
+"critDamage" : 1.5,
+"blockChance" : 0.0,
+"blockAmountMin" : 0,
+"blockAmountMax" : 0,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 125,
+"secondaryResource" : 30
+},
+"kills" : {
+"elites" : 1
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1404996310
+}

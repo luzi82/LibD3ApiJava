@@ -1,0 +1,82 @@
+{
+"id" : "ChestArmor_002",
+"name" : "Reptilian Leather Doublet",
+"icon" : "chestarmor_002_barbarian_female",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIwKmhbRIHCAQVqRkZYB0qQWZZMIkCOIYFQABQBmCGBRjS5siBDFACWAI",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericChestArmor"
+},
+"armor" : {
+"min" : 20.0,
+"max" : 20.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 1 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 20.0,
+"max" : 20.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 646.0,
+"max" : 646.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 646.0,
+"max" : 646.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max" : {
+"min" : 646.0,
+"max" : 646.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Armor_Chest",
+"slug" : "apprentice-leather-doublet",
+"name" : "Apprentice Leather Doublet",
+"cost" : 1500,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "ChestArmor_002",
+"name" : "Apprentice Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-leather-doublet"
+}
+} ]
+}

@@ -1,0 +1,105 @@
+{
+"id" : 47046420,
+"name" : "Supply",
+"class" : "witch-doctor",
+"gender" : 1,
+"level" : 1,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "poison-dart",
+"name" : "Poison Dart",
+"icon" : "witchdoctor_poisondart",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/witch-doctor/poison-dart",
+"description" : "This is a Signature spell. Signature spells are free to cast.\r\n\r\nShoot a deadly Poison Dart that deals 185% weapon damage as Poison and an additional 40% weapon damage as Poison over 2 seconds.",
+"simpleDescription" : "Signature Spell\r\n\r\nShoot a deadly Poison Dart.",
+"skillCalcId" : "a"
+}
+}, {
+}, {
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"mainHand" : {
+"id" : "CeremonialDagger_1H_000",
+"name" : "Simple Knife",
+"icon" : "ceremonialdagger_1h_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoI89CPyggSBwgEFTCOItowiQI4kANAAGCQAxifx-vdBFAGWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 130,
+"damage" : 3.3825,
+"attackSpeed" : 1.2000000476837158,
+"armor" : 8,
+"strength" : 8,
+"dexterity" : 8,
+"vitality" : 9,
+"intelligence" : 10,
+"physicalResist" : 1,
+"fireResist" : 1,
+"coldResist" : 1,
+"lightningResist" : 1,
+"poisonResist" : 1,
+"arcaneResist" : 1,
+"critDamage" : 1.5,
+"blockChance" : 0.0,
+"blockAmountMin" : 0,
+"blockAmountMax" : 0,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 750,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 0
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1403362334
+}

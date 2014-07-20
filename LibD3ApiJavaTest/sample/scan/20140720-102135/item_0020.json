@@ -1,0 +1,113 @@
+{
+"id" : "x1_FollowerItem_Enchantress_Legendary_01",
+"name" : "Smoking Thurible",
+"icon" : "x1_followeritem_enchantress_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI5s_coAUSBwgEFfgkI-Udco4dIR2x5OoRHbDBCXIdmwYAyx07J28kHfNwB60wiwI4ygJAAFASWARgygKAAUa1ATWjYi0Yj-zmrQM",
+"requiredLevel" : 70,
+"itemLevel" : 61,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The pungent smoke emanating from this censer serves to clear the mind, aiding in concentration and magical castings.",
+"typeName" : "Legendary Enchantress Focus",
+"type" : {
+"twoHanded" : false,
+"id" : "EnchantressSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+666 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+746 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+98 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 59.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+7310 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +164 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Equip on Follower: Your follower cannot die.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Vitality_Item" : {
+"min" : 746.0,
+"max" : 746.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_653_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.59,
+"max" : 0.59
+},
+"Experience_Bonus" : {
+"min" : 164.0,
+"max" : 164.0
+},
+"Resistance_All" : {
+"min" : 98.0,
+"max" : 98.0
+},
+"Intelligence_Item" : {
+"min" : 666.0,
+"max" : 666.0
+},
+"Durability_Cur" : {
+"min" : 330.0,
+"max" : 330.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 7.61439029E8,
+"max" : 7.61439029E8
+},
+"Hitpoints_On_Kill" : {
+"min" : 7310.0,
+"max" : 7310.0
+},
+"Durability_Max" : {
+"min" : 330.0,
+"max" : 330.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 330.0,
+"max" : 330.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

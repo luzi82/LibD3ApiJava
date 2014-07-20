@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_002_x1",
+"name" : "Leoric's Signet",
+"icon" : "unique_ring_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIlf_E8wQSBwgEFZ-xIrkdOLLA1R10RaeJHUNORFEdm4b24h3mFdsNMIsCOJ0DQABQElgEYJ0DgAFGtQE2VV1EGMG56u0IUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 15,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "King Leoric had hoped to pass along the symbol of his family's noble lineage to his first son before they met an unfortunate fate.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+492 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+422 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 5.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 5%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+159 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Bonus Experience by 21%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 413.0,
+"max" : 413.0
+},
+"Durability_Max" : {
+"min" : 413.0,
+"max" : 413.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.055,
+"max" : 0.055
+},
+"Vitality_Item" : {
+"min" : 422.0,
+"max" : 422.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Resistance#Physical" : {
+"min" : 159.0,
+"max" : 159.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 413.0,
+"max" : 413.0
+},
+"Experience_Bonus_Percent" : {
+"min" : 0.21,
+"max" : 0.21
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.050000000000000044
+},
+"Intelligence_Item" : {
+"min" : 492.0,
+"max" : 492.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

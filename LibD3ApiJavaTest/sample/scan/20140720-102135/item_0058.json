@@ -1,0 +1,441 @@
+{
+"id" : "Unique_Shield_011_x1",
+"name" : "Wall of Man",
+"icon" : "unique_shield_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClgIsKy_2QcSBwgEFSjjrQkdcxjs8B2_uWIoHU0_GPYdflazLh2bBgDLHcStOVwwjwI4rQJAAFASWARgtAKNAQhXnAmlAb-5YiitAYGBxsS4AfCz_5EBwAECGNCM75oBUApYAg",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Named for the Battle of Josqueira, a conflict so long and fierce that men used the skeletons of their fallen comrades to build fortifications.",
+"transmogItem" : {
+"id" : "Unique_Shield_002_x1",
+"name" : "Ivory Tower",
+"icon" : "unique_shield_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ivory-tower",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 2,
+"bonusAffixesMax" : 2,
+"accountBound" : false,
+"flavorText" : "This shield hums with the Song of the Arch.",
+"typeName" : "Legendary Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 860.0,
+"max" : 959.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 100–115 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces damage from melee attacks by 15.0–20.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Percent_Reduction_From_Melee" : {
+"min" : 0.15000000000000002,
+"max" : 0.19999999999999996
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 100.0,
+"max" : 115.0
+},
+"Block_Chance_Item" : {
+"min" : 0.1,
+"max" : 0.2
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 860.0,
+"max" : 959.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 488.0,
+"max" : 1221.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 2443.0,
+"max" : 3053.0
+}
+},
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+81–85 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 81.0,
+"max" : 85.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+41–50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 41.0,
+"max" : 50.0
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+5% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+6–12% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.06,
+"max" : 0.12
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–10% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.1
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–16% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.16
+}
+}
+} ]
+} ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.1,
+"max" : 0.2
+}
+},
+"typeName" : "Legendary Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 1986.0,
+"max" : 1986.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+722 Strength",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+669 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 9.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+11% Chance to Block",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 3452 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "25% chance to be protected by a shield of bones when you are hit.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Thorns_Fixed#Physical" : {
+"min" : 3452.0,
+"max" : 3452.0
+},
+"Block_Chance_Item" : {
+"min" : 0.18,
+"max" : 0.18
+},
+"Block_Chance_Bonus_Item" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Durability_Max" : {
+"min" : 308.0,
+"max" : 308.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 308.0,
+"max" : 308.0
+},
+"Strength_Item" : {
+"min" : 722.0,
+"max" : 722.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 3440.0,
+"max" : 3440.0
+},
+"Durability_Cur" : {
+"min" : 301.0,
+"max" : 301.0
+},
+"Vitality_Item" : {
+"min" : 669.0,
+"max" : 669.0
+},
+"Item_Power_Passive#itemPassive_Unique_Shield_011" : {
+"min" : 0.25,
+"max" : 0.25
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.09,
+"max" : 0.09
+},
+"Armor_Item" : {
+"min" : 1986.0,
+"max" : 1986.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 14315.0,
+"max" : 14315.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Unique_Shield_011_x1",
+"slug" : "wall-of-man",
+"name" : "Wall of Man",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Shield_209",
+"name" : "Ascended Shield",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-shield"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 30,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Unique_Shield_011_x1",
+"name" : "Human Cartilage",
+"icon" : "craftingreagent_legendary_unique_shield_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/human-cartilage"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Shield_011_x1",
+"name" : "Wall of Man",
+"icon" : "unique_shield_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/wall-of-man"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Unique_Shield_011_x1",
+"slug" : "wall-of-man",
+"name" : "Wall of Man",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Shield_209",
+"name" : "Ascended Shield",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-shield"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 30,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Unique_Shield_011_x1",
+"name" : "Human Cartilage",
+"icon" : "craftingreagent_legendary_unique_shield_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/human-cartilage"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Shield_011_x1",
+"name" : "Wall of Man",
+"icon" : "unique_shield_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/wall-of-man"
+}
+} ],
+"blockChance" : {
+"min" : 0.29,
+"max" : 0.29
+}
+}

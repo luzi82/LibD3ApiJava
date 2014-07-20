@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Boots_007_x1",
+"name" : "Fire Walkers",
+"icon" : "unique_boots_007_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYI4rW6gQESBwgEFfvkpnMd6-LkBR2pIDa6HTsnbyQdQ05EUR0_8gnYMIsCOLcCQABQElgEYL4CgAFGpQHr4uQFrQFazZMotQGgRZt_uAHa9KykCcABCRj2k7e6DlAKWAI",
+"requiredLevel" : 70,
+"itemLevel" : 51,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Tradition has it that these boots were forged in the heart of the great Challsop Volcano.",
+"typeName" : "Legendary Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 568.0,
+"max" : 568.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+442 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+433 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+91 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Shield Bash Damage by 14% (Crusader Only)",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+34% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Burn the ground you walk on, dealing 100% weapon damage each second.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Power_Damage_Percent_Bonus#X1_Crusader_ShieldBash2" : {
+"min" : 0.14,
+"max" : 0.14
+},
+"Strength_Item" : {
+"min" : 442.0,
+"max" : 442.0
+},
+"Durability_Max" : {
+"min" : 318.0,
+"max" : 318.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 2.140882336E9,
+"max" : 2.140882336E9
+},
+"Resistance_All" : {
+"min" : 91.0,
+"max" : 91.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Boots_007_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Vitality_Item" : {
+"min" : 433.0,
+"max" : 433.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 318.0,
+"max" : 318.0
+},
+"Armor_Item" : {
+"min" : 568.3333129882812,
+"max" : 568.3333129882812
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Gold_Find" : {
+"min" : 0.34,
+"max" : 0.34
+},
+"Durability_Cur" : {
+"min" : 311.0,
+"max" : 311.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

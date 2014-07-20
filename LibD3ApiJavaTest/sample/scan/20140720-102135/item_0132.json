@@ -1,0 +1,68 @@
+{
+"id" : "Shield_000",
+"name" : "Buckler",
+"icon" : "shield_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIy5rBrQYSBwgEFYgDO2wwiQI49QRAAGD1BBiQjtjDDVACWAI",
+"requiredLevel" : 1,
+"itemLevel" : 1,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 629.0,
+"max" : 629.0
+},
+"Armor_Item" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 5.0,
+"max" : 5.0
+},
+"Block_Chance_Item" : {
+"min" : 0.2,
+"max" : 0.2
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 629.0,
+"max" : 629.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 7.0,
+"max" : 7.0
+},
+"Durability_Cur" : {
+"min" : 629.0,
+"max" : 629.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.2,
+"max" : 0.2
+}
+}

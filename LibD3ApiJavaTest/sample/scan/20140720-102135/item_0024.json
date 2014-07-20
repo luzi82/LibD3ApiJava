@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Amulet_002_x1",
+"name" : "Kymbo's Gold",
+"icon" : "unique_amulet_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI0eaOugESBwgEFdcsB1sdrNOZOR2wwQlyHZsGAMsdaklp6h3zcAetMIsCOPkCQABQElgEYPkCgAFGtQGwxURkGK6zubAL",
+"requiredLevel" : 70,
+"itemLevel" : 51,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This heavy amulet was originally crafted for the fiercest of all fighters. Only the strongest can claim the right to wear it.",
+"typeName" : "Legendary Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+713 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+715 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 76.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2570 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+96% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +20608 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 0.76,
+"max" : 0.76
+},
+"Durability_Max" : {
+"min" : 377.0,
+"max" : 377.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 377.0,
+"max" : 377.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Intelligence_Item" : {
+"min" : 713.0,
+"max" : 713.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Cur" : {
+"min" : 377.0,
+"max" : 377.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 20608.0,
+"max" : 20608.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.682228656E9,
+"max" : 1.682228656E9
+},
+"Vitality_Item" : {
+"min" : 715.0,
+"max" : 715.0
+},
+"Gold_Find" : {
+"min" : 0.96,
+"max" : 0.96
+},
+"Hitpoints_On_Hit" : {
+"min" : 2570.0,
+"max" : 2570.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

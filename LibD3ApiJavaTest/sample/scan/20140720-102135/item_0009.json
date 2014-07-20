@@ -1,0 +1,318 @@
+{
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClII9OHd3gMSBwgEFfcenmkdOydvJB2cwpP3HZuG9uIdQ05EUR3ErTlcHXGLd_AwjwI4wAFAAFASWARgiAOlAZzCk_etASCNN1S4AcuW4_8LwAEHGO778JkNUARYAqAB7vvwmQ2gAfj1x7sO",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Patterned after the famed belt where Captain Crimson buckled his swash.",
+"typeName" : "Set Belt",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericBelt"
+},
+"armor" : {
+"min" : 828.0,
+"max" : 828.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+469 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+490 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+96 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+381 Armor",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 2932 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 447.0,
+"max" : 447.0
+},
+"Vitality_Item" : {
+"min" : 490.0,
+"max" : 490.0
+},
+"Resistance_All" : {
+"min" : 96.0,
+"max" : 96.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 2932.0,
+"max" : 2932.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Armor_Bonus_Item" : {
+"min" : 381.0,
+"max" : 381.0
+},
+"Durability_Cur" : {
+"min" : 192.0,
+"max" : 192.0
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Intelligence_Item" : {
+"min" : 469.0,
+"max" : 469.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Captain Crimson's Trimmings",
+"items" : [ {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}, {
+"id" : "Unique_Pants_012_x1",
+"name" : "Captain Crimson's Thrust",
+"icon" : "unique_pants_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-thrust"
+}, {
+"id" : "Unique_Boots_017_x1",
+"name" : "Captain Crimson's Waders",
+"icon" : "unique_boots_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-waders"
+} ],
+"slug" : "captain-crimsons-trimmings",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 2000 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 10.0%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Regen_Per_Second" : {
+"min" : 2000.0,
+"max" : 2000.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 10%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.09999999999999998,
+"max" : 0.09999999999999998
+},
+"Resistance_All" : {
+"min" : 50.0,
+"max" : 50.0
+}
+}
+} ]
+},
+"recipe" : {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Belt_X1",
+"slug" : "captain-crimsons-silk-girdle",
+"name" : "Captain Crimsons Silk Girdle",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Belt_208",
+"name" : "Archon Sash",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/archon-sash"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 22,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_CaptainCrimsons_Belt_X1",
+"slug" : "captain-crimsons-silk-girdle",
+"name" : "Captain Crimsons Silk Girdle",
+"cost" : 64800,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Belt_208",
+"name" : "Archon Sash",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/archon-sash"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Diamond_15",
+"name" : "Marquise Diamond",
+"icon" : "diamond_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-diamond"
+}
+}, {
+"quantity" : 22,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 4,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_CaptainCrimsons_X1",
+"name" : "Essence of the Twin Seas",
+"icon" : "craftingreagent_legendary_set_captaincrimsons_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/essence-of-the-twin-seas"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Belt_012_x1",
+"name" : "Captain Crimson's Silk Girdle",
+"icon" : "unique_belt_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/captain-crimsons-silk-girdle"
+}
+} ]
+}

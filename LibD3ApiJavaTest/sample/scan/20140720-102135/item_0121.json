@@ -1,0 +1,60 @@
+{
+"id" : "Ring_12",
+"name" : "Scouting Ring of Cruelty",
+"icon" : "ring_12_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiUIxIK6tAkSBwgEFRJVXUQdoWxggh0axFF0MAk4zANAAFAIYMwDGKTU6sUI",
+"requiredLevel" : 31,
+"itemLevel" : 33,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+42 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "10% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 460.0,
+"max" : 460.0
+},
+"Durability_Max" : {
+"min" : 460.0,
+"max" : 460.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 460.0,
+"max" : 460.0
+},
+"Magic_Find" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Dexterity_Item" : {
+"min" : 42.0,
+"max" : 42.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Bracer_105_x1",
+"name" : "Sanguinary Vambraces",
+"icon" : "unique_bracer_105_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI_5fmzQISBwgEFQLqXDkdQ05EUR3c174EHay801Md5hXbDR2bhvbiMIsCOOcCQABQElgEYOcCgAFGtQHbLMrLGISo55UHUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 15,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "These wickedly serrated forearm guards remain caked with the dried blood of the Black King's innocent victims.",
+"typeName" : "Legendary Bracers",
+"type" : {
+"twoHanded" : false,
+"id" : "Bracers"
+},
+"armor" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 19% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+500 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+472 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 6.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1796 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance on being hit to deal 1000% of your Thorns damage to nearby enemies.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Armor_Item" : {
+"min" : 392.6666564941406,
+"max" : 392.6666564941406
+},
+"Intelligence_Item" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"Durability_Max" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -8.75942693E8,
+"max" : -8.75942693E8
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Vitality_Item" : {
+"min" : 472.0,
+"max" : 472.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Bracer_105_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1796.0,
+"max" : 1796.0
+},
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.19,
+"max" : 0.19
+},
+"Durability_Cur" : {
+"min" : 359.0,
+"max" : 359.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

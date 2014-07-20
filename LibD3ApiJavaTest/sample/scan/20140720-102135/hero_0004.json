@@ -1,0 +1,913 @@
+{
+"id" : 15252206,
+"name" : "LuziDH",
+"class" : "demon-hunter",
+"gender" : 1,
+"level" : 70,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "multishot",
+"name" : "Multishot",
+"icon" : "demonhunter_multishot",
+"level" : 22,
+"categorySlug" : "archery",
+"tooltipUrl" : "skill/demon-hunter/multishot",
+"description" : "Cost: 25 Hatred\r\n\r\nFire a massive volley of arrows dealing 360% weapon damage to all enemies in the area.",
+"simpleDescription" : "Cost: 25 Hatred\r\n\r\nFire a massive volley of arrows in an arc.",
+"skillCalcId" : "Q"
+},
+"rune" : {
+"slug" : "multishot-c",
+"type" : "c",
+"name" : "Arsenal",
+"level" : 55,
+"description" : "Every time you fire, launch 3 rockets at nearby enemies that each deal 160% weapon damage as Fire.",
+"simpleDescription" : "Every time you fire, launch multiple homing rockets.",
+"tooltipParams" : "rune/multishot/c",
+"skillCalcId" : "c",
+"order" : 4
+}
+}, {
+"skill" : {
+"slug" : "vault",
+"name" : "Vault",
+"icon" : "demonhunter_vault",
+"level" : 9,
+"categorySlug" : "hunting",
+"tooltipUrl" : "skill/demon-hunter/vault",
+"description" : "Cost: 8 Discipline\r\n\r\nTumble acrobatically 35 yards.",
+"simpleDescription" : "Cost: 8 Discipline\r\n\r\nTumble acrobatically to avoid attacks.",
+"skillCalcId" : "d"
+},
+"rune" : {
+"slug" : "vault-a",
+"type" : "a",
+"name" : "Trail of Cinders",
+"level" : 49,
+"description" : "Leave a trail of fire in your wake that deals 300% weapon damage as Fire over 3 seconds.",
+"simpleDescription" : "Leave a trail of fire in your wake.",
+"tooltipParams" : "rune/vault/a",
+"skillCalcId" : "c",
+"order" : 4
+}
+}, {
+"skill" : {
+"slug" : "caltrops",
+"name" : "Caltrops",
+"icon" : "demonhunter_caltrops",
+"level" : 4,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/demon-hunter/caltrops",
+"description" : "Cost: 6 Discipline\r\n\r\nLay a trap of caltrops on the ground that activates when an enemy approaches. Once sprung, the caltrops Slow the movement of enemies within 12 yards by 60%. This trap lasts 6 seconds.",
+"simpleDescription" : "Cost: 6 Discipline\r\n\r\nPlace a trap that slows enemies.",
+"skillCalcId" : "Y"
+},
+"rune" : {
+"slug" : "caltrops-b",
+"type" : "b",
+"name" : "Hooked Spines",
+"level" : 12,
+"description" : "Increase the slowing amount to 80%.",
+"simpleDescription" : "Increase the slowing effect of Caltrops.",
+"tooltipParams" : "rune/caltrops/b",
+"skillCalcId" : "a",
+"order" : 0
+}
+}, {
+"skill" : {
+"slug" : "sentry",
+"name" : "Sentry",
+"icon" : "demonhunter_sentry",
+"level" : 25,
+"categorySlug" : "devices",
+"tooltipUrl" : "skill/demon-hunter/sentry",
+"description" : "Cost: 30 Hatred\r\nCooldown: 6 seconds\r\n\r\nSummon a turret that fires at nearby enemies for 200% weapon damage. Lasts 30 seconds.\r\n\r\nYou may have 2 turrets active at a time.",
+"simpleDescription" : "Cost: 30 Hatred\r\nCooldown: 6 seconds\r\n\r\nSummon a turret that automatically attacks nearby enemies.",
+"skillCalcId" : "k"
+},
+"rune" : {
+"slug" : "sentry-c",
+"type" : "c",
+"name" : "Spitfire Turret",
+"level" : 28,
+"description" : "The turret will also fire homing rockets at random nearby enemies for 70% weapon damage as Fire.",
+"simpleDescription" : "The turret fires homing rockets at random enemies.",
+"tooltipParams" : "rune/sentry/c",
+"skillCalcId" : "a",
+"order" : 0
+}
+}, {
+"skill" : {
+"slug" : "preparation",
+"name" : "Preparation",
+"icon" : "demonhunter_preparation",
+"level" : 13,
+"categorySlug" : "hunting",
+"tooltipUrl" : "skill/demon-hunter/preparation",
+"description" : "Cooldown: 45 seconds\r\n\r\nInstantly restore 30 Discipline.",
+"simpleDescription" : "Cooldown: 45 seconds\r\n\r\nFocus and instantly restore 30 Discipline.",
+"skillCalcId" : "V"
+},
+"rune" : {
+"slug" : "preparation-a",
+"type" : "a",
+"name" : "Punishment",
+"level" : 25,
+"description" : "Restore 75 Hatred for 25 Discipline. Preparation has no cooldown.",
+"simpleDescription" : "Preparation now costs Discipline to cast, but restores Hatred and no longer has a cooldown.",
+"tooltipParams" : "rune/preparation/a",
+"skillCalcId" : "Z",
+"order" : 1
+}
+}, {
+"skill" : {
+"slug" : "cluster-arrow",
+"name" : "Cluster Arrow",
+"icon" : "demonhunter_clusterarrow",
+"level" : 27,
+"categorySlug" : "archery",
+"tooltipUrl" : "skill/demon-hunter/cluster-arrow",
+"description" : "Cost: 40 Hatred\r\n\r\nFire a cluster arrow that explodes for 550% weapon damage as Fire into a series of 4 additional grenades that each explode for 220% weapon damage as Fire.",
+"simpleDescription" : "Cost: 40 Hatred\r\n\r\nFire a cluster arrow that fragments into grenades on impact.",
+"skillCalcId" : "P"
+},
+"rune" : {
+"slug" : "cluster-arrow-a",
+"type" : "a",
+"name" : "Loaded for Bear",
+"level" : 58,
+"description" : "Increase the damage of the explosion at the impact location to 770% weapon damage as Fire.",
+"simpleDescription" : "Increase the damage at the impact point.",
+"tooltipParams" : "rune/cluster-arrow/a",
+"skillCalcId" : "c",
+"order" : 4
+}
+} ],
+"passive" : [ {
+"skill" : {
+"slug" : "archery",
+"name" : "Archery",
+"icon" : "demonhunter_passive_archery",
+"level" : 30,
+"tooltipUrl" : "skill/demon-hunter/archery",
+"description" : "Gain a bonus based on your weapon type:\r\nBow: 8% increased damage\r\nCrossbow: 50% Critical Hit Damage\r\nHand Crossbow: 5% Critical Hit Chance\r\n2nd Hand Crossbow: 1 Hatred per Second",
+"flavor" : "\"Feel the weight of the crossbow in your hand. Now... the wind, the distance, the target's speed. Good. Now try it with blood in your eyes and a demon at your throat.\" —Greyscarr, Veteran Demon Hunter",
+"skillCalcId" : "e"
+}
+}, {
+"skill" : {
+"slug" : "night-stalker",
+"name" : "Night Stalker",
+"icon" : "demonhunter_passive_nightstalker",
+"level" : 20,
+"tooltipUrl" : "skill/demon-hunter/night-stalker",
+"description" : "Critical Hits have a chance to restore 1 Discipline.\r\n\r\nDiscipline is used to fuel many of your tactical and defensive skills.",
+"flavor" : "\"How did I learn to hate, to kill, to flay the flesh from the bones of my prey without pity? You taught me.\" —Tyla Shrikewing's final words to Naragh the Sin Eater",
+"skillCalcId" : "X"
+}
+}, {
+"skill" : {
+"slug" : "tactical-advantage",
+"name" : "Tactical Advantage",
+"icon" : "demonhunter_passive_tacticaladvantage",
+"level" : 10,
+"tooltipUrl" : "skill/demon-hunter/tactical-advantage",
+"description" : "Whenever you use Vault, Smoke Screen, or backflip with Evasive Fire you gain 60% movement speed for 2 seconds.",
+"flavor" : "Never start a fair fight.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "ballistics",
+"name" : "Ballistics",
+"icon" : "demonhunter_passive_ballistics",
+"level" : 55,
+"tooltipUrl" : "skill/demon-hunter/ballistics",
+"description" : "Increase damage of rockets by 100%.\r\n\r\nIn addition, you have a 20% chance to fire a homing rocket for 150% weapon damage when you attack.",
+"flavor" : "\"How should I know who first invented these devices? Just make sure the correct end is pointed at the enemy and they'll do the rest.\" —Greyscarr, Veteran Demon Hunter",
+"skillCalcId" : "h"
+}
+} ]
+},
+"items" : {
+"head" : {
+"id" : "Unique_Helm_006_x1",
+"name" : "Mempo of Twilight",
+"icon" : "unique_helm_006_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Ck0IuO_hggQSBwgEFVml7RMdco4dIR1LtflLHTsnbyQdZiMGUB1-dlWhHcn6vKAwiwI41QFAAEgVUBJYBGCsAoABRo0B9_BOXbUBf_lOXRiyle2-AlAAWAI",
+"transmogItem" : {
+"id" : "Helm_002",
+"name" : "Leather Hood",
+"icon" : "helm_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-hood",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"torso" : {
+"id" : "Unique_Cloak_101_x1",
+"name" : "Blackfeather",
+"icon" : "unique_cloak_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Cs4BCKWdqHkSBwgEFdn2ig8df46HzB1DTkRRHVhG4dkdcyMGUB3x02rVMIsCOMYBQABIA1ASWARgnQJqKwoMCAAQne7IpYCAgKAsEhsIrd7K_w4SBwgEFSGWrpgwiwI4AEABWASQAQBqKwoMCAAQo-7IpYCAgKAsEhsI5M63rwwSBwgEFSGWrpgwiwI4AEABWASQAQBqKwoMCAAQuO3IpYCAgKAsEhsIv4zKhgoSBwgEFSGWrpgwjwI4AEABWASQAQCAAUaNAagZGWC1AQFwbwIYstvX-AFQAFgC",
+"transmogItem" : {
+"id" : "ChestArmor_001",
+"name" : "Cloth Tunic",
+"icon" : "chestarmor_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cloth-tunic",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"feet" : {
+"id" : "Unique_Boots_104_x1",
+"name" : "Irontoe Mudsputters",
+"icon" : "unique_boots_104_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkgIssHXiAoSBwgEFXlo-nUd6-LkBR1DTkRRHYkle9Id8dNq1R1_jofMMIsCOJcCQABIA1ASWARg_gKAAUaNARc9m3-1AaBFm38Y8qHT3w5QAFgC",
+"transmogItem" : {
+"id" : "Boots_001",
+"name" : "Shoes",
+"icon" : "boots_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/shoes",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"hands" : {
+"id" : "Gloves_208",
+"name" : "Quickening Fists",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmcI1rfF5ggSBwgEFclbkqQdlq-57B0zkEoEHcj6vKAdqNZ1_B1wi3fwHW3NiR4iCwgAFbj-AQAYCiAOMIsCON0DQABIA1AQWARg-gSNAUBTkqSlAZavueytAXVn5vG4AaOZ57UGwAEBGO2Q7bYLUABYAg",
+"transmogItem" : {
+"id" : "Gloves_001",
+"name" : "Gloves",
+"icon" : "gloves_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/gloves",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Gloves",
+"slug" : "sovereign-ascended-gloves",
+"name" : "Sovereign Ascended Gloves",
+"cost" : 18360,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Gloves_208",
+"name" : "Sovereign Ascended Gloves",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-gloves"
+}
+} ]
+},
+"shoulders" : {
+"id" : "Unique_Shoulder_003_x1",
+"name" : "Vile Ward",
+"icon" : "unique_shoulder_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CmMI9t7PggQSBwgEFdYjMYsdOydvJB0gjTdUHaLPFFYd8dNq1R1yjh0hHXGLd_AwiwI48QFAAEgVUBJYBGDSAoABRo0BTfDIFaUBOydvJK0BdEWnibUB0vjIFbgB5KDBygLAAQEY0_D2zA5QAFgC",
+"transmogItem" : {
+"id" : "Shoulders_005",
+"name" : "Spaulders",
+"icon" : "shoulders_005_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/spaulders",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"legs" : {
+"id" : "Unique_Pants_007_x1",
+"name" : "Pox Faulds",
+"icon" : "unique_pants_007_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CqIBCNDT_48DEgcIBBWahdnRHaLPFFYd8dNq1R2PkMpQHYyBXYUd2T_UnzCLAjjPAUAASANQElgEYKQCaisKDAgAELPTkq2AgICgLBIbCKXY-ogFEgcIBBUhlq6YMIsCOABAAVgEkAEAaisKDAgAELnTkq2AgICgLBIbCOu9m-wLEgcIBBUhlq6YMIsCOABAAVgEkAEAgAFGjQEWitWltQGfktWlGMvps-IFUABYAg",
+"transmogItem" : {
+"id" : "Pants_001",
+"name" : "Cloth Pants",
+"icon" : "pants_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cloth-pants",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"bracers" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/ClII15LCzgISBwgEFeXyCTcdQ05EUR06ddqMHUANVQsdII03VB04ssDVHXKOHSEwjwI47gJAAFASWARg_wKlASCNN1StAfHTatW4AZ65zO0OwAEBGMrLz_AGUABYAqABysvP8AY",
+"randomAffixes" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Set_Aughild_Bracers_X1",
+"slug" : "aughilds-search",
+"name" : "Aughild's Search",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Bracers_208",
+"name" : "Ascended Bracers",
+"icon" : "bracers_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-bracers"
+}
+}, {
+"quantity" : 120,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-search"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Aughild_Bracers_X1",
+"slug" : "aughilds-search",
+"name" : "Aughild's Search",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Bracers_208",
+"name" : "Ascended Bracers",
+"icon" : "bracers_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-bracers"
+}
+}, {
+"quantity" : 120,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Looted_Reagent_01",
+"name" : "Death's Breath",
+"icon" : "crafting_looted_reagent_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/deaths-breath"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Aughild_X1",
+"name" : "Shard of Entsteig Plate",
+"icon" : "craftingreagent_legendary_set_aughild_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/shard-of-entsteig-plate"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Bracer_009_x1",
+"name" : "Aughild's Search",
+"icon" : "unique_bracer_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/aughilds-search"
+}
+} ]
+},
+"mainHand" : {
+"id" : "Unique_XBow_002_x1",
+"name" : "Hellrack",
+"icon" : "unique_xbow_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CocBCLvJ05cGEgcIBBVPuJ71HbHk6hEdmwYAyx3J-rygHdGwUMcdZiMGUDCLAjj-AUAAUBJYBGDjAmopCgwIABCPpK-agICAwCYSGQic_uXKBRIHCAQVH5aumDCLAjgAQAGQAQCAAUaNAQVcygqlAZsGAMutAYwcvpa1AUZgygq4AdaKjcgNwAEEGOGeiqYBUABYAg",
+"transmogItem" : {
+"id" : "Crossbow_202",
+"name" : "Cranequin",
+"icon" : "crossbow_202_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cranequin-cfBd3",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Unique_Quiver_102_x1",
+"name" : "Bombadier's Rucksack",
+"icon" : "unique_quiver_102_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYIooSRjQgSBwgEFQxbdeodgGZcRh10RaeJHYyBXYUdflazLh3J-rygMIsCOKQDQABQElgEYK4DgAFGpQGMgV2FrQGbBgDLtQFU6r5buAHTiLrlBsABARjnk9XYAlAAWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"waist" : {
+"id" : "Belt_208",
+"name" : "Vigilant Link",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkIIz676yAsSBwgEFcCnQtQdYRq40B2wHg5QHfypZqcdApnnyx2VT1lpIgsIABVWRAMAGBggEjCJAjjOAkAAUA5gwwMY_-DquwVQAFgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Belt",
+"slug" : "sovereign-archon-sash",
+"name" : "Sovereign Archon Sash",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 11,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Belt_208",
+"name" : "Sovereign Archon Sash",
+"icon" : "belt_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-archon-sash"
+}
+} ]
+},
+"rightFinger" : {
+"id" : "Ring_25",
+"name" : "The Ring",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CloIgbGI-wgSBwgEFTZVXUQdlq-57B2wHg5QHajWdfwdkpTcCB1rB3fOIgsIABXN_gEAGAggHDCLAjiaAkAAUA5YBGCFA6UBkpTcCK0BSjwevbgB9cXG9QHAAQwY7NTqxQhQAFgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Ring",
+"slug" : "sovereign-ring",
+"name" : "Sovereign Ring",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 2,
+"item" : {
+"id" : "Diamond_16",
+"name" : "Imperial Diamond",
+"icon" : "diamond_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-diamond"
+}
+} ],
+"itemProduced" : {
+"id" : "Ring_25",
+"name" : "Sovereign Ring",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ring"
+}
+} ]
+},
+"leftFinger" : {
+"id" : "Ring_24",
+"name" : "Stout Boon",
+"icon" : "ring_24_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cl8IiIWjkgQSBwgEFTVVXUQdqNZ1_B2dB5UkHQKZ58sdkpTcCB2r05k5HUq1-UsiCwgAFa1EAwAYDCAiMIsCOKkCQABQEFgEYJgDpQECmefLrQEzkEoEuAH77d-JDMABBxjq1OrFCFAAWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"neck" : {
+"id" : "Unique_Amulet_005_x1",
+"name" : "Ouroboros",
+"icon" : "unique_amulet_005_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI_qmv5QYSBwgEFfrRCFsdxK05XB0do43EHXRFp4kdaklp6h3J-rygHX5Wsy4wiwI4yQJAAFASWARg2gKAAUa1AbDFRGQY9MfGsAtQAFgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+"templar" : {
+"slug" : "templar",
+"level" : 0,
+"items" : {
+"mainHand" : {
+"id" : "Axe_1H_104",
+"name" : "Vaunted Adze of Grace",
+"icon" : "axe_1h_104_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiUIyqCohgMSBwgEFWooB2MddKWvER03qntQMAk4ggRAAFAIYIIEGNShubAM",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Shield_104",
+"name" : "Proud Ironwood Shield of Fortitude",
+"icon" : "shield_104_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiUIq6SRjg4SBwgEFc0HO2wd5awHJx2crKCYMAk4rQVAAFAIYK0FGJqf2MMN",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T06_Armor_Shield",
+"slug" : "illustrious-ironwood-shield",
+"name" : "Illustrious Ironwood Shield",
+"cost" : 1800,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Shield_104",
+"name" : "Illustrious Ironwood Shield",
+"icon" : "shield_104_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/illustrious-ironwood-shield"
+}
+} ]
+},
+"rightFinger" : {
+"id" : "Ring_15",
+"name" : "Feral Ring",
+"icon" : "ring_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIucj80gYSBwgEFRVVXUQdl64tZjAJOM0DQABQBmDNAxiq1OrFCA",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"leftFinger" : {
+"id" : "Ring_13",
+"name" : "Reptilian Ring",
+"icon" : "ring_13_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/Ch8IscX6VxIHCAQVE1VdRB3MYq_tMAk49QJAAFAGYPUCGKbU6sUI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"neck" : {
+"id" : "Amulet06",
+"name" : "Adventuring Amulet",
+"icon" : "amulet06_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAI1MGvhw0SBwgEFY7FRGQdJ5ZAYDAJOKQEQABQBmCkBBiclqbEDA",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"stats" : {
+"goldFind" : 0,
+"magicFind" : 0,
+"experienceBonus" : 1
+},
+"skills" : [ {
+}, {
+"skill" : {
+"slug" : "intimidate",
+"name" : "Intimidate",
+"icon" : "templar_intimidate",
+"level" : 10,
+"tooltipUrl" : "skill/templar/intimidate",
+"description" : "Enemies that hit or are hit by the Templar are slowed by 80% for 3 seconds.",
+"simpleDescription" : "Enemies that hit or are hit by the Templar are slowed.",
+"skillCalcId" : "Y"
+}
+}, {
+"skill" : {
+"slug" : "charge",
+"name" : "Charge",
+"icon" : "templar_shieldcharge",
+"level" : 15,
+"tooltipUrl" : "skill/templar/charge",
+"description" : "Cooldown: 10 seconds\r\n\r\nCharges a target, dealing 280% weapon damage and stunning all enemies within 8 yards for 3 seconds.",
+"simpleDescription" : "Cooldown: 10 seconds\r\n\r\nCharges an enemy, dealing damage and stunning nearby enemies.",
+"skillCalcId" : "c"
+}
+}, {
+"skill" : {
+"slug" : "guardian",
+"name" : "Guardian",
+"icon" : "templar_guardian",
+"level" : 20,
+"tooltipUrl" : "skill/templar/guardian",
+"description" : "Cooldown: 30 seconds\r\n\r\nRush to your aid, knocking back enemies within 15 yards and healing you for 140295 Life.",
+"simpleDescription" : "Cooldown: 30 seconds\r\n\r\nWhen your Life is low, the Templar will come to your aid, knocking back nearby enemies and healing you.",
+"skillCalcId" : "W"
+}
+} ]
+}
+},
+"stats" : {
+"life" : 199516,
+"damage" : 587167.0,
+"attackSpeed" : 1.100000023841858,
+"armor" : 5204,
+"strength" : 77,
+"dexterity" : 7914,
+"vitality" : 2490,
+"intelligence" : 77,
+"physicalResist" : 346,
+"fireResist" : 196,
+"coldResist" : 477,
+"lightningResist" : 508,
+"poisonResist" : 196,
+"arcaneResist" : 332,
+"critDamage" : 3.7600000000000002,
+"blockChance" : 0.0,
+"blockAmountMin" : 0,
+"blockAmountMax" : 0,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 4602.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 12848.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 2750.0,
+"primaryResource" : 125,
+"secondaryResource" : 40
+},
+"kills" : {
+"elites" : 1575
+},
+"progression" : {
+"act1" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "the-fallen-star",
+"name" : "The Fallen Star"
+}, {
+"slug" : "the-legacy-of-cain",
+"name" : "The Legacy of Cain"
+}, {
+"slug" : "a-shattered-crown",
+"name" : "A Shattered Crown"
+}, {
+"slug" : "reign-of-the-black-king",
+"name" : "Reign of the Black King"
+}, {
+"slug" : "sword-of-the-stranger",
+"name" : "Sword of the Stranger"
+}, {
+"slug" : "the-broken-blade",
+"name" : "The Broken Blade"
+}, {
+"slug" : "the-doom-in-wortham",
+"name" : "The Doom in Wortham"
+}, {
+"slug" : "trailing-the-coven",
+"name" : "Trailing the Coven"
+}, {
+"slug" : "the-imprisoned-angel",
+"name" : "The Imprisoned Angel"
+}, {
+"slug" : "return-to-new-tristram",
+"name" : "Return to New Tristram"
+} ]
+},
+"act2" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "shadows-in-the-desert",
+"name" : "Shadows in the Desert"
+}, {
+"slug" : "the-road-to-alcarnus",
+"name" : "The Road to Alcarnus"
+}, {
+"slug" : "city-of-blood",
+"name" : "City of Blood"
+}, {
+"slug" : "a-royal-audience",
+"name" : "A Royal Audience"
+}, {
+"slug" : "unexpected-allies",
+"name" : "Unexpected Allies"
+}, {
+"slug" : "betrayer-of-the-horadrim",
+"name" : "Betrayer of the Horadrim"
+}, {
+"slug" : "blood-and-sand",
+"name" : "Blood and Sand"
+}, {
+"slug" : "the-black-soulstone",
+"name" : "The Black Soulstone"
+}, {
+"slug" : "the-scouring-of-caldeum",
+"name" : "The Scouring of Caldeum"
+}, {
+"slug" : "lord-of-lies",
+"name" : "Lord of Lies"
+} ]
+},
+"act3" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "the-siege-of-bastions-keep",
+"name" : "The Siege of Bastion's Keep"
+}, {
+"slug" : "turning-the-tide",
+"name" : "Turning the Tide"
+}, {
+"slug" : "the-breached-keep",
+"name" : "The Breached Keep"
+}, {
+"slug" : "tremors-in-the-stone",
+"name" : "Tremors in the Stone"
+}, {
+"slug" : "machines-of-war",
+"name" : "Machines of War"
+}, {
+"slug" : "siegebreaker",
+"name" : "Siegebreaker"
+}, {
+"slug" : "heart-of-sin",
+"name" : "Heart of Sin"
+} ]
+},
+"act4" : {
+"completed" : true,
+"completedQuests" : [ {
+"slug" : "fall-of-the-high-heavens",
+"name" : "Fall of the High Heavens"
+}, {
+"slug" : "the-light-of-hope",
+"name" : "The Light of Hope"
+}, {
+"slug" : "beneath-the-spire",
+"name" : "Beneath the Spire"
+}, {
+"slug" : "prime-evil",
+"name" : "Prime Evil"
+} ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ {
+"slug" : "the-fall-of-westmarch",
+"name" : "The Fall of Westmarch"
+}, {
+"slug" : "souls-of-the-dead",
+"name" : "Souls of the Dead"
+}, {
+"slug" : "the-harbinger",
+"name" : "The Harbinger"
+}, {
+"slug" : "the-witch",
+"name" : "The Witch"
+}, {
+"slug" : "the-pandemonium-gate",
+"name" : "The Pandemonium Gate"
+} ]
+}
+},
+"dead" : false,
+"last-updated" : 1405228234
+}

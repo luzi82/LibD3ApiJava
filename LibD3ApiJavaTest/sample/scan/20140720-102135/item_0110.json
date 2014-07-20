@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Gloves_101_x1",
+"name" : "St. Archew's Gage",
+"icon" : "unique_gloves_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIstvS2goSBwgEFZ87niQdcYt38B0QL8oqHdKfnkQdOydvJB2bBgDLMIsCOP4CQABQElgEYP4CgAFGtQHJW5KkGL7u8ckEUAhYAg",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Archew, the Saint of Entsteig, is remembered for his many duels with the ruffians of that city. It was said that his gauntlet lay on the street more often than on his hand.\" —Archibald Kerne",
+"typeName" : "Legendary Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 518.0,
+"max" : 518.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+730 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+95 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Chance to Deal 17% Area Damage on Hit.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "+1803 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "When there are 5 or more enemies within 12 yards, you gain an absorb shield equal to 21% of your maximum Life for 6 seconds. This effect may occur once every 30 seconds.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_664_x1" : {
+"min" : 0.21,
+"max" : 0.21
+},
+"Splash_Damage_Effect_Percent" : {
+"min" : 0.17,
+"max" : 0.17
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Vitality_Item" : {
+"min" : 730.0,
+"max" : 730.0
+},
+"Armor_Item" : {
+"min" : 518.3333129882812,
+"max" : 518.3333129882812
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1803.0,
+"max" : 1803.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.533912119E9,
+"max" : -1.533912119E9
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Resistance_All" : {
+"min" : 95.0,
+"max" : 95.0
+},
+"Durability_Max" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 382.0,
+"max" : 382.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

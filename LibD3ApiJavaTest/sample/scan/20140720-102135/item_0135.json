@@ -1,0 +1,68 @@
+{
+"id" : "CrusaderShield_000",
+"name" : "Crusader Shield",
+"icon" : "crusadershield_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChkI9JPobhIHCAQV4ZLz-DCJAjjeBUAAYN4FGL2043BQClgC",
+"requiredLevel" : 1,
+"itemLevel" : 1,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Crusader Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "CrusaderShield"
+},
+"armor" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Block_Amount_Item_Delta" : {
+"min" : 5.0,
+"max" : 5.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 734.0,
+"max" : 734.0
+},
+"Durability_Max" : {
+"min" : 734.0,
+"max" : 734.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 7.0,
+"max" : 7.0
+},
+"Block_Chance_Item" : {
+"min" : 0.17,
+"max" : 0.17
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 734.0,
+"max" : 734.0
+},
+"Armor_Item" : {
+"min" : 9.0,
+"max" : 9.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.17,
+"max" : 0.17
+}
+}

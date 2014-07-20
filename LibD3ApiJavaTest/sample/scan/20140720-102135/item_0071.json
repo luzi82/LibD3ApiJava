@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Pants_006_x1",
+"name" : "Depth Diggers",
+"icon" : "unique_pants_006_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI0KewtAUSBwgEFTn52NEdrLzTUx1DTkRRHTid5AQdOydvJB2pIDa6HT_yCdgwiwI4_gJAAFASWARghAOAAUa1AZ-S1aUYjZu44gVQAlgC",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Those planning on plumbing the depths of ancient tombs in search of treasure would do well to wear these pants.",
+"typeName" : "Legendary Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 1275.0,
+"max" : 1275.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+471 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+486 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+94 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+562 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+33% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 1973 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Strength_Item" : {
+"min" : 471.0,
+"max" : 471.0
+},
+"Gold_Find" : {
+"min" : 0.33,
+"max" : 0.33
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1973.0,
+"max" : 1973.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.512729953E9,
+"max" : -1.512729953E9
+},
+"Armor_Item" : {
+"min" : 713.0,
+"max" : 713.0
+},
+"Durability_Max" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Resistance_All" : {
+"min" : 94.0,
+"max" : 94.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 486.0,
+"max" : 486.0
+},
+"Durability_Cur" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Armor_Bonus_Item" : {
+"min" : 562.0,
+"max" : 562.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,203 @@
+{
+"id" : "Unique_Pants_007_x1",
+"name" : "Pox Faulds",
+"icon" : "unique_pants_007_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CqIBCNDT_48DEgcIBBWahdnRHaLPFFYd8dNq1R2PkMpQHYyBXYUd2T_UnzCLAjjPAUAASANQElgEYKQCaisKDAgAELPTkq2AgICgLBIbCKXY-ogFEgcIBBUhlq6YMIsCOABAAVgEkAEAaisKDAgAELnTkq2AgICgLBIbCOu9m-wLEgcIBBUhlq6YMIsCOABAAVgEkAEAgAFGjQEWitWltQGfktWlGMvps-IFUABYAg",
+"requiredLevel" : 70,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Made from the treated skin of plague victims.",
+"transmogItem" : {
+"id" : "Pants_001",
+"name" : "Cloth Pants",
+"icon" : "pants_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cloth-pants",
+"requiredLevel" : 1,
+"itemLevel" : 2,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 6.0,
+"max" : 7.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Armor_Item" : {
+"min" : 6.0,
+"max" : 7.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 685.0,
+"max" : 685.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+497 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 794 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Evasive Fire Damage by 13% (Demon Hunter Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+5020 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "When 3 or more enemies are within 12 yards, you release a vile stench that deals 311% weapon damage as Poison every second for 10 seconds to enemies within 15 yards.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 207.0,
+"max" : 207.0
+},
+"Dexterity_Item" : {
+"min" : 497.0,
+"max" : 497.0
+},
+"Sockets" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Power_Passive#itemPassive_Unique_Pants_007_x1" : {
+"min" : 3.11,
+"max" : 3.11
+},
+"Armor_Item" : {
+"min" : 685.0,
+"max" : 685.0
+},
+"Power_Damage_Percent_Bonus#X1_DemonHunter_EvasiveFire" : {
+"min" : 0.13,
+"max" : 0.13
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 794.0,
+"max" : 794.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.512729953E9,
+"max" : -1.512729953E9
+},
+"Hitpoints_On_Kill" : {
+"min" : 5020.0,
+"max" : 5020.0
+},
+"Durability_Max" : {
+"min" : 292.0,
+"max" : 292.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 292.0,
+"max" : 292.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIpdj6iAUSBwgEFSGWrpgwiwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI672b7AsSBwgEFSGWrpgwiwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

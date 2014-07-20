@@ -1,0 +1,52 @@
+{
+"id" : "Belt_002",
+"name" : "Hide Belt",
+"icon" : "belt_002_barbarian_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIr4_dmwwSBwgEFTifQtQwiQI48wNAAGDzAxiPg-u7BVACWAI",
+"requiredLevel" : 4,
+"itemLevel" : 7,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Belt",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericBelt"
+},
+"armor" : {
+"min" : 15.0,
+"max" : 15.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 499.0,
+"max" : 499.0
+},
+"Armor_Item" : {
+"min" : 15.0,
+"max" : 15.0
+},
+"Durability_Cur" : {
+"min" : 499.0,
+"max" : 499.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 499.0,
+"max" : 499.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

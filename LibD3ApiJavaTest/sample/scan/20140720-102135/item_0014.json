@@ -1,0 +1,156 @@
+{
+"id" : "Unique_Sword_1H_011_x1",
+"name" : "Devil Tongue",
+"icon" : "unique_sword_1h_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CogBCOz1tLINEgcIBBU2pzdOHdxVUcEd0O5oMR2BgcbEHdGwUMcdlz-d2h2eT4PcMIsCOI8CQABQElgEYJACaisKDAgAEKDRkLyAgICgLRIbCIO957MKEgcIBBUflq6YMIsCOABAAVgEkAEAgAFGpQHQ7mgxrQFmIwZQtQGb2dnvuAH6oLmoD8ABBxjsnL3jCQ",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The awful, intricate contours of this imposing sword are the key to its unbridled power.",
+"typeName" : "Legendary Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 2195.7599626064302,
+"max" : 2195.7599626064302
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 181.44,
+"max" : 181.44
+},
+"maxDamage" : {
+"min" : 423.36,
+"max" : 423.36
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1169–1363 Fire Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+8% Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+710 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+72% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "1.1% Chance to Immobilize on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Min#Fire" : {
+"min" : 1169.0,
+"max" : 1169.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"Gold_Find" : {
+"min" : 0.72,
+"max" : 0.72
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 272.0,
+"max" : 272.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Damage_Weapon_Percent_Bonus#Physical" : {
+"min" : 0.08,
+"max" : 0.08
+},
+"Strength_Item" : {
+"min" : 710.0,
+"max" : 710.0
+},
+"Damage_Weapon_Delta#Fire" : {
+"min" : 194.0,
+"max" : 194.0
+},
+"Durability_Max" : {
+"min" : 272.0,
+"max" : 272.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 271.0,
+"max" : 271.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 224.0,
+"max" : 224.0
+},
+"Weapon_On_Hit_Immobilize_Proc_Chance" : {
+"min" : 0.010800000000000032,
+"max" : 0.010800000000000032
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.70935653E8,
+"max" : -2.70935653E8
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIg73nswoSBwgEFR-WrpgwiwI4AEABWASQAQAYwaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 110.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 1.1,
+"max" : 1.1
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

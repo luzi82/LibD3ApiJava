@@ -1,0 +1,121 @@
+{
+"id" : "Unique_Quiver_102_x1",
+"name" : "Bombadier's Rucksack",
+"icon" : "unique_quiver_102_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYIooSRjQgSBwgEFQxbdeodgGZcRh10RaeJHYyBXYUdflazLh3J-rygMIsCOKQDQABQElgEYK4DgAFGpQGMgV2FrQGbBgDLtQFU6r5buAHTiLrlBsABARjnk9XYAlAAWAI",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Designed by a watchmaker's apprentice turned demon hunter, this rucksack makes use of its maker's knowledge of clockworks to greatly miniaturize the turret mechanism, allowing its owner to field more of the devices without the case being any more heavy or cumbersome than an ordinary quiver.",
+"typeName" : "Legendary Quiver",
+"type" : {
+"twoHanded" : false,
+"id" : "Quiver"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+709 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+627 Vitality",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 17.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 9.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 5%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+10 Maximum Discipline (Demon Hunter Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "You may have 2 additional Sentries.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Quiver" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Cur" : {
+"min" : 420.0,
+"max" : 420.0
+},
+"Requirement_When_Equipped#BowAny" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Dexterity_Item" : {
+"min" : 709.0,
+"max" : 709.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.17,
+"max" : 0.17
+},
+"Vitality_Item" : {
+"min" : 627.0,
+"max" : 627.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_622_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.539238484E9,
+"max" : 1.539238484E9
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 430.0,
+"max" : 430.0
+},
+"Resource_Max_Bonus#Discipline" : {
+"min" : 10.0,
+"max" : 10.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.050000000000000044
+},
+"Durability_Max" : {
+"min" : 430.0,
+"max" : 430.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.095,
+"max" : 0.095
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

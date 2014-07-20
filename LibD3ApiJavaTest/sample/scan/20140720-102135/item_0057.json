@@ -1,0 +1,527 @@
+{
+"id" : "Unique_Sword_2H_004_x1",
+"name" : "Scourge",
+"icon" : "unique_sword_2h_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CnMI3I_PsgYSBwgEFdmko8Id3LSK-x2GkPzaHayvKGIdZiMGUB1uUJAFMIsCOJECQABQElgEYKACaisKDAgAEKqbopyAgIDAJhIbCMjq7MQCEgcIBBUhlq6YMI8COABAAVgEkAEAgAFGjQH8SaXCtQE8Ai_yGM3s4tUHUApYAg",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "A weapon of such evil visage is rarely seen outside the confines of the Burning Hells.",
+"transmogItem" : {
+"id" : "Unique_Sword_2H_007_x1",
+"name" : "Blade of Prophecy",
+"icon" : "unique_sword_2h_007_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/blade-of-prophecy",
+"requiredLevel" : 50,
+"itemLevel" : 51,
+"bonusAffixes" : 3,
+"bonusAffixesMax" : 3,
+"accountBound" : false,
+"flavorText" : "The Blade of Prophecy was lost until a champion worthy to carry it into battle emerged.",
+"typeName" : "Legendary Two-Handed Sword",
+"type" : {
+"twoHanded" : true,
+"id" : "Sword2H"
+},
+"dps" : {
+"min" : 215.60000467300415,
+"max" : 215.60000467300415
+},
+"attacksPerSecond" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"minDamage" : {
+"min" : 158.0,
+"max" : 158.0
+},
+"maxDamage" : {
+"min" : 234.0,
+"max" : 234.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Reduces cooldown of all skills by 5.0–9.0%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "All Condemned enemies also trigger Condemn's explosion.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.08999999999999997
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_703_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 76.0,
+"max" : 76.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 158.0,
+"max" : 158.0
+}
+},
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Arcane Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Arcane" : {
+"min" : 36.0,
+"max" : 54.0
+},
+"Damage_Weapon_Min#Arcane" : {
+"min" : 180.0,
+"max" : 220.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(19–38)–(45–89) Arcane Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Arcane" : {
+"min" : 26.0,
+"max" : 51.0
+},
+"Damage_Weapon_Min#Arcane" : {
+"min" : 19.0,
+"max" : 38.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Poison Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Min#Poison" : {
+"min" : 180.0,
+"max" : 220.0
+},
+"Damage_Weapon_Delta#Poison" : {
+"min" : 36.0,
+"max" : 54.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(19–38)–(45–89) Poison Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Min#Poison" : {
+"min" : 19.0,
+"max" : 38.0
+},
+"Damage_Weapon_Delta#Poison" : {
+"min" : 26.0,
+"max" : 51.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Lightning Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Lightning" : {
+"min" : 36.0,
+"max" : 54.0
+},
+"Damage_Weapon_Min#Lightning" : {
+"min" : 180.0,
+"max" : 220.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(19–38)–(45–89) Lightning Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Lightning" : {
+"min" : 26.0,
+"max" : 51.0
+},
+"Damage_Weapon_Min#Lightning" : {
+"min" : 19.0,
+"max" : 38.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Holy Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Holy" : {
+"min" : 36.0,
+"max" : 54.0
+},
+"Damage_Weapon_Min#Holy" : {
+"min" : 180.0,
+"max" : 220.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(19–38)–(45–89) Holy Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Holy" : {
+"min" : 26.0,
+"max" : 51.0
+},
+"Damage_Weapon_Min#Holy" : {
+"min" : 19.0,
+"max" : 38.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Cold Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Cold" : {
+"min" : 36.0,
+"max" : 54.0
+},
+"Damage_Weapon_Min#Cold" : {
+"min" : 180.0,
+"max" : 220.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(12–23)–(28–54) Cold Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Cold" : {
+"min" : 16.0,
+"max" : 31.0
+},
+"Damage_Weapon_Min#Cold" : {
+"min" : 12.0,
+"max" : 23.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Fire Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Min#Fire" : {
+"min" : 180.0,
+"max" : 220.0
+},
+"Damage_Weapon_Delta#Fire" : {
+"min" : 36.0,
+"max" : 54.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(19–38)–(45–89) Fire Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Min#Fire" : {
+"min" : 19.0,
+"max" : 38.0
+},
+"Damage_Weapon_Delta#Fire" : {
+"min" : 26.0,
+"max" : 51.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+(180–220)–(216–274) Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Bonus_Min_X1#Physical" : {
+"min" : 180.0,
+"max" : 220.0
+},
+"Damage_Weapon_Bonus_Delta_X1#Physical" : {
+"min" : 36.0,
+"max" : 54.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+19–38 Minimum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+26–51 Maximum Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Bonus_Delta#Physical" : {
+"min" : 26.0,
+"max" : 51.0
+},
+"Damage_Weapon_Bonus_Min#Physical" : {
+"min" : 19.0,
+"max" : 38.0
+}
+}
+} ]
+} ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Two-Handed Sword",
+"type" : {
+"twoHanded" : true,
+"id" : "Sword2H"
+},
+"dps" : {
+"min" : 2635.7999453544617,
+"max" : 2635.7999453544617
+},
+"attacksPerSecond" : {
+"min" : 1.149999976158142,
+"max" : 1.149999976158142
+},
+"minDamage" : {
+"min" : 633.0,
+"max" : 633.0
+},
+"maxDamage" : {
+"min" : 945.0,
+"max" : 945.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1341–1665 Poison Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1104 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1014 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+10959 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "28% chance to explode with demonic fury when attacking.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Attacks_Per_Second_Item" : {
+"min" : 1.149999976158142,
+"max" : 1.149999976158142
+},
+"Durability_Max" : {
+"min" : 288.0,
+"max" : 288.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 288.0,
+"max" : 288.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 312.0,
+"max" : 312.0
+},
+"Strength_Item" : {
+"min" : 1104.0,
+"max" : 1104.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Cur" : {
+"min" : 273.0,
+"max" : 273.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.3180026E8,
+"max" : -2.3180026E8
+},
+"Hitpoints_On_Kill" : {
+"min" : 10959.0,
+"max" : 10959.0
+},
+"Vitality_Item" : {
+"min" : 1014.0,
+"max" : 1014.0
+},
+"Damage_Weapon_Min#Poison" : {
+"min" : 1341.0,
+"max" : 1341.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 633.0,
+"max" : 633.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Sword_2H_004_x1" : {
+"min" : 0.28,
+"max" : 0.28
+},
+"Damage_Weapon_Delta#Poison" : {
+"min" : 324.0,
+"max" : 324.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIyOrsxAISBwgEFSGWrpgwjwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 120.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 1.2,
+"max" : 1.2
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+"id" : "Helm_002",
+"name" : "Lucky Leather Hood",
+"icon" : "helm_002_barbarian_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiEI6PPSxgMSBwgEFffwTl0dF5UCdTCJAjj2A0AAUAZg9gMY7sP31AtQAlgC",
+"requiredLevel" : 4,
+"itemLevel" : 7,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericHelm"
+},
+"armor" : {
+"min" : 24.0,
+"max" : 24.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "+6% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Gold_Find" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Durability_Cur" : {
+"min" : 502.0,
+"max" : 502.0
+},
+"Armor_Item" : {
+"min" : 24.0,
+"max" : 24.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 502.0,
+"max" : 502.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 502.0,
+"max" : 502.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

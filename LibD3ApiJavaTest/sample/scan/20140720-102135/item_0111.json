@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Shoulder_003_x1",
+"name" : "Vile Ward",
+"icon" : "unique_shoulder_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Cl8It-jygAgSBwgEFdYjMYsdxK05XB1xi3fwHfHTatUdos8UVh0gjTdUHTsnbyQwiQI4wQJAAEgVUBJYBmDnAoABRrUB0vjIFcgB1vr4BMgB-ompBMgBlPDEBsgB-KLsBBjT8PbMDlAIWAI",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"flavorText" : "Surprisingly, the taint of foul evil seeping from these ancient demon skulls protects the wearer from harm.",
+"typeName" : "Legendary Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 980.0,
+"max" : 980.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+422 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+93 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+390 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 989 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 2878 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 321.0,
+"max" : 321.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 2878.0,
+"max" : 2878.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Dexterity_Item" : {
+"min" : 422.0,
+"max" : 422.0
+},
+"Armor_Bonus_Item" : {
+"min" : 390.0,
+"max" : 390.0
+},
+"Resistance_All" : {
+"min" : 93.0,
+"max" : 93.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 3.65492434E8,
+"max" : 3.65492434E8
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 989.0,
+"max" : 989.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Durability_Max" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Armor_Item" : {
+"min" : 590.6666870117188,
+"max" : 590.6666870117188
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

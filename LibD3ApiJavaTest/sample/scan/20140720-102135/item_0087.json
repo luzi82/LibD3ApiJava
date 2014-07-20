@@ -1,0 +1,160 @@
+{
+"id" : "Sword_1H_008",
+"name" : "Living Thrash",
+"icon" : "sword_1h_008_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CjwInLjEug0SBwgEFd7M2e8dCNGSCB3VpoaqHTGNU2Adm5GEHiILCAAVzv4BABgKIBAwCTjEBEAAUAxgxAQYw8yxggI",
+"requiredLevel" : 27,
+"itemLevel" : 30,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 41.99999928474426,
+"max" : 41.99999928474426
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 20.0,
+"max" : 20.0
+},
+"maxDamage" : {
+"min" : 40.0,
+"max" : 40.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+5 Minimum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+6 Maximum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+42 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+20 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "11.2% chance to inflict Bleed for 2–4 damage over 5 seconds.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Bleed_Proc_Chance" : {
+"min" : 0.11160000000000003,
+"max" : 0.11160000000000003
+},
+"Damage_Weapon_Bonus_Min#Physical" : {
+"min" : 5.0,
+"max" : 5.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 580.0,
+"max" : 580.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 20.0,
+"max" : 20.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 580.0,
+"max" : 580.0
+},
+"Damage_Weapon_Bonus_Delta#Physical" : {
+"min" : 6.0,
+"max" : 6.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 15.0,
+"max" : 15.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 19.0,
+"max" : 19.0
+},
+"Weapon_On_Hit_Bleed_Proc_Damage_Base" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Weapon_On_Hit_Bleed_Proc_Damage_Delta" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Vitality_Item" : {
+"min" : 42.0,
+"max" : 42.0
+},
+"Durability_Cur" : {
+"min" : 580.0,
+"max" : 580.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T04_Weapon_Sword_1H",
+"slug" : "master-bastard-sword",
+"name" : "Master Bastard Sword",
+"cost" : 900,
+"reagents" : [ {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Sword_1H_008",
+"name" : "Master Bastard Sword",
+"icon" : "sword_1h_008_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/master-bastard-sword"
+}
+} ]
+}

@@ -1,0 +1,52 @@
+{
+"id" : "Ring_13",
+"name" : "Reptilian Ring",
+"icon" : "ring_13_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/Ch8IscX6VxIHCAQVE1VdRB3MYq_tMAk49QJAAFAGYPUCGKbU6sUI",
+"requiredLevel" : 33,
+"itemLevel" : 35,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 3 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 373.0,
+"max" : 373.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 373.0,
+"max" : 373.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Cur" : {
+"min" : 373.0,
+"max" : 373.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,157 @@
+{
+"id" : "Unique_Helm_006_x1",
+"name" : "Mempo of Twilight",
+"icon" : "unique_helm_006_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Ck0IuO_hggQSBwgEFVml7RMdco4dIR1LtflLHTsnbyQdZiMGUB1-dlWhHcn6vKAwiwI41QFAAEgVUBJYBGCsAoABRo0B9_BOXbUBf_lOXRiyle2-AlAAWAI",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The helmet of the last of the honor-bound warriors. He roamed the far east long ago and lived and died by his code of honor.",
+"transmogItem" : {
+"id" : "Helm_002",
+"name" : "Leather Hood",
+"icon" : "helm_002_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/leather-hood",
+"requiredLevel" : 4,
+"itemLevel" : 7,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericHelm"
+},
+"armor" : {
+"min" : 21.0,
+"max" : 24.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 21.0,
+"max" : 24.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "Helm"
+},
+"armor" : {
+"min" : 728.0,
+"max" : 728.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+711 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+100 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +143 experience.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 31%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 300.0,
+"max" : 300.0
+},
+"Armor_Item" : {
+"min" : 728.0,
+"max" : 728.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.31000000000000005,
+"max" : 0.31000000000000005
+},
+"Durability_Max" : {
+"min" : 300.0,
+"max" : 300.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.565456767E9,
+"max" : 1.565456767E9
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Resistance_All" : {
+"min" : 100.0,
+"max" : 100.0
+},
+"Experience_Bonus" : {
+"min" : 143.0,
+"max" : 143.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Dexterity_Item" : {
+"min" : 711.0,
+"max" : 711.0
+},
+"Durability_Cur" : {
+"min" : 213.0,
+"max" : 213.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

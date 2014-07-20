@@ -1,0 +1,136 @@
+{
+"id" : 47046679,
+"name" : "StorageC",
+"class" : "barbarian",
+"gender" : 1,
+"level" : 5,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "bash",
+"name" : "Bash",
+"icon" : "barbarian_bash",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/barbarian/bash",
+"description" : "Generate: 6 Fury per attack\r\n\r\nBrutally smash an enemy for 215% weapon damage.",
+"simpleDescription" : "Generate: 6 Fury per attack\r\n\r\nBrutally strike a single enemy.",
+"skillCalcId" : "a"
+}
+}, {
+"skill" : {
+"slug" : "hammer-of-the-ancients",
+"name" : "Hammer of the Ancients",
+"icon" : "barbarian_hammeroftheancients",
+"level" : 2,
+"categorySlug" : "secondary",
+"tooltipUrl" : "skill/barbarian/hammer-of-the-ancients",
+"description" : "Cost: 20 Fury\r\n\r\nCall forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that you have.",
+"simpleDescription" : "Cost: 20 Fury\r\n\r\nCall down a mystical hammer and smash groups of enemies.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "ground-stomp",
+"name" : "Ground Stomp",
+"icon" : "barbarian_groundstomp",
+"level" : 4,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/barbarian/ground-stomp",
+"description" : "Generate: 15 Fury\r\nCooldown: 12 seconds\r\n\r\nSmash the ground, stunning all enemies within 14 yards for 4 seconds.",
+"simpleDescription" : "Generate: 15 Fury\r\nCooldown: 12 seconds\r\n\r\nSmash the ground and Stun nearby enemies for 4 seconds.",
+"skillCalcId" : "Y"
+}
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"mainHand" : {
+"id" : "Axe_1H_000",
+"name" : "Weathered Hand Axe",
+"icon" : "axe_1h_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoI07XplgsSBwgEFSUkB2MwiQI49ANAAGD0AxjKkLmwDFACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Shield_000",
+"name" : "Buckler",
+"icon" : "shield_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIy5rBrQYSBwgEFYgDO2wwiQI49QRAAGD1BBiQjtjDDVACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 226,
+"damage" : 3.7515,
+"attackSpeed" : 1.2000000476837158,
+"armor" : 31,
+"strength" : 22,
+"dexterity" : 12,
+"vitality" : 17,
+"intelligence" : 12,
+"physicalResist" : 1,
+"fireResist" : 1,
+"coldResist" : 1,
+"lightningResist" : 1,
+"poisonResist" : 1,
+"arcaneResist" : 1,
+"critDamage" : 1.5,
+"blockChance" : 0.2,
+"blockAmountMin" : 7,
+"blockAmountMax" : 12,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 100,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 1
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1405224027
+}

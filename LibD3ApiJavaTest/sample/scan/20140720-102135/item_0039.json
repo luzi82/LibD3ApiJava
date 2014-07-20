@@ -1,0 +1,92 @@
+{
+"id" : "Ring_22",
+"name" : "Shadow Vow",
+"icon" : "ring_22_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkYI6em4xw8SBwgEFTNVXUQdRwlinB2xzdt2HYQcnScdTgc6Mh0GfZZBHaRHeJ0iCwgAFa7-AQAYDiAYMAk4_QJAAFAQYP0CGObU6sUI",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+89 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+82 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 4.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+237 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+41 Cold Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+16% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance#Cold" : {
+"min" : 41.0,
+"max" : 41.0
+},
+"Gold_Find" : {
+"min" : 0.16,
+"max" : 0.16
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 381.0,
+"max" : 381.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.045,
+"max" : 0.045
+},
+"Dexterity_Item" : {
+"min" : 82.0,
+"max" : 82.0
+},
+"Durability_Max" : {
+"min" : 381.0,
+"max" : 381.0
+},
+"Strength_Item" : {
+"min" : 89.0,
+"max" : 89.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 237.0,
+"max" : 237.0
+},
+"Durability_Cur" : {
+"min" : 381.0,
+"max" : 381.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

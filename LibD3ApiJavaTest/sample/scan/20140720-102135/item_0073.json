@@ -1,0 +1,137 @@
+{
+"id" : "Unique_Sword_1H_014_x1",
+"name" : "Doombringer",
+"icon" : "unique_sword_1h_014_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI0bGg9wUSBwgEFVlMOU4d8g5veR1qSWnqHb-5YigdgYHGxB2VsfbyMIsCOIkDQABQElgEYIkDgAFGtQGb2dnvGLKxyuMJUAJYAg",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "A mysterious blade shall appear to the mighty warrior when his lands are ripped asunder, ushering in a new epoch from the ashes of the old.",
+"typeName" : "Legendary Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 2214.799962282181,
+"max" : 2214.799962282181
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"maxDamage" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1181–1423 Arcane Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Physical skills deal 18% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+711 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+18% Life",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2308 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "2.2% Chance to Knockback on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 393.0,
+"max" : 393.0
+},
+"Strength_Item" : {
+"min" : 711.0,
+"max" : 711.0
+},
+"Damage_Dealt_Percent_Bonus#Physical" : {
+"min" : 0.18,
+"max" : 0.18
+},
+"Weapon_On_Hit_Knockback_Proc_Chance" : {
+"min" : 0.022299999999999986,
+"max" : 0.022299999999999986
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"Durability_Max" : {
+"min" : 393.0,
+"max" : 393.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.70935653E8,
+"max" : -2.70935653E8
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 224.0,
+"max" : 224.0
+},
+"Damage_Weapon_Delta#Arcane" : {
+"min" : 242.0,
+"max" : 242.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 2308.0,
+"max" : 2308.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.18,
+"max" : 0.18
+},
+"Damage_Weapon_Min#Arcane" : {
+"min" : 1181.0,
+"max" : 1181.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 393.0,
+"max" : 393.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

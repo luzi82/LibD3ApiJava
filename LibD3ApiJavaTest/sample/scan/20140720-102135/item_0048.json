@@ -1,0 +1,84 @@
+{
+"id" : "Ring_21",
+"name" : "Summoner's Meridian",
+"icon" : "ring_21_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkEI7t-D0AMSBwgEFTJVXUQd-LnFPx03dgOEHYsG0fodD5AK_B1n3ArxIgsIABXHRAMAGBAgHjAJOMYDQABQDmDGAxjk1OrFCA",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+118 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+55 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 38.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 952 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 12%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 118.0,
+"max" : 118.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 454.0,
+"max" : 454.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.12,
+"max" : 0.12
+},
+"Crit_Damage_Percent" : {
+"min" : 0.38,
+"max" : 0.38
+},
+"Durability_Cur" : {
+"min" : 454.0,
+"max" : 454.0
+},
+"Vitality_Item" : {
+"min" : 55.0,
+"max" : 55.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 454.0,
+"max" : 454.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 952.0,
+"max" : 952.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

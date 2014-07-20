@@ -1,0 +1,225 @@
+{
+"id" : "Unique_Gloves_Set_13_x1",
+"name" : "Vyr’s Grasping Gauntlets",
+"icon" : "unique_gloves_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CmEI7s3B9QESBwgEFVyXwXodco4dIR1Fe8bdHSCNN1QdmKeOwB1-VrMuHfNwB60wiwI4rgFAAFASWARg8gKAAUaNAUBTkqSlASCNN1StAbi8IHq1AclbkqS4AcSY1qAOwAE1GLjdjKwPUARYAqABxqv_9wGgAeSf55QGoAG43YysDw",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"It's posited that Vyr created these enchanted gloves to protect his hands while he manipulated power summoned from beyond this realm.\" —Abd al-Hazir",
+"transmogItem" : {
+"id" : "Gloves_001",
+"name" : "Gloves",
+"icon" : "gloves_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/gloves",
+"requiredLevel" : 1,
+"itemLevel" : 2,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 4.0,
+"max" : 5.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 4.666666507720947,
+"max" : 5.666666507720947
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Set Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 576.0,
+"max" : 576.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+672 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 47.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 10.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 7.0%.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+144 Arcane Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +195 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 370.0,
+"max" : 370.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.533912119E9,
+"max" : -1.533912119E9
+},
+"Crit_Damage_Percent" : {
+"min" : 0.47,
+"max" : 0.47
+},
+"Durability_Cur" : {
+"min" : 174.0,
+"max" : 174.0
+},
+"Experience_Bonus" : {
+"min" : 195.0,
+"max" : 195.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Armor_Item" : {
+"min" : 576.3333129882812,
+"max" : 576.3333129882812
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 370.0,
+"max" : 370.0
+},
+"Resistance#Arcane" : {
+"min" : 144.0,
+"max" : 144.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.07000000000000006,
+"max" : 0.07000000000000006
+},
+"Intelligence_Item" : {
+"min" : 672.0,
+"max" : 672.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Vyr's Amazing Arcana",
+"items" : [ {
+"id" : "Unique_Chest_Set_13_x1",
+"name" : "Vyr’s Astonishing Aura",
+"icon" : "unique_chest_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-astonishing-aura"
+}, {
+"id" : "Unique_Pants_Set_13_x1",
+"name" : "Vyr’s Fantastic Finery",
+"icon" : "unique_pants_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-fantastic-finery"
+}, {
+"id" : "Unique_Gloves_Set_13_x1",
+"name" : "Vyr’s Grasping Gauntlets",
+"icon" : "unique_gloves_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-grasping-gauntlets"
+}, {
+"id" : "Unique_Boots_Set_13_x1",
+"name" : "Vyr’s Swaggering Stance",
+"icon" : "unique_boots_set_13_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/vyrs-swaggering-stance"
+} ],
+"slug" : "vyrs-amazing-arcana",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+500 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence" : {
+"min" : 500.0,
+"max" : 500.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Archon gains the effect of every rune.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_727_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

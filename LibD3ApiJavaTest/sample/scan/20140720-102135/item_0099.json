@@ -1,0 +1,114 @@
+{
+"id" : "Ring_25",
+"name" : "The Ring",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CloIgbGI-wgSBwgEFTZVXUQdlq-57B2wHg5QHajWdfwdkpTcCB1rB3fOIgsIABXN_gEAGAggHDCLAjiaAkAAUA5YBGCFA6UBkpTcCK0BSjwevbgB9cXG9QHAAQwY7NTqxQhQAFgC",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+58–104 Damage",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+372 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 6.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 34.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1701 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 282.0,
+"max" : 282.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Damage_Min#Physical" : {
+"min" : 58.0,
+"max" : 58.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1701.0,
+"max" : 1701.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.34,
+"max" : 0.34
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 389.0,
+"max" : 389.0
+},
+"Durability_Max" : {
+"min" : 389.0,
+"max" : 389.0
+},
+"Damage_Delta#Physical" : {
+"min" : 46.0,
+"max" : 46.0
+},
+"Dexterity_Item" : {
+"min" : 372.0,
+"max" : 372.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Ring",
+"slug" : "sovereign-ring",
+"name" : "Sovereign Ring",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 2,
+"item" : {
+"id" : "Diamond_16",
+"name" : "Imperial Diamond",
+"icon" : "diamond_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-diamond"
+}
+} ],
+"itemProduced" : {
+"id" : "Ring_25",
+"name" : "Sovereign Ring",
+"icon" : "ring_25_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ring"
+}
+} ]
+}

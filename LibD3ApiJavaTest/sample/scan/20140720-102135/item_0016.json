@@ -1,0 +1,128 @@
+{
+"id" : "Unique_Ring_109_x1",
+"name" : "Pandemonium Loop",
+"icon" : "unique_ring_109_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CmgItv-KpwoSBwgEFeewe7sdQ05EUR2L8XpCHWYjBlAdqSA2ujCLAjiKAkAAUBJYBGCKAmorCgwIABCIjfi7gICAoC0SGwiWydqpARIHCAQVZ_WLXzCLAjgAQAFYBJABAIABRrUBNlVdRBixvKLICA",
+"requiredLevel" : 70,
+"itemLevel" : 15,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Wishing to sow fear among the angelic defenders of the Pandemonium Fortress, Diablo gifted this ring to Iskatu, who used it to great effect in his battles against the Host. Its power could not sway Imperius, however, and the ring was lost along with Iskatu's arm before the demon could flee the field of battle.\" —Deckard Cain",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+65–125 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+453 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+486 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "11.4% Chance to Fear on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Enemies slain while Feared die in a bloody explosion and cause other nearby enemies to flee in Fear.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_648_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Min#Physical" : {
+"min" : 65.0,
+"max" : 65.0
+},
+"Durability_Max" : {
+"min" : 266.0,
+"max" : 266.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 266.0,
+"max" : 266.0
+},
+"Weapon_On_Hit_Fear_Proc_Chance" : {
+"min" : 0.11380000000000001,
+"max" : 0.11380000000000001
+},
+"Damage_Delta#Physical" : {
+"min" : 60.0,
+"max" : 60.0
+},
+"Durability_Cur" : {
+"min" : 266.0,
+"max" : 266.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Vitality_Item" : {
+"min" : 486.0,
+"max" : 486.0
+},
+"Strength_Item" : {
+"min" : 453.0,
+"max" : 453.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Ruby_15",
+"name" : "Marquise Ruby",
+"icon" : "ruby_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIlsnaqQESBwgEFWf1i18wiwI4AEABWASQAQAYztXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+62 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 62.0,
+"max" : 62.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

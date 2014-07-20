@@ -1,0 +1,127 @@
+{
+"id" : 46659402,
+"name" : "StorageB",
+"class" : "monk",
+"gender" : 1,
+"level" : 6,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "fists-of-thunder",
+"name" : "Fists of Thunder",
+"icon" : "monk_fistsofthunder",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/monk/fists-of-thunder",
+"description" : "Generate: 14 Spirit per attack\r\n\r\nTeleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning.\r\n\r\nEvery third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+"simpleDescription" : "Generate: 14 Spirit per attack\r\n\r\nTeleport to your target and attack it with a series of rapid punches.",
+"skillCalcId" : "a"
+}
+}, {
+"skill" : {
+"slug" : "lashing-tail-kick",
+"name" : "Lashing Tail Kick",
+"icon" : "monk_lashingtailkick",
+"level" : 2,
+"categorySlug" : "secondary",
+"tooltipUrl" : "skill/monk/lashing-tail-kick",
+"description" : "Cost: 30 Spirit\r\n\r\nUnleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+"simpleDescription" : "Cost: 30 Spirit\r\n\r\nUnleash a deadly roundhouse kick that is effective against small groups of enemies.",
+"skillCalcId" : "Z"
+}
+}, {
+"skill" : {
+"slug" : "blinding-flash",
+"name" : "Blinding Flash",
+"icon" : "monk_blindingflash",
+"level" : 4,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/monk/blinding-flash",
+"description" : "Cooldown: 15 seconds\r\n\r\nCreate a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
+"simpleDescription" : "Cooldown: 15 seconds\r\n\r\nBlind all nearby enemies for 3 seconds.",
+"skillCalcId" : "Y"
+}
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"mainHand" : {
+"id" : "FistWeapon_1H_000",
+"name" : "Worn Knuckles",
+"icon" : "fistweapon_1h_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChkIiqn5ZRIHCAQVJxi1STCJAjiQA0AAYJADGM7gqJsJUAhYAg",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 250,
+"damage" : 3.84375,
+"attackSpeed" : 1.2000000476837158,
+"armor" : 13,
+"strength" : 13,
+"dexterity" : 25,
+"vitality" : 19,
+"intelligence" : 13,
+"physicalResist" : 1,
+"fireResist" : 1,
+"coldResist" : 1,
+"lightningResist" : 1,
+"poisonResist" : 1,
+"arcaneResist" : 1,
+"critDamage" : 1.5,
+"blockChance" : 0.0,
+"blockAmountMin" : 0,
+"blockAmountMax" : 0,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 150,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 6
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1405223748
+}

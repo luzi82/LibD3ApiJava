@@ -1,0 +1,161 @@
+{
+"id" : "Unique_Boots_104_x1",
+"name" : "Irontoe Mudsputters",
+"icon" : "unique_boots_104_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkgIssHXiAoSBwgEFXlo-nUd6-LkBR1DTkRRHYkle9Id8dNq1R1_jofMMIsCOJcCQABIA1ASWARg_gKAAUaNARc9m3-1AaBFm38Y8qHT3w5QAFgC",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Good, heavy steel. Nice flex around the ankle, good weight in the toes. A solid pair of boots. What, did you need them to sparkle?\" —Kormac the Templar",
+"transmogItem" : {
+"id" : "Boots_001",
+"name" : "Shoes",
+"icon" : "boots_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/shoes",
+"requiredLevel" : 1,
+"itemLevel" : 3,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+465 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+421 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Movement Speed",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Rapid Fire Damage by 12% (Demon Hunter Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+153 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Gain up to 30% increased movement speed based on amount of Life missing.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Movement_Scalar" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Power_Damage_Percent_Bonus#DemonHunter_RapidFire" : {
+"min" : 0.12,
+"max" : 0.12
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_681_x1" : {
+"min" : 0.3,
+"max" : 0.3
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Durability_Max" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Durability_Cur" : {
+"min" : 279.0,
+"max" : 279.0
+},
+"Resistance#Lightning" : {
+"min" : 153.0,
+"max" : 153.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Armor_Item" : {
+"min" : 521.3333129882812,
+"max" : 521.3333129882812
+},
+"Vitality_Item" : {
+"min" : 421.0,
+"max" : 421.0
+},
+"Dexterity_Item" : {
+"min" : 465.0,
+"max" : 465.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 2.140882336E9,
+"max" : 2.140882336E9
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,156 @@
+{
+"id" : "Unique_Staff_003_x1",
+"name" : "Wormwood",
+"icon" : "unique_staff_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CoMBCN_7o6kMEgcIBBXkg-O3HXKOHSEd3tP1oh31E6E5HZ5Pg9wdblCQBTCLAjjnAkAAUBJYBGDnAmorCgwIABDWzbWBg4CAoCcSGwipjYiVDhIHCAQVIZaumDCPAjgAQAFYBJABAIABRqUB9ROhOa0BZiMGULUBaCnlgbgB0MKP2QzAAQUYt_DjgQk",
+"requiredLevel" : 70,
+"itemLevel" : 51,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The poisonous hatred of many a man was harnessed to create this staff.",
+"typeName" : "Legendary Staff",
+"type" : {
+"twoHanded" : true,
+"id" : "Staff"
+},
+"dps" : {
+"min" : 2704.9000586271286,
+"max" : 2704.9000586271286
+},
+"attacksPerSecond" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"minDamage" : {
+"min" : 776.6,
+"max" : 776.6
+},
+"maxDamage" : {
+"min" : 1159.4,
+"max" : 1159.4
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1319–1663 Poison Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1107 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +199 experience.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "11.3% Chance to Fear on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 1107.0,
+"max" : 1107.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.115688088E9,
+"max" : -2.115688088E9
+},
+"Damage_Weapon_Percent_Bonus#Physical" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Experience_Bonus" : {
+"min" : 199.0,
+"max" : 199.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Weapon_Delta#Poison" : {
+"min" : 344.0,
+"max" : 344.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 348.0,
+"max" : 348.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Weapon_On_Hit_Fear_Proc_Chance" : {
+"min" : 0.11299999999999999,
+"max" : 0.11299999999999999
+},
+"Durability_Cur" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"Damage_Weapon_Min#Poison" : {
+"min" : 1319.0,
+"max" : 1319.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 706.0,
+"max" : 706.0
+},
+"Durability_Max" : {
+"min" : 359.0,
+"max" : 359.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIqY2IlQ4SBwgEFSGWrpgwjwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 120.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 1.2,
+"max" : 1.2
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

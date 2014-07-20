@@ -1,0 +1,60 @@
+{
+"id" : "Ring_15",
+"name" : "Feral Ring",
+"icon" : "ring_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIucj80gYSBwgEFRVVXUQdl64tZjAJOM0DQABQBmDNAxiq1OrFCA",
+"requiredLevel" : 39,
+"itemLevel" : 41,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+30 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+34 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Vitality_Item" : {
+"min" : 34.0,
+"max" : 34.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 461.0,
+"max" : 461.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Dexterity_Item" : {
+"min" : 30.0,
+"max" : 30.0
+},
+"Durability_Max" : {
+"min" : 461.0,
+"max" : 461.0
+},
+"Durability_Cur" : {
+"min" : 461.0,
+"max" : 461.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,232 @@
+{
+"id" : 29055258,
+"name" : "Sayaka",
+"class" : "barbarian",
+"gender" : 1,
+"level" : 8,
+"paragonLevel" : 0,
+"hardcore" : true,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "bash",
+"name" : "Bash",
+"icon" : "barbarian_bash",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/barbarian/bash",
+"description" : "Generate: 6 Fury per attack\r\n\r\nBrutally smash an enemy for 215% weapon damage.",
+"simpleDescription" : "Generate: 6 Fury per attack\r\n\r\nBrutally strike a single enemy.",
+"skillCalcId" : "a"
+},
+"rune" : {
+"slug" : "bash-c",
+"type" : "c",
+"name" : "Clobber",
+"level" : 6,
+"description" : "Each hit has a 35% chance to Stun the enemy for 1.5 seconds.",
+"simpleDescription" : "Each hit has a chance to Stun.",
+"tooltipParams" : "rune/bash/c",
+"skillCalcId" : "a",
+"order" : 0
+}
+}, {
+"skill" : {
+"slug" : "rend",
+"name" : "Rend",
+"icon" : "barbarian_rend",
+"level" : 5,
+"categorySlug" : "secondary",
+"tooltipUrl" : "skill/barbarian/rend",
+"description" : "Cost: 20 Fury\r\n\r\nA sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
+"simpleDescription" : "Cost: 20 Fury\r\n\r\nWound nearby enemies and cause them to Bleed for 5 seconds.",
+"skillCalcId" : "c"
+}
+}, {
+"skill" : {
+"slug" : "ground-stomp",
+"name" : "Ground Stomp",
+"icon" : "barbarian_groundstomp",
+"level" : 4,
+"categorySlug" : "defensive",
+"tooltipUrl" : "skill/barbarian/ground-stomp",
+"description" : "Generate: 15 Fury\r\nCooldown: 12 seconds\r\n\r\nSmash the ground, stunning all enemies within 14 yards for 4 seconds.",
+"simpleDescription" : "Generate: 15 Fury\r\nCooldown: 12 seconds\r\n\r\nSmash the ground and Stun nearby enemies for 4 seconds.",
+"skillCalcId" : "Y"
+}
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"head" : {
+"id" : "Helm_002",
+"name" : "Lucky Leather Hood",
+"icon" : "helm_002_barbarian_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiEI6PPSxgMSBwgEFffwTl0dF5UCdTCJAjj2A0AAUAZg9gMY7sP31AtQAlgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"torso" : {
+"id" : "ChestArmor_002",
+"name" : "Reptilian Leather Doublet",
+"icon" : "chestarmor_002_barbarian_female",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIwKmhbRIHCAQVqRkZYB0qQWZZMIkCOIYFQABQBmCGBRjS5siBDFACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Armor_Chest",
+"slug" : "apprentice-leather-doublet",
+"name" : "Apprentice Leather Doublet",
+"cost" : 1500,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "ChestArmor_002",
+"name" : "Apprentice Leather Doublet",
+"icon" : "chestarmor_002_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-leather-doublet"
+}
+} ]
+},
+"hands" : {
+"id" : "Gloves_002",
+"name" : "Leather Gloves",
+"icon" : "gloves_002_barbarian_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoI-6Gi3AsSBwgEFUFTkqQwiQI42wNAAGDbAxj9su22C1ACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"legs" : {
+"id" : "Pants_002",
+"name" : "Gathering Leather Pants of the Lion",
+"icon" : "pants_002_barbarian_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiYI0pzhxgUSBwgEFReK1aUdcp6Y3B1ri3fwMIkCOJgEQABQCGCYBBjR19OiC1ACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"bracers" : {
+"id" : "Bracers_001",
+"name" : "Bracers of the Lion",
+"icon" : "bracers_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiEIqcmU3AgSBwgEFVIkyssdcp6Y3DCJAjilA0AAUAZgpQMY2-6uwwZQAlgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"mainHand" : {
+"id" : "MightyWeapon1H_001",
+"name" : "Insightful Sickle of Wounding",
+"icon" : "mightyweapon1h_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiYIgNz0ywkSBwgEFUUQShEdDq72xR3L7mgxMIkCOOIDQABQCGDiAxiKwdCUAlACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "Shield_002",
+"name" : "Heaven's Castle",
+"icon" : "shield_002_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cj0IgP37kgQSBwgEFYoDO2wd5MkmBh08ST4FHReVAnUdl8BhjSILCAAVuf4BABgCIAowiQI4jgVAAFAMYI4FGJSO2MMNUAJYAg",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"waist" : {
+"id" : "Belt_002",
+"name" : "Hide Belt",
+"icon" : "belt_002_barbarian_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIr4_dmwwSBwgEFTifQtQwiQI48wNAAGDzAxiPg-u7BVACWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 318,
+"damage" : 23.9051,
+"attackSpeed" : 1.2999999523162842,
+"armor" : 188,
+"strength" : 38,
+"dexterity" : 15,
+"vitality" : 25,
+"intelligence" : 24,
+"physicalResist" : 2,
+"fireResist" : 2,
+"coldResist" : 2,
+"lightningResist" : 2,
+"poisonResist" : 2,
+"arcaneResist" : 2,
+"critDamage" : 1.5,
+"blockChance" : 0.18,
+"blockAmountMin" : 13,
+"blockAmountMax" : 18,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.11,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 100,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 27
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ {
+"slug" : "the-fallen-star",
+"name" : "The Fallen Star"
+}, {
+"slug" : "the-legacy-of-cain",
+"name" : "The Legacy of Cain"
+}, {
+"slug" : "a-shattered-crown",
+"name" : "A Shattered Crown"
+} ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1398693374
+}

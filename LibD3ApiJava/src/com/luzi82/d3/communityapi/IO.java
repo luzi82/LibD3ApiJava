@@ -6,25 +6,47 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class IO {
 
 	public static CareerProfile readCareerProfile(String string) throws JsonParseException, JsonMappingException, IOException {
+		return readCareerProfile(string, false);
+	}
+
+	public static HeroProfile readHeroProfile(String string) throws JsonParseException, JsonMappingException, IOException {
+		return readHeroProfile(string, false);
+	}
+
+	public static ItemInformation readItemInformation(String string) throws JsonParseException, JsonMappingException, IOException {
+		return readItemInformation(string, false);
+	}
+
+	public static CareerProfile readCareerProfile(String string, boolean ignoreUnknown) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
+		if (ignoreUnknown) {
+			mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+		}
 		CareerProfile out = mapper.readValue(new File(string), CareerProfile.class);
 		return out;
 	}
 
-	public static HeroProfile readHeroProfile(String string) throws JsonParseException, JsonMappingException, IOException {
+	public static HeroProfile readHeroProfile(String string, boolean ignoreUnknown) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
+		if (ignoreUnknown) {
+			mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+		}
 		HeroProfile out = mapper.readValue(new File(string), HeroProfile.class);
 		return out;
 	}
 
-	public static ItemInformation readItemInformation(String string) throws JsonParseException, JsonMappingException, IOException {
+	public static ItemInformation readItemInformation(String string, boolean ignoreUnknown) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
+		if (ignoreUnknown) {
+			mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+		}
 		ItemInformation out = mapper.readValue(new File(string), ItemInformation.class);
 		return out;
 	}

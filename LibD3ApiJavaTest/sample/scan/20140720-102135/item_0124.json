@@ -1,0 +1,52 @@
+{
+"id" : "Gloves_002",
+"name" : "Leather Gloves",
+"icon" : "gloves_002_barbarian_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoI-6Gi3AsSBwgEFUFTkqQwiQI42wNAAGDbAxj9su22C1ACWAI",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 16.0,
+"max" : 16.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 475.0,
+"max" : 475.0
+},
+"Durability_Max" : {
+"min" : 475.0,
+"max" : 475.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 475.0,
+"max" : 475.0
+},
+"Armor_Item" : {
+"min" : 16.0,
+"max" : 16.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

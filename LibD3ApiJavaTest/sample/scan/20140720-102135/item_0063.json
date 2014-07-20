@@ -1,0 +1,132 @@
+{
+"id" : "Scoundrel_Special_206",
+"name" : "Honor Sense",
+"icon" : "scoundrel_special_206_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkMIjoSU8ggSBwgEFaYBTPIdwNyHGx2aBgDLHcj6vKAdaUlp6h1PGawMHelwL7siCwgBFXJCAwAYGCAIMIkCOABAAFAQGLP5n9sB",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Scoundrel Token",
+"type" : {
+"twoHanded" : false,
+"id" : "ScoundrelSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+565 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+601 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 53.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1759 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+121 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +103 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Dexterity_Item" : {
+"min" : 565.0,
+"max" : 565.0
+},
+"Vitality_Item" : {
+"min" : 601.0,
+"max" : 601.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Experience_Bonus" : {
+"min" : 103.0,
+"max" : 103.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1759.0,
+"max" : 1759.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.53,
+"max" : 0.53
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance#Lightning" : {
+"min" : 121.0,
+"max" : 121.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_ScoundrelSpecial",
+"slug" : "sovereign-scoundrel-token",
+"name" : "Sovereign Scoundrel Token",
+"cost" : 23760,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 13,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 15,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Scoundrel_Special_206",
+"name" : "Sovereign Scoundrel Token",
+"icon" : "scoundrel_special_206_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-scoundrel-token"
+}
+} ]
+}

@@ -1,0 +1,232 @@
+{
+"id" : "Gloves_208",
+"name" : "Crush Denial",
+"icon" : "gloves_208_crusader_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmcI5-XN4gESBwgEFclbkqQddWfm8R2Wr7nsHQiPhtMdgIHGxB3pcC-7HWsHd84iCwgBFbVEAwAYAiAGMIsCOMgDQABIA1AQWARgzwONAchbkqSlAQiPhtOtAajWdfy4AeuCopkPwAECGO2Q7bYLUApYAg",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"transmogItem" : {
+"id" : "Gloves_207",
+"name" : "Rakkisgard Gauntlets",
+"icon" : "gloves_207_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/rakkisgard-gauntlets",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 367.0,
+"max" : 512.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 367.5,
+"max" : 512.5
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T11_Armor_Gloves",
+"slug" : "exquisite-rakkisgard-gauntlets",
+"name" : "Exquisite Rakkisgard Gauntlets",
+"cost" : 15300,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 30,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Gloves_207",
+"name" : "Exquisite Rakkisgard Gauntlets",
+"icon" : "gloves_207_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/exquisite-rakkisgard-gauntlets"
+}
+} ]
+},
+"typeName" : "Rare Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 578.0,
+"max" : 578.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+588 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 40.0%",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 8.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1686 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +124 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 463.0,
+"max" : 463.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.4,
+"max" : 0.4
+},
+"Armor_Item" : {
+"min" : 578.3333129882812,
+"max" : 578.3333129882812
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Experience_Bonus" : {
+"min" : 124.0,
+"max" : 124.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1686.0,
+"max" : 1686.0
+},
+"Strength_Item" : {
+"min" : 588.0,
+"max" : 588.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.08,
+"max" : 0.08
+},
+"Durability_Max" : {
+"min" : 463.0,
+"max" : 463.0
+},
+"Durability_Cur" : {
+"min" : 456.0,
+"max" : 456.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Gloves",
+"slug" : "sovereign-ascended-gloves",
+"name" : "Sovereign Ascended Gloves",
+"cost" : 18360,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Gloves_208",
+"name" : "Sovereign Ascended Gloves",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-gloves"
+}
+} ]
+}

@@ -1,0 +1,92 @@
+{
+"id" : "Ring_24",
+"name" : "The Spite",
+"icon" : "ring_24_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkcIxcObngISBwgEFTVVXUQdweOKRh0ntnyvHZavuewd8pLcCB1X1RqVHY0QVugiCwgBFbVEAwAYGiAqMIkCOOgCQABQEGDxAhjq1OrFCFACWAI",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+252 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+327 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+55 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+1911 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+26% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 369.0,
+"max" : 369.0
+},
+"Durability_Cur" : {
+"min" : 360.0,
+"max" : 360.0
+},
+"Vitality_Item" : {
+"min" : 327.0,
+"max" : 327.0
+},
+"Resistance_All" : {
+"min" : 55.0,
+"max" : 55.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 1911.0,
+"max" : 1911.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Strength_Item" : {
+"min" : 252.0,
+"max" : 252.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Durability_Max" : {
+"min" : 369.0,
+"max" : 369.0
+},
+"Gold_Find" : {
+"min" : 0.26,
+"max" : 0.26
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

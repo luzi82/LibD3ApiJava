@@ -1,0 +1,192 @@
+{
+"id" : "Boots_208",
+"name" : "Jester's Cleats",
+"icon" : "boots_208_monk_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmcIotXCgwgSBwgEFaBFm38dsB4OUB0DuNPVHZKU3Agd6uLkBR2r05k5HdY8vUkiCwgAFa7-AQAYICAKMIsCONADQABIFVAQWARghgSNARc9m3-lAQO409WtAXW0Xru4Aae_6_4KwAEIGMCW2vkPUAhYAg",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"transmogItem" : {
+"id" : "Boots_001",
+"name" : "Shoes",
+"icon" : "boots_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/shoes",
+"requiredLevel" : 1,
+"itemLevel" : 3,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 7.0,
+"max" : 8.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Rare Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 525.0,
+"max" : 525.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+395 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+86 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Movement Speed",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Lashing Tail Kick Damage by 13% (Monk Only)",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+31% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +16110 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Dexterity_Item" : {
+"min" : 395.0,
+"max" : 395.0
+},
+"Gold_Find" : {
+"min" : 0.31,
+"max" : 0.31
+},
+"Resistance_All" : {
+"min" : 86.0,
+"max" : 86.0
+},
+"Armor_Item" : {
+"min" : 525.3333129882812,
+"max" : 525.3333129882812
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 518.0,
+"max" : 518.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 16110.0,
+"max" : 16110.0
+},
+"Power_Damage_Percent_Bonus#Monk_LashingTailKick" : {
+"min" : 0.13,
+"max" : 0.13
+},
+"Movement_Scalar" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 518.0,
+"max" : 518.0
+},
+"Durability_Cur" : {
+"min" : 464.0,
+"max" : 464.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Boots",
+"slug" : "sovereign-ascended-greaves",
+"name" : "Sovereign Ascended Greaves",
+"cost" : 16200,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 22,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Boots_208",
+"name" : "Sovereign Ascended Greaves",
+"icon" : "boots_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-greaves"
+}
+} ]
+}

@@ -1,0 +1,144 @@
+{
+"id" : "Shoulders_207",
+"name" : "Resplendent Spaulders",
+"icon" : "shoulders_207_witchdoctor_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmEIm_az4AESBwgEFdH4yBUdWtGZXR0uQ6emHQKZ58sdkpTcCB1wi3fwHcOtOVwiCwgAFbb-AQAYLiAiMIsCOJsEQABIDFAQWARgmwSlAS5Dp6atAYuMIdq4Ac_k6LoOwAEJGKLjx9wCUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 453.0,
+"max" : 453.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+359 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+353 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+86 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Summon Zombie Dogs Damage by 13% (Witch Doctor Only)",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 2633 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Cur" : {
+"min" : 539.0,
+"max" : 539.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 539.0,
+"max" : 539.0
+},
+"Armor_Item" : {
+"min" : 453.0,
+"max" : 453.0
+},
+"Durability_Max" : {
+"min" : 539.0,
+"max" : 539.0
+},
+"Power_Damage_Percent_Bonus#Trait_Witchdoctor_ZombieDogSpawner_Passive" : {
+"min" : 0.13,
+"max" : 0.13
+},
+"Resistance_All" : {
+"min" : 86.0,
+"max" : 86.0
+},
+"Intelligence_Item" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 2633.0,
+"max" : 2633.0
+},
+"Vitality_Item" : {
+"min" : 353.0,
+"max" : 353.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T11_Armor_Shoulders",
+"slug" : "exquisite-rakkisgard-pauldrons",
+"name" : "Exquisite Rakkisgard Pauldrons",
+"cost" : 72000,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Shoulders_207",
+"name" : "Exquisite Rakkisgard Pauldrons",
+"icon" : "shoulders_207_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/exquisite-rakkisgard-pauldrons"
+}
+} ]
+}

@@ -1,0 +1,104 @@
+{
+"id" : "Ring_21",
+"name" : "Fate Dispute",
+"icon" : "ring_21_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkYI3_ThrQkSBwgEFTJVXUQdSk6LNR0W35wLHQ-QCvwdJCkL7B1xwgPgHRJW1e4iCwgBFbVEAwAYFCAkMAk4ywNAAFAQYMsDGOTU6sUI",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"armor" : {
+"min" : 174.0,
+"max" : 174.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+27 Maximum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+34 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+41 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+46 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+174 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 46.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+50 Fire Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 459.0,
+"max" : 459.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 459.0,
+"max" : 459.0
+},
+"Durability_Max" : {
+"min" : 459.0,
+"max" : 459.0
+},
+"Armor_Bonus_Item" : {
+"min" : 174.0,
+"max" : 174.0
+},
+"Dexterity_Item" : {
+"min" : 41.0,
+"max" : 41.0
+},
+"Strength_Item" : {
+"min" : 34.0,
+"max" : 34.0
+},
+"Resistance_All" : {
+"min" : 46.0,
+"max" : 46.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.46,
+"max" : 0.46
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Damage_Delta#Physical" : {
+"min" : 27.0,
+"max" : 27.0
+},
+"Resistance#Fire" : {
+"min" : 50.0,
+"max" : 50.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

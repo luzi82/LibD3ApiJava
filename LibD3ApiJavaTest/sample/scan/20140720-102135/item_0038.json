@@ -1,0 +1,124 @@
+{
+"id" : "Shield_101",
+"name" : "Deflecting Pelta of Invasion",
+"icon" : "shield_101_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiUIkbP9iAcSBwgEFcoHO2wdgY25zR0wh2IIMAk4iwVAAFAIYIsFGJSf2MMN",
+"requiredLevel" : 29,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 317.0,
+"max" : 317.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+57 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces damage from ranged attacks by 4.0%.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 57.0,
+"max" : 57.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 149.0,
+"max" : 149.0
+},
+"Durability_Max" : {
+"min" : 651.0,
+"max" : 651.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 27.0,
+"max" : 27.0
+},
+"Armor_Item" : {
+"min" : 317.0,
+"max" : 317.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 651.0,
+"max" : 651.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Block_Chance_Item" : {
+"min" : 0.16,
+"max" : 0.16
+},
+"Durability_Cur" : {
+"min" : 651.0,
+"max" : 651.0
+},
+"Damage_Percent_Reduction_From_Ranged" : {
+"min" : 0.040000000000000036,
+"max" : 0.040000000000000036
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T05_Armor_Shield",
+"slug" : "grand-master-pelta",
+"name" : "Grand Master Pelta",
+"cost" : 1800,
+"reagents" : [ {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Shield_101",
+"name" : "Grand Master Pelta",
+"icon" : "shield_101_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/grand-master-pelta"
+}
+} ],
+"blockChance" : {
+"min" : 0.16,
+"max" : 0.16
+}
+}

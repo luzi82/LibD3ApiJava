@@ -1,0 +1,132 @@
+{
+"id" : "Unique_Pants_002_x1",
+"name" : "Hammer Jammers",
+"icon" : "unique_pants_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CogBCK6l3_oOEgcIBBW1x9bRHay801Mdm4b24h1Sqb9lHevi5AUdQ05EUR0_8gnYMIsCOKoCQABQElgEYKoCaisKDAgAEOGgqa6AgIDgPRIbCOy_wOUOEgcIBBXVXbZ6MIsCOABAAVgEkAEAgAFGpQFSqb9lrQGPkMpQtQGfktWluAGv8oLOAsABBBiV4cniBVAGWAI",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "These large pants cannot be touched.",
+"typeName" : "Legendary Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 675.0,
+"max" : 675.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+452 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+483 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Movement Speed",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+32% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 1897 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Vitality_Item" : {
+"min" : 483.0,
+"max" : 483.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 298.0,
+"max" : 298.0
+},
+"Sockets" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 298.0,
+"max" : 298.0
+},
+"Armor_Item" : {
+"min" : 675.0,
+"max" : 675.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 298.0,
+"max" : 298.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.512729953E9,
+"max" : -1.512729953E9
+},
+"Intelligence_Item" : {
+"min" : 452.0,
+"max" : 452.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1897.0,
+"max" : 1897.0
+},
+"Gold_Find" : {
+"min" : 0.32,
+"max" : 0.32
+},
+"Movement_Scalar" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_17",
+"name" : "Flawless Imperial Topaz",
+"icon" : "topaz_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI7L_A5Q4SBwgEFdVdtnowiwI4AEABWASQAQAYqveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,101 @@
+{
+"id" : "Unique_Ring_103_x1",
+"name" : "Rogar's Huge Stone",
+"icon" : "unique_ring_103_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI1Nn7tQYSBwgEFaFmeLsdP_IJ2B1mIwZQHfHTatUdQ05EUR06ddqMMIsCOLADQABQElgEYLADgAFGtQE2VV1EGL3lvMgIUAhYAg",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The history of the large azure gem set in this ring is unknown. Some scholars surmise it was crafted by the ancient nephalem using techniques now lost, while other believe it was fashioned from the crystalized blood of Anu himself. Regardless of its origin, the gem acts as a lodestone for arcane power, drawing it in, and then focuses it through its facets to heal the ring's wearer.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+459 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+485 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 2039 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+32% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Increase your Life per Second by up to 97% based on your missing Life.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Gold_Find" : {
+"min" : 0.32,
+"max" : 0.32
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_665_x1" : {
+"min" : 0.97,
+"max" : 0.97
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 432.0,
+"max" : 432.0
+},
+"Durability_Cur" : {
+"min" : 432.0,
+"max" : 432.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 2039.0,
+"max" : 2039.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 432.0,
+"max" : 432.0
+},
+"Dexterity_Item" : {
+"min" : 459.0,
+"max" : 459.0
+},
+"Vitality_Item" : {
+"min" : 485.0,
+"max" : 485.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

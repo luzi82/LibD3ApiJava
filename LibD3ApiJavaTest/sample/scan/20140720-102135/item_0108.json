@@ -1,0 +1,203 @@
+{
+"id" : "Unique_Chest_010_x1",
+"name" : "Chaingmail",
+"icon" : "unique_chest_010_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CqEBCM2ch1oSBwgEFQVIe04dcIt38B2PkMpQHbAeDlAdCTMWRh0CmefLMIsCOKICQABIA1ASWARgxQJqKwoMCAAQ3LHXj4CAgMA-EhsI2On-nw0SBwgEFSCWrpgwiwI4AEABWASQAQBqKwoMCAAQ07HXj4CAgMA-EhsI0ovLlQgSBwgEFSCWrpgwjwI4AEABWASQAQCAAUCNAagZGWC1AS8iGWAYiqDa5wlQCFgC",
+"requiredLevel" : 61,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The magical properties of a piece of armor such as this intrigue the mind. It was constructed from the finest parts of many different armors that were worn by many different heroes.",
+"transmogItem" : {
+"id" : "ChestArmor_001",
+"name" : "Cloth Tunic",
+"icon" : "chestarmor_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cloth-tunic",
+"requiredLevel" : 1,
+"itemLevel" : 1,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericChestArmor"
+},
+"armor" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Armor_Item" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "ChestArmor"
+},
+"armor" : {
+"min" : 430.0,
+"max" : 430.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+379 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+361 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+83 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "After earning a survival bonus, quickly heal to full Life.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.612259887E9,
+"max" : 1.612259887E9
+},
+"Durability_Max" : {
+"min" : 325.0,
+"max" : 325.0
+},
+"Durability_Cur" : {
+"min" : 290.0,
+"max" : 290.0
+},
+"Armor_Item" : {
+"min" : 430.5,
+"max" : 430.5
+},
+"Resistance_All" : {
+"min" : 83.0,
+"max" : 83.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_616_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Sockets" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Dexterity_Item" : {
+"min" : 379.0,
+"max" : 379.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 64.0,
+"max" : 64.0
+},
+"Vitality_Item" : {
+"min" : 361.0,
+"max" : 361.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 325.0,
+"max" : 325.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_16",
+"name" : "Imperial Emerald",
+"icon" : "emerald_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI2On-nw0SBwgEFSCWrpgwiwI4AEABWASQAQAYv6eL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+100 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 100.0,
+"max" : 100.0
+}
+}
+}, {
+"item" : {
+"id" : "Emerald_16",
+"name" : "Imperial Emerald",
+"icon" : "emerald_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI0ovLlQgSBwgEFSCWrpgwjwI4AEABWASQAQAYv6eL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+100 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 100.0,
+"max" : 100.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

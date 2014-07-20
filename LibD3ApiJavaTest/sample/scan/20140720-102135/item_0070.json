@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Shoulder_003_x1",
+"name" : "Vile Ward",
+"icon" : "unique_shoulder_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUIqYDG6AUSBwgEFdYjMYsdcYt38B2hKdwFHakgNrodos8UVh0gjTdUHTsnbyQwiwI4kwNAAFASWARgmQOAAUa1AdL4yBUY0_D2zA5QAlgC",
+"requiredLevel" : 44,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Surprisingly, the taint of foul evil seeping from these ancient demon skulls protects the wearer from harm.",
+"typeName" : "Legendary Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 1049.0,
+"max" : 1049.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+440 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+97 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+397 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 973 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Level Requirement Reduced by 26",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Bonus_Item" : {
+"min" : 397.0,
+"max" : 397.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 3.65492434E8,
+"max" : 3.65492434E8
+},
+"Strength_Item" : {
+"min" : 440.0,
+"max" : 440.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 973.0,
+"max" : 973.0
+},
+"Durability_Max" : {
+"min" : 409.0,
+"max" : 409.0
+},
+"Durability_Cur" : {
+"min" : 403.0,
+"max" : 403.0
+},
+"Armor_Item" : {
+"min" : 652.6666870117188,
+"max" : 652.6666870117188
+},
+"Item_Level_Requirement_Reduction" : {
+"min" : 26.0,
+"max" : 26.0
+},
+"Resistance_All" : {
+"min" : 97.0,
+"max" : 97.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 409.0,
+"max" : 409.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

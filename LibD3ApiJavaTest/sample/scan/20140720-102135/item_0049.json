@@ -1,0 +1,96 @@
+{
+"id" : "Amulet14",
+"name" : "Trance Disdain",
+"icon" : "amulet14_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkAImYzkExIHCAQVrcVEZB2-baHAHQ9c9PwdPaRQBx0BamldHZ5VDVsiCwgBFbVEAwAYACAOMAk4lQNAAFAOYJUDGNqWpsQM",
+"requiredLevel" : 60,
+"itemLevel" : 62,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"armor" : {
+"min" : 277.0,
+"max" : 277.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+12 Maximum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+134 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+122 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+86 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+277 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 8.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 405.0,
+"max" : 405.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.08,
+"max" : 0.08
+},
+"Damage_Delta#Physical" : {
+"min" : 12.0,
+"max" : 12.0
+},
+"Durability_Cur" : {
+"min" : 405.0,
+"max" : 405.0
+},
+"Intelligence_Item" : {
+"min" : 122.0,
+"max" : 122.0
+},
+"Armor_Bonus_Item" : {
+"min" : 277.0,
+"max" : 277.0
+},
+"Dexterity_Item" : {
+"min" : 134.0,
+"max" : 134.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 86.0,
+"max" : 86.0
+},
+"Durability_Max" : {
+"min" : 405.0,
+"max" : 405.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+"id" : "Amulet16",
+"name" : "Reckless Seal",
+"icon" : "amulet16_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cj0IxcHx9QcSBwgEFa_FRGQdhxwILR2Wr7nsHcf6vKAdSLX5SyILCAAVyf4BABgeIAwwiQI46QJAAFAMYOkCGN6WpsQM",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+35–66 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+497 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces duration of control impairing effects by 14%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 361.0,
+"max" : 361.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Dexterity_Item" : {
+"min" : 497.0,
+"max" : 497.0
+},
+"Durability_Cur" : {
+"min" : 361.0,
+"max" : 361.0
+},
+"Damage_Delta#Physical" : {
+"min" : 31.0,
+"max" : 31.0
+},
+"Damage_Min#Physical" : {
+"min" : 35.0,
+"max" : 35.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"CrowdControl_Reduction" : {
+"min" : 0.14,
+"max" : 0.14
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 361.0,
+"max" : 361.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

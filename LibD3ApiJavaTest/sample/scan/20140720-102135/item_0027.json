@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Boots_104_x1",
+"name" : "Irontoe Mudsputters",
+"icon" : "unique_boots_104_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI59v61AwSBwgEFXlo-nUdcYt38B0gjTdUHZuG9uIdQ05EUR3r4uQFMIsCOP8BQABQElgEYP8BgAFGtQGgRZt_GPKh098OUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Good, heavy steel. Nice flex around the ankle, good weight in the toes. A solid pair of boots. What, did you need them to sparkle?\" —Kormac the Templar",
+"typeName" : "Legendary Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 966.0,
+"max" : 966.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+426 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+457 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+380 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Movement Speed",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Gain up to 27% increased movement speed based on amount of Life missing.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Armor_Bonus_Item" : {
+"min" : 380.0,
+"max" : 380.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 2.140882336E9,
+"max" : 2.140882336E9
+},
+"Movement_Scalar" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Durability_Max" : {
+"min" : 255.0,
+"max" : 255.0
+},
+"Durability_Cur" : {
+"min" : 255.0,
+"max" : 255.0
+},
+"Armor_Item" : {
+"min" : 586.3333129882812,
+"max" : 586.3333129882812
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_681_x1" : {
+"min" : 0.27,
+"max" : 0.27
+},
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Vitality_Item" : {
+"min" : 457.0,
+"max" : 457.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 255.0,
+"max" : 255.0
+},
+"Intelligence_Item" : {
+"min" : 426.0,
+"max" : 426.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

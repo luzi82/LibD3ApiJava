@@ -1,0 +1,88 @@
+{
+"id" : "Amulet13",
+"name" : "Authority Radiance",
+"icon" : "amulet13_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkEInOGM8wQSBwgEFazFRGQdt9b3sx06RK6bHZ5ssxQdOh0oKh3ckIwUIgsIARWEQgMAGBAgAjAJOJwEQABQDmCcBBjYlqbEDA",
+"requiredLevel" : 60,
+"itemLevel" : 61,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+18–41 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+240 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+96 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+43 Poison Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+41% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 96.0,
+"max" : 96.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 540.0,
+"max" : 540.0
+},
+"Durability_Cur" : {
+"min" : 540.0,
+"max" : 540.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Strength_Item" : {
+"min" : 240.0,
+"max" : 240.0
+},
+"Damage_Min#Physical" : {
+"min" : 18.0,
+"max" : 18.0
+},
+"Durability_Max" : {
+"min" : 540.0,
+"max" : 540.0
+},
+"Damage_Delta#Physical" : {
+"min" : 23.0,
+"max" : 23.0
+},
+"Resistance#Poison" : {
+"min" : 43.0,
+"max" : 43.0
+},
+"Gold_Find" : {
+"min" : 0.41,
+"max" : 0.41
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

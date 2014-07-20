@@ -1,0 +1,137 @@
+{
+"id" : "Unique_Mace_1H_005_x1",
+"name" : "Nutcracker",
+"icon" : "unique_mace_1h_005_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAImMW3hAUSBwgEFQCTCo8dco4dIR1qSWnqHXujJiId42_MhB13iGjpMIsCOMwCQABQElgEYMwCgAFGtQGCGEudGP-zq48OUAJYAg",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Each strike lands with enough force to crush a boulder.",
+"typeName" : "Legendary Mace",
+"type" : {
+"twoHanded" : false,
+"id" : "Mace"
+},
+"dps" : {
+"min" : 1965.6000781059265,
+"max" : 1965.6000781059265
+},
+"attacksPerSecond" : {
+"min" : 1.2000000476837158,
+"max" : 1.2000000476837158
+},
+"minDamage" : {
+"min" : 1400.0,
+"max" : 1400.0
+},
+"maxDamage" : {
+"min" : 1876.0,
+"max" : 1876.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1084–1291 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 32.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 1.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2481 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +151 experience.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "9.1% Chance to Stun on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Physical" : {
+"min" : 269.0,
+"max" : 269.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.2000000476837158,
+"max" : 1.2000000476837158
+},
+"Damage_Weapon_Bonus_Min_X1#Physical" : {
+"min" : 1084.0,
+"max" : 1084.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -1.65602291E9,
+"max" : -1.65602291E9
+},
+"Experience_Bonus" : {
+"min" : 151.0,
+"max" : 151.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 316.0,
+"max" : 316.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.32,
+"max" : 0.32
+},
+"Durability_Max" : {
+"min" : 332.0,
+"max" : 332.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 2481.0,
+"max" : 2481.0
+},
+"Durability_Cur" : {
+"min" : 332.0,
+"max" : 332.0
+},
+"Damage_Weapon_Bonus_Delta_X1#Physical" : {
+"min" : 207.0,
+"max" : 207.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.015,
+"max" : 0.015
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Weapon_On_Hit_Stun_Proc_Chance" : {
+"min" : 0.09130000000000005,
+"max" : 0.09130000000000005
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 332.0,
+"max" : 332.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

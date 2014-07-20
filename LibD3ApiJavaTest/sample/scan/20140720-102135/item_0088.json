@@ -1,0 +1,52 @@
+{
+"id" : "Amulet02",
+"name" : "Amulet of Focus",
+"icon" : "amulet02_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAI46KX4A0SBwgEFYrFRGQdXlCqBzAJOJcDQABQBmCXAxiUlqbEDA",
+"requiredLevel" : 11,
+"itemLevel" : 14,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+25 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 25.0,
+"max" : 25.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 407.0,
+"max" : 407.0
+},
+"Durability_Cur" : {
+"min" : 407.0,
+"max" : 407.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 407.0,
+"max" : 407.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

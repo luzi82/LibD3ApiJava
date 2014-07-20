@@ -1,0 +1,161 @@
+{
+"id" : "Unique_Shoulder_003_x1",
+"name" : "Vile Ward",
+"icon" : "unique_shoulder_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CmMI9t7PggQSBwgEFdYjMYsdOydvJB0gjTdUHaLPFFYd8dNq1R1yjh0hHXGLd_AwiwI48QFAAEgVUBJYBGDSAoABRo0BTfDIFaUBOydvJK0BdEWnibUB0vjIFbgB5KDBygLAAQEY0_D2zA5QAFgC",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Surprisingly, the taint of foul evil seeping from these ancient demon skulls protects the wearer from harm.",
+"transmogItem" : {
+"id" : "Shoulders_005",
+"name" : "Spaulders",
+"icon" : "shoulders_005_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/spaulders",
+"requiredLevel" : 23,
+"itemLevel" : 26,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 69.0,
+"max" : 79.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 69.33333587646484,
+"max" : 79.33333587646484
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 1015.0,
+"max" : 1015.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+445 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+391 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 930 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 7%.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Monster kills grant +197 experience.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Regen_Per_Second" : {
+"min" : 930.0,
+"max" : 930.0
+},
+"Experience_Bonus" : {
+"min" : 197.0,
+"max" : 197.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.07000000000000006,
+"max" : 0.07000000000000006
+},
+"Durability_Max" : {
+"min" : 338.0,
+"max" : 338.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 338.0,
+"max" : 338.0
+},
+"Armor_Item" : {
+"min" : 624.6666870117188,
+"max" : 624.6666870117188
+},
+"Durability_Cur" : {
+"min" : 241.0,
+"max" : 241.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Armor_Bonus_Item" : {
+"min" : 391.0,
+"max" : 391.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Dexterity_Item" : {
+"min" : 445.0,
+"max" : 445.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 3.65492434E8,
+"max" : 3.65492434E8
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

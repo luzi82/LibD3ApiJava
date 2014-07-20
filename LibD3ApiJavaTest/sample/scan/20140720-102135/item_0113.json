@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Bracer_004_x1",
+"name" : "Steady Strikers",
+"icon" : "unique_bracer_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI0a_L4wYSBwgEFQA1BzcdcYt38B1lOtTgHfHTatUd0p-eRB0gjTdUHX52VaEwiwI4sQJAAFASWARgsQKAAUa1AdssyssYgNS58AZQCFgC",
+"requiredLevel" : 70,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "You need only intend to strike your target, and your hands will wield the weapon with the confidence of a seasoned veteran.",
+"typeName" : "Legendary Bracers",
+"type" : {
+"twoHanded" : false,
+"id" : "Bracers"
+},
+"armor" : {
+"min" : 792.0,
+"max" : 792.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+468 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 6.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+396 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1832 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces damage from ranged attacks by 7.0%.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 305.0,
+"max" : 305.0
+},
+"Damage_Percent_Reduction_From_Ranged" : {
+"min" : 0.07000000000000006,
+"max" : 0.07000000000000006
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 305.0,
+"max" : 305.0
+},
+"Armor_Item" : {
+"min" : 396.6666564941406,
+"max" : 396.6666564941406
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 305.0,
+"max" : 305.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -8.75942693E8,
+"max" : -8.75942693E8
+},
+"Hitpoints_On_Hit" : {
+"min" : 1832.0,
+"max" : 1832.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Dexterity_Item" : {
+"min" : 468.0,
+"max" : 468.0
+},
+"Armor_Bonus_Item" : {
+"min" : 396.0,
+"max" : 396.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

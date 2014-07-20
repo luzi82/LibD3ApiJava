@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_019_x1",
+"name" : "Stone of Jordan",
+"icon" : "unique_ring_019_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYI_MOx3gMSBwgEFcegOLkdrNOZOR2L8XpCHdzXvgQdm4b24h0Nv1KzMIsCOMYBQABQElgEYJADgAFGpQGL8XpCrQG4vCB6tQE2VV1EuAGNj5jBA8ABDRjx_LrsCFAEWAI",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The Stone of Jordan is far more valuable than its appearance would suggest. Men have given much to possess it.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 15% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+462 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases damage against elites by 27%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 8.0%.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+8 Maximum Arcane Power (Wizard Only)",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +20927 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 400.0,
+"max" : 400.0
+},
+"Durability_Cur" : {
+"min" : 198.0,
+"max" : 198.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.07999999999999996,
+"max" : 0.07999999999999996
+},
+"Durability_Max" : {
+"min" : 400.0,
+"max" : 400.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 20927.0,
+"max" : 20927.0
+},
+"Resource_Max_Bonus#Arcanum" : {
+"min" : 8.0,
+"max" : 8.0
+},
+"Damage_Percent_Bonus_Vs_Elites" : {
+"min" : 0.27,
+"max" : 0.27
+},
+"Intelligence_Item" : {
+"min" : 462.0,
+"max" : 462.0
+},
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.15,
+"max" : 0.15
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

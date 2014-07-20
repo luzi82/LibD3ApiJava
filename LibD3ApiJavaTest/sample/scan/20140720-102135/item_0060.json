@@ -1,0 +1,109 @@
+{
+"id" : "Unique_Ring_008_x1",
+"name" : "Justice Lantern",
+"icon" : "unique_ring_008_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYI49SiigsSBwgEFeX7JbkdrLzTUx24vCB6HXWNeDwdII03VB1DTkRRMIsCOKQDQABQElgEYKsDgAFGpQEgjTdUrQGpIDa6tQE2VV1EuAHqvemnDcABAhi1kNDtCFAKWAI",
+"requiredLevel" : 70,
+"itemLevel" : 51,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Once worn by the self-appointed guardians of Sanctuary, who were said to feel no fear.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+437 Strength",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+436 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+16% Chance to Block",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 5.0%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1755 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 42%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 436.0,
+"max" : 436.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1755.0,
+"max" : 1755.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 427.0,
+"max" : 427.0
+},
+"Durability_Cur" : {
+"min" : 420.0,
+"max" : 420.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.050000000000000044
+},
+"Durability_Max" : {
+"min" : 427.0,
+"max" : 427.0
+},
+"Strength_Item" : {
+"min" : 437.0,
+"max" : 437.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.41999999999999993,
+"max" : 0.41999999999999993
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Block_Chance_Bonus_Item" : {
+"min" : 0.16,
+"max" : 0.16
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.16,
+"max" : 0.16
+}
+}

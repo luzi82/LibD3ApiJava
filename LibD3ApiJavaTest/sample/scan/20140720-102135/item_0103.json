@@ -1,0 +1,124 @@
+{
+"id" : "Shield_104",
+"name" : "Proud Ironwood Shield of Fortitude",
+"icon" : "shield_104_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiUIq6SRjg4SBwgEFc0HO2wd5awHJx2crKCYMAk4rQVAAFAIYK0FGJqf2MMN",
+"requiredLevel" : 41,
+"itemLevel" : 43,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+39 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+80 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Block_Amount_Item_Min" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Block_Chance_Item" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Armor_Item" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 685.0,
+"max" : 685.0
+},
+"Durability_Max" : {
+"min" : 685.0,
+"max" : 685.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 151.0,
+"max" : 151.0
+},
+"Durability_Cur" : {
+"min" : 685.0,
+"max" : 685.0
+},
+"Intelligence_Item" : {
+"min" : 39.0,
+"max" : 39.0
+},
+"Vitality_Item" : {
+"min" : 80.0,
+"max" : 80.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T06_Armor_Shield",
+"slug" : "illustrious-ironwood-shield",
+"name" : "Illustrious Ironwood Shield",
+"cost" : 1800,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Shield_104",
+"name" : "Illustrious Ironwood Shield",
+"icon" : "shield_104_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/illustrious-ironwood-shield"
+}
+} ],
+"blockChance" : {
+"min" : 0.11,
+"max" : 0.11
+}
+}

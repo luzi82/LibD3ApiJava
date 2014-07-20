@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Amulet_005_x1",
+"name" : "Ouroboros",
+"icon" : "unique_amulet_005_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI_qmv5QYSBwgEFfrRCFsdxK05XB0do43EHXRFp4kdaklp6h3J-rygHX5Wsy4wiwI4yQJAAFASWARg2gKAAUa1AbDFRGQY9MfGsAtQAFgC",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"All energy flows from and returns to the eternal source.\" —Archmage Kang",
+"typeName" : "Legendary Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+745 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 8.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2750 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 6%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+143 Cold Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 2901 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.08,
+"max" : 0.08
+},
+"Resistance#Cold" : {
+"min" : 143.0,
+"max" : 143.0
+},
+"Dexterity_Item" : {
+"min" : 745.0,
+"max" : 745.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 2901.0,
+"max" : 2901.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.06000000000000005,
+"max" : 0.06000000000000005
+},
+"Hitpoints_On_Hit" : {
+"min" : 2750.0,
+"max" : 2750.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.682228656E9,
+"max" : 1.682228656E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Durability_Cur" : {
+"min" : 329.0,
+"max" : 329.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

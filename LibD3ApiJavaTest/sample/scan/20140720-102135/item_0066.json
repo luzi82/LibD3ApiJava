@@ -1,0 +1,251 @@
+{
+"id" : "Helm_208",
+"name" : "Severe Salvation",
+"icon" : "helm_208_barbarian_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CpQBCO7-iaAHEgcIBBV_-U5dHfM4l94dmgYAyx2AgcbEHZ0HlSQdTxmsDB1rB3fOIgsIARWKQgMAGCYgHjCLAjj3AUAASANQEFgEYIQFaisKDAgAEIC8opyAgIDgPRIbCKm3j9AHEgcIBBXWXbZ6MI8COABAAVgEkAEAjQF4-U5dpQHzOJferQFmIwZQuAGGzonvCsABARj-5ffUC1ACWAI",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"transmogItem" : {
+"id" : "Helm_201",
+"name" : "Hounskull",
+"icon" : "helm_201_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/hounskull",
+"requiredLevel" : 54,
+"itemLevel" : 55,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericHelm"
+},
+"armor" : {
+"min" : 247.0,
+"max" : 269.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Armor_Item" : {
+"min" : 247.5,
+"max" : 269.5
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T07_Armor_Helm",
+"slug" : "magnificent-hounskull",
+"name" : "Magnificent Hounskull",
+"cost" : 1020,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 9,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Helm_201",
+"name" : "Magnificent Hounskull",
+"icon" : "helm_201_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/magnificent-hounskull"
+}
+} ]
+},
+"typeName" : "Rare Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericHelm"
+},
+"armor" : {
+"min" : 692.0,
+"max" : 692.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+560 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+625 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+131 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 1367 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 247.0,
+"max" : 247.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Strength_Item" : {
+"min" : 560.0,
+"max" : 560.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1367.0,
+"max" : 1367.0
+},
+"Resistance#Lightning" : {
+"min" : 131.0,
+"max" : 131.0
+},
+"Vitality_Item" : {
+"min" : 625.0,
+"max" : 625.0
+},
+"Armor_Item" : {
+"min" : 692.0,
+"max" : 692.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 644.0,
+"max" : 644.0
+},
+"Durability_Max" : {
+"min" : 644.0,
+"max" : 644.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_18",
+"name" : "Royal Topaz",
+"icon" : "topaz_18_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIqbeP0AcSBwgEFdZdtnowjwI4AEABWASQAQAYrPeyqw8"
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "39% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Magic_Find" : {
+"min" : 0.39,
+"max" : 0.39
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Helm",
+"slug" : "sovereign-ascended-helm",
+"name" : "Sovereign Ascended Helm",
+"cost" : 18360,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Helm_208",
+"name" : "Sovereign Ascended Helm",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-helm"
+}
+} ]
+}

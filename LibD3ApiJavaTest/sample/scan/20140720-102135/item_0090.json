@@ -1,0 +1,226 @@
+{
+"id" : "Unique_Cloak_101_x1",
+"name" : "Blackfeather",
+"icon" : "unique_cloak_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Cs4BCKWdqHkSBwgEFdn2ig8df46HzB1DTkRRHVhG4dkdcyMGUB3x02rVMIsCOMYBQABIA1ASWARgnQJqKwoMCAAQne7IpYCAgKAsEhsIrd7K_w4SBwgEFSGWrpgwiwI4AEABWASQAQBqKwoMCAAQo-7IpYCAgKAsEhsI5M63rwwSBwgEFSGWrpgwiwI4AEABWASQAQBqKwoMCAAQuO3IpYCAgKAsEhsIv4zKhgoSBwgEFSGWrpgwjwI4AEABWASQAQCAAUaNAagZGWC1AQFwbwIYstvX-AFQAFgC",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This cloak matches the description of the one worn by the hero in the popular children's tale Yorgie and the Giants.",
+"transmogItem" : {
+"id" : "ChestArmor_001",
+"name" : "Cloth Tunic",
+"icon" : "chestarmor_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/cloth-tunic",
+"requiredLevel" : 1,
+"itemLevel" : 1,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericChestArmor"
+},
+"armor" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Cloak",
+"type" : {
+"twoHanded" : false,
+"id" : "Cloak"
+},
+"armor" : {
+"min" : 705.0,
+"max" : 705.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+451 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+468 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Sentry Damage by 14% (Demon Hunter Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+159 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Dodging or getting hit by a ranged attack automatically shoots a homing rocket back at the attacker for 792% weapon damage as Physical.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Sockets" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_686_x1" : {
+"min" : 7.92,
+"max" : 7.92
+},
+"Durability_Max" : {
+"min" : 285.0,
+"max" : 285.0
+},
+"Durability_Cur" : {
+"min" : 198.0,
+"max" : 198.0
+},
+"Resistance#Lightning" : {
+"min" : 159.0,
+"max" : 159.0
+},
+"Power_Damage_Percent_Bonus#DemonHunter_Sentry" : {
+"min" : 0.14,
+"max" : 0.14
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 285.0,
+"max" : 285.0
+},
+"Armor_Item" : {
+"min" : 705.0,
+"max" : 705.0
+},
+"Vitality_Item" : {
+"min" : 468.0,
+"max" : 468.0
+},
+"Dexterity_Item" : {
+"min" : 451.0,
+"max" : 451.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 4.0857601E7,
+"max" : 4.0857601E7
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIrd7K_w4SBwgEFSGWrpgwiwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsI5M63rwwSBwgEFSGWrpgwiwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIv4zKhgoSBwgEFSGWrpgwjwI4AEABWASQAQAYvaeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

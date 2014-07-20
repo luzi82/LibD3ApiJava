@@ -1,0 +1,125 @@
+{
+"id" : 49087238,
+"name" : "StorageD",
+"class" : "crusader",
+"gender" : 1,
+"level" : 2,
+"paragonLevel" : 391,
+"hardcore" : false,
+"skills" : {
+"active" : [ {
+"skill" : {
+"slug" : "punish",
+"name" : "Punish",
+"icon" : "x1_crusader_punish",
+"level" : 1,
+"categorySlug" : "primary",
+"tooltipUrl" : "skill/crusader/punish",
+"description" : "Generate: 5 Wrath per attack\r\n\r\nStrike your enemy for 270% weapon damage and gain Hardened Senses, increasing your Block Chance by 15% for 5 seconds.",
+"simpleDescription" : "Generate: 5 Wrath per attack\r\n\r\nStrike your enemy and gain Hardened Senses, increasing your chance to block for a short time.",
+"skillCalcId" : "a"
+}
+}, {
+"skill" : {
+"slug" : "shield-bash",
+"name" : "Shield Bash",
+"icon" : "x1_crusader_shieldbash2",
+"level" : 2,
+"categorySlug" : "secondary",
+"tooltipUrl" : "skill/crusader/shield-bash",
+"description" : "Cost: 30 Wrath\r\n\r\nCharge at your enemy, bashing him and all nearby foes. Deals 370% weapon damage plus 300% of your shield's Block Chance as Holy damage.",
+"simpleDescription" : "Cost: 30 Wrath\r\n\r\nCharge at your enemy, bashing him and all nearby foes violently with your shield.",
+"skillCalcId" : "Z"
+}
+}, {
+}, {
+}, {
+}, {
+} ],
+"passive" : [ {
+}, {
+}, {
+}, {
+} ]
+},
+"items" : {
+"mainHand" : {
+"id" : "Flail_1H_000",
+"name" : "Rusty Flail",
+"icon" : "flail_1h_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChoIp7eUiQwSBwgEFU8DnckwiQI49ANAAGD0Axjh8pfmBlAKWAI",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+},
+"offHand" : {
+"id" : "CrusaderShield_000",
+"name" : "Crusader Shield",
+"icon" : "crusadershield_000_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ChkI9JPobhIHCAQV4ZLz-DCJAjjeBUAAYN4FGL2043BQClgC",
+"randomAffixes" : [ ],
+"craftedBy" : [ ]
+}
+},
+"followers" : {
+},
+"stats" : {
+"life" : 154,
+"damage" : 7.84404,
+"attackSpeed" : 1.2000000476837158,
+"armor" : 22,
+"strength" : 143,
+"dexterity" : 9,
+"vitality" : 11,
+"intelligence" : 9,
+"physicalResist" : 1,
+"fireResist" : 1,
+"coldResist" : 1,
+"lightningResist" : 1,
+"poisonResist" : 1,
+"arcaneResist" : 1,
+"critDamage" : 1.5,
+"blockChance" : 0.17,
+"blockAmountMin" : 7,
+"blockAmountMax" : 12,
+"damageIncrease" : 0.0,
+"critChance" : 0.0,
+"damageReduction" : 0.0,
+"thorns" : 0.0,
+"lifeSteal" : 0.0,
+"lifePerKill" : 0.0,
+"goldFind" : 0.0,
+"magicFind" : 0.0,
+"lifeOnHit" : 0.0,
+"primaryResource" : 100,
+"secondaryResource" : 0
+},
+"kills" : {
+"elites" : 0
+},
+"progression" : {
+"act1" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act2" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act3" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act4" : {
+"completed" : false,
+"completedQuests" : [ ]
+},
+"act5" : {
+"completed" : false,
+"completedQuests" : [ ]
+}
+},
+"dead" : false,
+"last-updated" : 1405223675
+}

@@ -1,0 +1,96 @@
+{
+"id" : "Ring_24",
+"name" : "Stout Boon",
+"icon" : "ring_24_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cl8IiIWjkgQSBwgEFTVVXUQdqNZ1_B2dB5UkHQKZ58sdkpTcCB2r05k5HUq1-UsiCwgAFa1EAwAYDCAiMIsCOKkCQABQEFgEYJgDpQECmefLrQEzkEoEuAH77d-JDMABBxjq1OrFCFAAWAI",
+"requiredLevel" : 70,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+88 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 49.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 4.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 5%.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces duration of control impairing effects by 20%",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +19354 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.050000000000000044
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 408.0,
+"max" : 408.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.045,
+"max" : 0.045
+},
+"CrowdControl_Reduction" : {
+"min" : 0.19999999999999996,
+"max" : 0.19999999999999996
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 19354.0,
+"max" : 19354.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.49,
+"max" : 0.49
+},
+"Resistance_All" : {
+"min" : 88.0,
+"max" : 88.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 408.0,
+"max" : 408.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 297.0,
+"max" : 297.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

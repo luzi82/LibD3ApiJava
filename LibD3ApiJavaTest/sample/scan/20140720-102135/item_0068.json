@@ -1,0 +1,132 @@
+{
+"id" : "Boots_207",
+"name" : "Journeyman Dispute",
+"icon" : "boots_207_barbarian_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkQIibLyjwESBwgEFZ9Fm38dhiTNyB3B44pGHSe2fK8d6uLkBR0dkIfMIgsIARW1RAMAGBQgGDCJAjiABEAASBJQDmCJBBi-ltr5D1ACWAI",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Boots",
+"type" : {
+"twoHanded" : false,
+"id" : "Boots"
+},
+"armor" : {
+"min" : 729.0,
+"max" : 729.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+237 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+222 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+293 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+11% Movement Speed",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+97 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance#Lightning" : {
+"min" : 97.0,
+"max" : 97.0
+},
+"Strength_Item" : {
+"min" : 237.0,
+"max" : 237.0
+},
+"Durability_Max" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"Armor_Item" : {
+"min" : 436.5,
+"max" : 436.5
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"Vitality_Item" : {
+"min" : 222.0,
+"max" : 222.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Movement_Scalar" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Armor_Bonus_Item" : {
+"min" : 293.0,
+"max" : 293.0
+},
+"Durability_Cur" : {
+"min" : 512.0,
+"max" : 512.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T11_Armor_Boots",
+"slug" : "exquisite-rakkisgard-greaves",
+"name" : "Exquisite Rakkisgard Greaves",
+"cost" : 13500,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 15,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Boots_207",
+"name" : "Exquisite Rakkisgard Greaves",
+"icon" : "boots_207_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/exquisite-rakkisgard-greaves"
+}
+} ]
+}

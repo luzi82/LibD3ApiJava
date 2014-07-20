@@ -1,0 +1,411 @@
+{
+"id" : "Unique_Pants_014_x1",
+"name" : "Demon's Plate",
+"icon" : "unique_pants_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CrMBCKbG-rMNEgcIBBX4-OnRHY-QylAdos8UVh1DTkRRHakgNrodoSncBR0BYC2xMI8COIsCQABIA1ASWARgkgJqKwoMCAAQn6WnyoCAgOAtEhsIw9PBnwUSBwgEFWn1i18wiwI4AEABWASQAQBqKwoMCAAQg-zahIOAgOAbEhsIqO_NzAcSBwgEFWn1i18wiwI4AEABWASQAQCNAZ2S1aWlAaEp3AWtAXGLd_C4AfmX1CPAAQEYj5yw4QVQClgCoAGPnLDhBaAB2tyJ6Qk",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Patterned after the work of Sulam, the armorer who followed in the path of the warrior Myrdgar and collected the skins of fallen demons in order to craft a nearly impenetrable suit of armor.",
+"transmogItem" : {
+"id" : "Pants_206",
+"name" : "Archon Faulds",
+"icon" : "pants_206_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/archon-faulds",
+"requiredLevel" : 60,
+"itemLevel" : 63,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 397.0,
+"max" : 471.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 397.5,
+"max" : 471.5
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Set Pants",
+"type" : {
+"twoHanded" : false,
+"id" : "Legs"
+},
+"armor" : {
+"min" : 741.0,
+"max" : 741.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+431 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+480 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 961 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+159 Fire Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Strength_Item" : {
+"min" : 431.0,
+"max" : 431.0
+},
+"Durability_Max" : {
+"min" : 274.0,
+"max" : 274.0
+},
+"Vitality_Item" : {
+"min" : 480.0,
+"max" : 480.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance#Fire" : {
+"min" : 159.0,
+"max" : 159.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 274.0,
+"max" : 274.0
+},
+"Armor_Item" : {
+"min" : 741.0,
+"max" : 741.0
+},
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Cur" : {
+"min" : 267.0,
+"max" : 267.0
+},
+"Sockets" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 961.0,
+"max" : 961.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Ruby_17",
+"name" : "Flawless Imperial Ruby",
+"icon" : "ruby_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIw9PBnwUSBwgEFWn1i18wiwI4AEABWASQAQAY0tXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Ruby_17",
+"name" : "Flawless Imperial Ruby",
+"icon" : "ruby_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIqO_NzAcSBwgEFWn1i18wiwI4AEABWASQAQAY0tXf-As"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Demon's Hide",
+"items" : [ {
+"id" : "Unique_Shoulder_009_x1",
+"name" : "Demon's Aileron",
+"icon" : "unique_shoulder_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-aileron"
+}, {
+"id" : "Unique_Bracer_011_x1",
+"name" : "Demon's Animus",
+"icon" : "unique_bracer_011_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-animus"
+}, {
+"id" : "Unique_Chest_027_x1",
+"name" : "Demon's Marrow",
+"icon" : "unique_chest_027_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-marrow"
+}, {
+"id" : "Unique_Pants_014_x1",
+"name" : "Demon's Plate",
+"icon" : "unique_pants_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-plate"
+}, {
+"id" : "Unique_Belt_014_x1",
+"name" : "Demon's Restraint",
+"icon" : "unique_belt_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-restraint"
+} ],
+"slug" : "demons-hide",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 6000 Fire damage per hit.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Thorns_Fixed#Fire" : {
+"min" : 6000.0,
+"max" : 6000.0
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "Chance to Deal 25% Area Damage on Hit.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Splash_Damage_Effect_Percent" : {
+"min" : 0.25,
+"max" : 0.25
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ {
+"text" : "+15% Damage to Demons",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance to reflect projectiles when you are hit by enemies.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Shoulder_009" : {
+"min" : 0.2,
+"max" : 0.2
+},
+"Damage_Percent_Bonus_Vs_Monster_Type#Demon" : {
+"min" : 0.15000000000000002,
+"max" : 0.15000000000000002
+}
+}
+} ]
+},
+"recipe" : {
+"id" : "T12_Legendary_Set_Demon_Pants_X1",
+"slug" : "demons-plate",
+"name" : "Demon's Plate",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Pants_208",
+"name" : "Ascended Faulds",
+"icon" : "pants_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-faulds"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Demon_X1",
+"name" : "Demon Skin",
+"icon" : "craftingreagent_legendary_set_demon_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/demon-skin"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Pants_014_x1",
+"name" : "Demon's Plate",
+"icon" : "unique_pants_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-plate"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Demon_Pants_X1",
+"slug" : "demons-plate",
+"name" : "Demon's Plate",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Pants_208",
+"name" : "Ascended Faulds",
+"icon" : "pants_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-faulds"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-emerald"
+}
+}, {
+"quantity" : 7,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Demon_X1",
+"name" : "Demon Skin",
+"icon" : "craftingreagent_legendary_set_demon_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/demon-skin"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Pants_014_x1",
+"name" : "Demon's Plate",
+"icon" : "unique_pants_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/demons-plate"
+}
+} ]
+}

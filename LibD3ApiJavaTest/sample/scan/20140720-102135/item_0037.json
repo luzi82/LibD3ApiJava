@@ -1,0 +1,127 @@
+{
+"id" : "Sword_1H_206",
+"name" : "Stark Scar",
+"icon" : "sword_1h_206_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmMI6PHw2gwSBwgEFV7V2e8dhPN_Uh1lWRe1HYYCY-odql7udSILCAAVy_4BABgSID4wCTjsBEAAUAxg7ARqJQoMCAAQ_IKZwYGAgOABEhUI2eu4zAoSBwgEFQGWrpgwCTgAQAEYw6qxggI",
+"requiredLevel" : 60,
+"itemLevel" : 61,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 850.4999855160713,
+"max" : 850.4999855160713
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 80.0,
+"max" : 80.0
+},
+"maxDamage" : {
+"min" : 185.0,
+"max" : 185.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+302–648 Arcane Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 41.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "3.00% of Damage Dealt Is Converted to Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Arcane" : {
+"min" : 346.0,
+"max" : 346.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 105.0,
+"max" : 105.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 80.0,
+"max" : 80.0
+},
+"Steal_Health_Percent" : {
+"min" : 0.03,
+"max" : 0.03
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 620.0,
+"max" : 620.0
+},
+"Durability_Cur" : {
+"min" : 620.0,
+"max" : 620.0
+},
+"Damage_Weapon_Min#Arcane" : {
+"min" : 302.0,
+"max" : 302.0
+},
+"Durability_Max" : {
+"min" : 620.0,
+"max" : 620.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.41,
+"max" : 0.41
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_08",
+"name" : "Flawless Square Emerald",
+"icon" : "emerald_08_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChUI2eu4zAoSBwgEFQGWrpgwCTgAQAEY_aeL9Qw"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 45.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 0.45,
+"max" : 0.45
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,160 @@
+{
+"id" : "Bow_301",
+"name" : "Rattling Wing",
+"icon" : "bow_301_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkII6c_S2Q8SBwgEFfs6VoMd4G_MhB0tFMXiHcf6vKAdXG5jwR2v5OoRIgsIABXFZQMAGBYgIjCJAjjpA0AAUA5g6QMYiZTOyg8",
+"requiredLevel" : 66,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Bow",
+"type" : {
+"twoHanded" : true,
+"id" : "Bow"
+},
+"dps" : {
+"min" : 1778.6999697089195,
+"max" : 1778.6999697089195
+},
+"attacksPerSecond" : {
+"min" : 1.4699999749660493,
+"max" : 1.4699999749660493
+},
+"minDamage" : {
+"min" : 865.0,
+"max" : 865.0
+},
+"maxDamage" : {
+"min" : 1555.0,
+"max" : 1555.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+756–930 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+439 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Attack Speed by 5%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+2782 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "3.2% Chance to Immobilize on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Weapon_Delta#Physical" : {
+"min" : 516.0,
+"max" : 516.0
+},
+"Damage_Weapon_Bonus_Min_X1#Physical" : {
+"min" : 756.0,
+"max" : 756.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Bow" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Damage_Weapon_Bonus_Delta_X1#Physical" : {
+"min" : 174.0,
+"max" : 174.0
+},
+"Durability_Max" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Weapon_On_Hit_Immobilize_Proc_Chance" : {
+"min" : 0.03149999999999997,
+"max" : 0.03149999999999997
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 2782.0,
+"max" : 2782.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 109.0,
+"max" : 109.0
+},
+"Dexterity_Item" : {
+"min" : 439.0,
+"max" : 439.0
+},
+"Attacks_Per_Second_Item_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T11_Weapon_Bow",
+"slug" : "exquisite-twin-bow",
+"name" : "Exquisite Twin Bow",
+"cost" : 27900,
+"reagents" : [ {
+"quantity" : 9,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 14,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 10,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Bow_301",
+"name" : "Exquisite Twin Bow",
+"icon" : "bow_301_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/exquisite-twin-bow"
+}
+} ]
+}

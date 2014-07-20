@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_101_x1",
+"name" : "The Tall Man's Finger",
+"icon" : "unique_ring_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAI5frO-A4SBwgEFd9Nd7sdf46HzB10RaeJHbi8IHod0p-eRB2bhvbiMIsCOIUCQABQElgEYIUCgAFGtQE2VV1EGMHIxcgIUAZYAg",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This finger was severed from the hand of an Umbaru priest who crossed over to Mbwiru Eikura in search of knowledge and came back... changed. Before the unclean phantasm was finally slain, he evinced great power over the dead, and this metal-plated digit still possesses some of that power.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+478 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1864 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 8.0%.",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 6%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+154 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Zombie Dogs instead summons a single gargantuan dog with more damage and health than all other dogs combined.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 261.0,
+"max" : 261.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.06000000000000005,
+"max" : 0.06000000000000005
+},
+"Durability_Max" : {
+"min" : 261.0,
+"max" : 261.0
+},
+"Intelligence_Item" : {
+"min" : 478.0,
+"max" : 478.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_624_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1864.0,
+"max" : 1864.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.07999999999999996,
+"max" : 0.07999999999999996
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 261.0,
+"max" : 261.0
+},
+"Resistance#Lightning" : {
+"min" : 154.0,
+"max" : 154.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

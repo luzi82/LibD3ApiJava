@@ -1,0 +1,148 @@
+{
+"id" : "Mojo_205",
+"name" : "Resolute Mascot",
+"icon" : "mojo_205_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cl8IxdvKtA0SBwgEFSth2Pcdi4wh2h2nrhCDHYy173Md8XAHrR2fKdwFHUu00mUiCwgAFa3-AQAYAiAOMIsCOOkDQABQEFgEYOkDpQGfKdwFrQEcMjtfuAHww4nHA8ABARip-7yCAVAGWAI",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Mojo",
+"type" : {
+"twoHanded" : false,
+"id" : "Mojo"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+149–173 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+495 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 7.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Mana Regeneration by 11.00 per Second (Witch Doctor Only)",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Summon Zombie Dogs Damage by 15% (Witch Doctor Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+106 Maximum Mana (Witch Doctor Only)",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "1.3% Chance to Freeze on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Weapon_On_Hit_Freeze_Proc_Chance" : {
+"min" : 0.013000000000000012,
+"max" : 0.013000000000000012
+},
+"Power_Damage_Percent_Bonus#Trait_Witchdoctor_ZombieDogSpawner_Passive" : {
+"min" : 0.15,
+"max" : 0.15
+},
+"Intelligence_Item" : {
+"min" : 495.0,
+"max" : 495.0
+},
+"Damage_Min#Physical" : {
+"min" : 149.0,
+"max" : 149.0
+},
+"Durability_Max" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Damage_Delta#Physical" : {
+"min" : 24.0,
+"max" : 24.0
+},
+"Resource_Regen_Per_Second#Mana" : {
+"min" : 11.0,
+"max" : 11.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.07,
+"max" : 0.07
+},
+"Durability_Cur" : {
+"min" : 489.0,
+"max" : 489.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resource_Max_Bonus#Mana" : {
+"min" : 106.0,
+"max" : 106.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T11_Weapon_Mojo",
+"slug" : "exquisite-skull-talisman",
+"name" : "Exquisite Skull Talisman",
+"cost" : 27000,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 12,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 10,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Mojo_205",
+"name" : "Exquisite Skull Talisman",
+"icon" : "mojo_205_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/exquisite-skull-talisman"
+}
+} ]
+}

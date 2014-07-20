@@ -1,0 +1,116 @@
+{
+"id" : "Scoundrel_Special_204",
+"name" : "Counsel Breath",
+"icon" : "scoundrel_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CjgI3MfOmA8SBwgEFaQBTPIdtvHsGh3n5anwHc7DR6wduzTUmSILCAEVeUIDABgcICYwCTgAQABQDBi3-Z_bAQ",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Scoundrel Token",
+"type" : {
+"twoHanded" : false,
+"id" : "ScoundrelSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+72 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+235 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+110 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+786 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Strength_Item" : {
+"min" : 72.0,
+"max" : 72.0
+},
+"Dexterity_Item" : {
+"min" : 235.0,
+"max" : 235.0
+},
+"Vitality_Item" : {
+"min" : 110.0,
+"max" : 110.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 786.0,
+"max" : 786.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T09_Armor_ScoundrelSpecial",
+"slug" : "glorious-dust-satchel",
+"name" : "Glorious Dust Satchel",
+"cost" : 3300,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Scoundrel_Special_204",
+"name" : "Glorious Dust Satchel",
+"icon" : "scoundrel_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/glorious-dust-satchel"
+}
+} ]
+}

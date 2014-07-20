@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Belt_008_x1",
+"name" : "String of Ears",
+"icon" : "unique_belt_008_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClUIi83bMhIHCAQVvFCPaR1xi3fwHUNORFEd0p-eRB0gjTdUHTsnbyQwiwI4jAJAAFASWARgkwKAAUalASCNN1StAakgNrq1AcCnQtS4AYXbzbsMwAECGPjC-pgNUApYAg",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "A proud fighter displays the ears of those he has slain in battle.",
+"typeName" : "Legendary Belt",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericBelt"
+},
+"armor" : {
+"min" : 461.0,
+"max" : 461.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+468 Strength",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+498 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+97 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1916 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces damage from melee attacks by 27.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 468.0,
+"max" : 468.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 268.0,
+"max" : 268.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Vitality_Item" : {
+"min" : 498.0,
+"max" : 498.0
+},
+"Resistance_All" : {
+"min" : 97.0,
+"max" : 97.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -7.33829184E8,
+"max" : -7.33829184E8
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 275.0,
+"max" : 275.0
+},
+"Damage_Percent_Reduction_From_Melee" : {
+"min" : 0.27,
+"max" : 0.27
+},
+"Hitpoints_On_Hit" : {
+"min" : 1916.0,
+"max" : 1916.0
+},
+"Durability_Max" : {
+"min" : 275.0,
+"max" : 275.0
+},
+"Armor_Item" : {
+"min" : 461.0,
+"max" : 461.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

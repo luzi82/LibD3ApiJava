@@ -1,0 +1,178 @@
+{
+"id" : "Unique_Chest_012_x1",
+"name" : "Aquila Cuirass",
+"icon" : "unique_chest_012_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CuIBCKD_lJoMEgcIBBXHYHxOHZuG9uIdQ05EUR2izxRWHSf7RCEd89VHtB1xi3fwMIsCOIQDQABQElgEYIQDaisKDAgAEIeLyqCAgICAHhIbCLu3vYwGEgcIBBXVXbZ6MI8COABAAVgEkAEAaisKDAgAEN6LyqCAgICAHhIbCJjC5bIOEgcIBBXVXbZ6MIsCOABAAVgEkAEAaisKDAgAEPeMqZ2AgICgNRIbCI6a1K0KEgcIBBXVXbZ6MIsCOABAAVgEkAEAgAFGpQGizxRWrQFzIwZQtQExIhlguAG98qy6D8ABARiOg-PnCVAGWAI",
+"requiredLevel" : 70,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Ceremonial armor commemorating the chieftain Ghaold's victory over the wild men from the east.",
+"typeName" : "Legendary Chest Armor",
+"type" : {
+"twoHanded" : false,
+"id" : "ChestArmor"
+},
+"armor" : {
+"min" : 730.0,
+"max" : 730.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+465 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+499 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Summon Zombie Dogs Damage by 10% (Witch Doctor Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+155 Poison Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Sockets" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Vitality_Item" : {
+"min" : 499.0,
+"max" : 499.0
+},
+"Intelligence_Item" : {
+"min" : 465.0,
+"max" : 465.0
+},
+"Armor_Item" : {
+"min" : 730.0,
+"max" : 730.0
+},
+"Resistance#Poison" : {
+"min" : 155.0,
+"max" : 155.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Power_Damage_Percent_Bonus#Trait_Witchdoctor_ZombieDogSpawner_Passive" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.612259889E9,
+"max" : 1.612259889E9
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 388.0,
+"max" : 388.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 388.0,
+"max" : 388.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Topaz_17",
+"name" : "Flawless Imperial Topaz",
+"icon" : "topaz_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIu7e9jAYSBwgEFdVdtnowjwI4AEABWASQAQAYqveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Topaz_17",
+"name" : "Flawless Imperial Topaz",
+"icon" : "topaz_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsImMLlsg4SBwgEFdVdtnowiwI4AEABWASQAQAYqveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+}, {
+"item" : {
+"id" : "Topaz_17",
+"name" : "Flawless Imperial Topaz",
+"icon" : "topaz_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChsIjprUrQoSBwgEFdVdtnowiwI4AEABWASQAQAYqveyqw8"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+160 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 160.0,
+"max" : 160.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

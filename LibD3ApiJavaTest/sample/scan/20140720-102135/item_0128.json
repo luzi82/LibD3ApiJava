@@ -1,0 +1,100 @@
+{
+"id" : "Shield_002",
+"name" : "Heaven's Castle",
+"icon" : "shield_002_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cj0IgP37kgQSBwgEFYoDO2wd5MkmBh08ST4FHReVAnUdl8BhjSILCAAVuf4BABgCIAowiQI4jgVAAFAMYI4FGJSO2MMNUAJYAg",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 48.0,
+"max" : 48.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+9 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+2 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+5% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +9 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Armor_Item" : {
+"min" : 48.0,
+"max" : 48.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 654.0,
+"max" : 654.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 13.0,
+"max" : 13.0
+},
+"Durability_Max" : {
+"min" : 654.0,
+"max" : 654.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 5.0,
+"max" : 5.0
+},
+"Durability_Cur" : {
+"min" : 654.0,
+"max" : 654.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"Gold_Find" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Intelligence_Item" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"Vitality_Item" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Block_Chance_Item" : {
+"min" : 0.18,
+"max" : 0.18
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.18,
+"max" : 0.18
+}
+}

@@ -1,0 +1,503 @@
+{
+"id" : "Unique_Helm_010_x1",
+"name" : "Tal Rasha's Guise of Wisdom",
+"icon" : "unique_helm_010_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CosBCKPPt9cMEgcIBBWUc_wTHUV7xt0drLzTUx04neQEHWYjBlAd83AHrR3mFdsNMIsCOGNAAFASWARgkwJqKQoMCAAQy7WNoICAgOAeEhkI3JPZ8gUSBwgEFYUnlLEwjwI4AEABkAEAgAFGjQHavf8TpQHmFdsNrQHmFdsNtQF_-U5duAHBgJP2C8ABAhiozuO_AlAEWAKgAdmE16cLoAGozuO_AqAB-KrPsAs",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "The symbol of the Horadric order.",
+"transmogItem" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 5,
+"bonusAffixesMax" : 5,
+"accountBound" : true,
+"flavorText" : "Patterned after Imris's unique circle of protection, which was powered by his own magic to not only ward off attackers but also strengthen his mind.",
+"typeName" : "Set Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "Helm"
+},
+"armor" : {
+"min" : 660.0,
+"max" : 759.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Armor_Item" : {
+"min" : 660.0,
+"max" : 759.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Sage's Journey",
+"items" : [ {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee"
+}, {
+"id" : "Unique_Boots_018_x1",
+"name" : "Sage's Passage",
+"icon" : "unique_boots_018_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-passage"
+}, {
+"id" : "Unique_Gloves_017_x1",
+"name" : "Sage's Purchase",
+"icon" : "unique_gloves_017_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-purchase"
+} ],
+"slug" : "sages-journey",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+250 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+250 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+250 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+250 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 250.0,
+"max" : 250.0
+},
+"Vitality_Item" : {
+"min" : 250.0,
+"max" : 250.0
+},
+"Dexterity_Item" : {
+"min" : 250.0,
+"max" : 250.0
+},
+"Strength_Item" : {
+"min" : 250.0,
+"max" : 250.0
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Whenever a Death's Breath drops, a second one will also drop.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_715_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"recipe" : {
+"id" : "T12_Legendary_Set_Sage_Helm_X1",
+"slug" : "sages-apogee",
+"name" : "Sage's Apogee",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Sage_X1",
+"name" : "Mystical Source",
+"icon" : "craftingreagent_legendary_set_sage_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/mystical-source"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Set_Sage_Helm_X1",
+"slug" : "sages-apogee",
+"name" : "Sage's Apogee",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_15",
+"name" : "Marquise Amethyst",
+"icon" : "amethyst_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/marquise-amethyst"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Set_Sage_X1",
+"name" : "Mystical Source",
+"icon" : "craftingreagent_legendary_set_sage_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/mystical-source"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_016_x1",
+"name" : "Sage's Apogee",
+"icon" : "unique_helm_016_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "recipe/sages-apogee"
+}
+} ]
+},
+"typeName" : "Set Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "Helm"
+},
+"armor" : {
+"min" : 1319.0,
+"max" : 1319.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+722 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+580 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 6.0%",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+148 Arcane Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 1740 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 275.0,
+"max" : 275.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Resistance#Arcane" : {
+"min" : 148.0,
+"max" : 148.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 275.0,
+"max" : 275.0
+},
+"Armor_Item" : {
+"min" : 739.0,
+"max" : 739.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 99.0,
+"max" : 99.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.565456767E9,
+"max" : 1.565456767E9
+},
+"Intelligence_Item" : {
+"min" : 722.0,
+"max" : 722.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1740.0,
+"max" : 1740.0
+},
+"Armor_Bonus_Item" : {
+"min" : 580.0,
+"max" : 580.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Diamond_19",
+"name" : "Flawless Royal Diamond",
+"icon" : "diamond_19_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChkI3JPZ8gUSBwgEFYUnlLEwjwI4AEABkAEAGPXh3uYJ"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Reduces cooldown of all skills by 12.5%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.125,
+"max" : 0.125
+}
+}
+} ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Tal Rasha's Elements",
+"items" : [ {
+"id" : "Unique_Amulet_007_x1",
+"name" : "Tal Rasha's Allegiance",
+"icon" : "unique_amulet_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-allegiance"
+}, {
+"id" : "Unique_Belt_006_x1",
+"name" : "Tal Rasha's Brace",
+"icon" : "unique_belt_006_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-brace"
+}, {
+"id" : "Unique_Helm_010_x1",
+"name" : "Tal Rasha's Guise of Wisdom",
+"icon" : "unique_helm_010_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-guise-of-wisdom"
+}, {
+"id" : "Unique_Chest_014_x1",
+"name" : "Tal Rasha's Relentless Pursuit",
+"icon" : "unique_chest_014_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-relentless-pursuit"
+}, {
+"id" : "Unique_Orb_012_x1",
+"name" : "Tal Rasha's Unwavering Glare",
+"icon" : "unique_orb_012_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/tal-rashas-unwavering-glare"
+} ],
+"slug" : "tal-rashas-elements",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "Cold skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Fire skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Lightning skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Arcane skills deal 5% more damage.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Damage_Dealt_Percent_Bonus#Fire" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Arcane" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Cold" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Damage_Dealt_Percent_Bonus#Lightning" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+100 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Arcane Power Regeneration by 2.00 per Second (Wizard Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 100.0,
+"max" : 100.0
+},
+"Resource_Regen_Per_Second#Arcanum" : {
+"min" : 2.0,
+"max" : 2.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Damaging enemies with Arcane, Cold, Fire or Lightning will cause a Meteor of the same damage type to fall from the sky. There is an 8 second cooldown for each damage type.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_710_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

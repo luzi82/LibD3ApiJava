@@ -1,0 +1,212 @@
+{
+"id" : "Unique_SpiritStone_009_x1",
+"name" : "Inna's Radiance",
+"icon" : "unique_spiritstone_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CkUIss2rgQQSBwgEFZqR5iUdco4dIR0XkrccHZsGAMsdA4UjTB1mIwZQHcn6vKAwiwI4xgJAAFASWARgxgKAAUa1ARu-hfEYtMa03gRQCFgCoAG0xrTeBA",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Inna, the goddess of the sky, radiates beauty for all to see.",
+"typeName" : "Set Spirit Stone",
+"type" : {
+"twoHanded" : false,
+"id" : "SpiritStone_Monk"
+},
+"armor" : {
+"min" : 675.0,
+"max" : 675.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+742 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+656 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Tempest Rush Damage by 15% (Monk Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+14 Maximum Spirit (Monk Only)",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Monster kills grant +195 experience.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 326.0,
+"max" : 326.0
+},
+"Armor_Item" : {
+"min" : 675.0,
+"max" : 675.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Experience_Bonus" : {
+"min" : 195.0,
+"max" : 195.0
+},
+"Durability_Max" : {
+"min" : 326.0,
+"max" : 326.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 656.0,
+"max" : 656.0
+},
+"Resource_Max_Bonus#Spirit" : {
+"min" : 14.0,
+"max" : 14.0
+},
+"Dexterity_Item" : {
+"min" : 742.0,
+"max" : 742.0
+},
+"Durability_Cur" : {
+"min" : 326.0,
+"max" : 326.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Power_Damage_Percent_Bonus#Monk_TempestRush" : {
+"min" : 0.15,
+"max" : 0.15
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.42893285E8,
+"max" : -2.42893285E8
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Inna's Mantra",
+"items" : [ {
+"id" : "Unique_Belt_007_x1",
+"name" : "Inna's Favor",
+"icon" : "unique_belt_007_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/innas-favor"
+}, {
+"id" : "Unique_SpiritStone_009_x1",
+"name" : "Inna's Radiance",
+"icon" : "unique_spiritstone_009_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/innas-radiance"
+}, {
+"id" : "Unique_CombatStaff_2H_001_x1",
+"name" : "Inna's Reach",
+"icon" : "unique_combatstaff_2h_001_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/innas-reach"
+}, {
+"id" : "Unique_Pants_008_x1",
+"name" : "Inna's Temperance",
+"icon" : "unique_pants_008_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/innas-temperance"
+}, {
+"id" : "Unique_Chest_015_x1",
+"name" : "Inna's Vast Expanse",
+"icon" : "unique_chest_015_x1_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/innas-vast-expanse"
+} ],
+"slug" : "innas-mantra",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+250 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Gain 124 Life per Spirit Spent (Monk Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Spending_Resource_Heals_Percent#Spirit" : {
+"min" : 124.0,
+"max" : 124.0
+},
+"Dexterity_Item" : {
+"min" : 250.0,
+"max" : 250.0
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "Increases Spirit Regeneration by 2.00 per Second (Monk Only)",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Reduces resource cost of Sweeping Wind by 70 Spirit (Monk Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Power_Resource_Reduction#Monk_SweepingWind" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Resource_Regen_Per_Second#Spirit" : {
+"min" : 2.0,
+"max" : 2.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ {
+"text" : "Gain the base effect of all four Mantras at all times.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_Power_Passive#ItemPassive_Unique_Ring_542_x1" : {
+"min" : 1.0,
+"max" : 1.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

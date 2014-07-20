@@ -1,0 +1,92 @@
+{
+"id" : "Amulet13",
+"name" : "Majesty Grinder",
+"icon" : "amulet13_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkEIpKy4vAYSBwgEFazFRGQdbUIXxB3En_-2HejlqfAdmLorUh2IxBbvIgsIARVtQgMAGBYgGDAJOKoDQABQDmDcAxjYlqbEDFAIWAI",
+"requiredLevel" : 60,
+"itemLevel" : 61,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+23 Maximum Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+122 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+189 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+73 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+335 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "37% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Magic_Find" : {
+"min" : 0.37,
+"max" : 0.37
+},
+"Dexterity_Item" : {
+"min" : 189.0,
+"max" : 189.0
+},
+"Strength_Item" : {
+"min" : 122.0,
+"max" : 122.0
+},
+"Damage_Delta#Physical" : {
+"min" : 23.0,
+"max" : 23.0
+},
+"Vitality_Item" : {
+"min" : 73.0,
+"max" : 73.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 335.0,
+"max" : 335.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 476.0,
+"max" : 476.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 476.0,
+"max" : 476.0
+},
+"Durability_Cur" : {
+"min" : 426.0,
+"max" : 426.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

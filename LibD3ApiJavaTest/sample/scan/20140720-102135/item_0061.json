@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_020_x1",
+"name" : "Bul-Kathos's Wedding Band",
+"icon" : "unique_ring_020_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIsbGPhwkSBwgEFd_JRbkdAWAtsR2Yp47AHdKfnkQdqSA2uh1nPuzkMIsCOKoCQABQElgEYLECgAFGtQE2VV1EGMHY0esIUApYAg",
+"requiredLevel" : 70,
+"itemLevel" : 51,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Forged in the city of Harrogath to commemorate a day sacred to the barbarians.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+445 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+15% Life",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 47.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1963 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+146 Fire Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "You drain life from enemies around you.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.15,
+"max" : 0.15
+},
+"Durability_Max" : {
+"min" : 305.0,
+"max" : 305.0
+},
+"Resistance#Fire" : {
+"min" : 146.0,
+"max" : 146.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.47,
+"max" : 0.47
+},
+"Strength_Item" : {
+"min" : 445.0,
+"max" : 445.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1963.0,
+"max" : 1963.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_020_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 305.0,
+"max" : 305.0
+},
+"Durability_Cur" : {
+"min" : 298.0,
+"max" : 298.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

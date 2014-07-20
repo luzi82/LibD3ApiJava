@@ -1,0 +1,96 @@
+{
+"id" : "Ring_21",
+"name" : "Bond Defense",
+"icon" : "ring_21_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CkYIsP2koAsSBwgEFTJVXUQdA-y9Cx1o3ArxHYi-viEd50ghfB0pEnPgHbUeGokiCwgBFWZCAwAYACAMMAk48AJAAFAQYPACGOTU6sUI",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"armor" : {
+"min" : 226.0,
+"max" : 226.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+118 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+62 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+59 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+226 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+37 Arcane Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 13%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 368.0,
+"max" : 368.0
+},
+"Resistance#Arcane" : {
+"min" : 37.0,
+"max" : 37.0
+},
+"Durability_Max" : {
+"min" : 368.0,
+"max" : 368.0
+},
+"Strength_Item" : {
+"min" : 118.0,
+"max" : 118.0
+},
+"Durability_Cur" : {
+"min" : 368.0,
+"max" : 368.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance_All" : {
+"min" : 59.0,
+"max" : 59.0
+},
+"Armor_Bonus_Item" : {
+"min" : 226.0,
+"max" : 226.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.13,
+"max" : 0.13
+},
+"Vitality_Item" : {
+"min" : 62.0,
+"max" : 62.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

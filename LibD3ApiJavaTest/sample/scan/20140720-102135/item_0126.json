@@ -1,0 +1,60 @@
+{
+"id" : "Bracers_001",
+"name" : "Bracers of the Lion",
+"icon" : "bracers_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiEIqcmU3AgSBwgEFVIkyssdcp6Y3DCJAjilA0AAUAZgpQMY2-6uwwZQAlgC",
+"requiredLevel" : 1,
+"itemLevel" : 5,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Bracers",
+"type" : {
+"twoHanded" : false,
+"id" : "Bracers"
+},
+"armor" : {
+"min" : 8.0,
+"max" : 8.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+4 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 421.0,
+"max" : 421.0
+},
+"Strength_Item" : {
+"min" : 4.0,
+"max" : 4.0
+},
+"Armor_Item" : {
+"min" : 8.333333015441895,
+"max" : 8.333333015441895
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 421.0,
+"max" : 421.0
+},
+"Durability_Cur" : {
+"min" : 421.0,
+"max" : 421.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

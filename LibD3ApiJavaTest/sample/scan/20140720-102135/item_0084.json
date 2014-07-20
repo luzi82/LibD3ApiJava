@@ -1,0 +1,111 @@
+{
+"id" : "Ring_24",
+"name" : "Fate Apex",
+"icon" : "ring_24_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CnMI2PzUkwMSBwgEFTVVXUQdweOKRh13B8T0HWYjBlAdb2mxyh27pI3EHanTmTkiCwgBFYpCAwAYFiAkMIkCOIgDQABQEGCIA2oqCgwIABDDjKyogICAwAYSGgjHvIY0EgcIBBUflq6YMIsCOABAAVgEkAEAGOrU6sUI",
+"requiredLevel" : 61,
+"itemLevel" : 65,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+300 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+328 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces cooldown of all skills by 6.0%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+83 Cold Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +5580 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 300.0,
+"max" : 300.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 5580.0,
+"max" : 5580.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Power_Cooldown_Reduction_Percent_All" : {
+"min" : 0.06000000000000005,
+"max" : 0.06000000000000005
+},
+"Durability_Max" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Resistance#Cold" : {
+"min" : 83.0,
+"max" : 83.0
+},
+"Durability_Cur" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Vitality_Item" : {
+"min" : 328.0,
+"max" : 328.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_15",
+"name" : "Marquise Emerald",
+"icon" : "emerald_15_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChoIx7yGNBIHCAQVH5aumDCLAjgAQAFYBJABABjBp4v1DA"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+62 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 62.0,
+"max" : 62.0
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,144 @@
+{
+"id" : "Gloves_208",
+"name" : "Saracen's Gauntlets",
+"icon" : "gloves_208_barbarian_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmEIhJiiwAMSBwgEFclbkqQddWfm8R05ddqMHZavuewdgIHGxB1ID71IHdY8vUkiCwgAFbj-AQAYDiAUMIsCOOoEQABIA1AQWARg8ASlATl12oytAajWdfy4AYWDueMDwAEGGO2Q7bYLUAJYAg",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 515.0,
+"max" : 515.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+533 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 6.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 43.0%",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 8.5%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+133 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+30% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Gold_Find" : {
+"min" : 0.3,
+"max" : 0.3
+},
+"Crit_Damage_Percent" : {
+"min" : 0.43,
+"max" : 0.43
+},
+"Resistance#Physical" : {
+"min" : 133.0,
+"max" : 133.0
+},
+"Durability_Cur" : {
+"min" : 618.0,
+"max" : 618.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Armor_Item" : {
+"min" : 515.3333129882812,
+"max" : 515.3333129882812
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.085,
+"max" : 0.085
+},
+"Durability_Max" : {
+"min" : 624.0,
+"max" : 624.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.06,
+"max" : 0.06
+},
+"Strength_Item" : {
+"min" : 533.0,
+"max" : 533.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 624.0,
+"max" : 624.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Gloves",
+"slug" : "sovereign-ascended-gloves",
+"name" : "Sovereign Ascended Gloves",
+"cost" : 18360,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Gloves_208",
+"name" : "Sovereign Ascended Gloves",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-gloves"
+}
+} ]
+}

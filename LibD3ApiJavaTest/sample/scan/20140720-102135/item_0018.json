@@ -1,0 +1,133 @@
+{
+"id" : "Amulet17",
+"name" : "Renown Hope",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/ClQIo_36nQUSBwgEFbDFRGQdwNyHGx11Z-bxHZoGAMsdSA-9SB2r05k5IgsIARV4QgMAGCIgHDCLAjivA0AAUA5grwOlAZoGAMutAZoGAMu4AQDAAQEY4JamxAw",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+601 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 70.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 9.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+126 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Health Globes and Potions Grant +19938 Life.",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance#Physical" : {
+"min" : 126.0,
+"max" : 126.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.09,
+"max" : 0.09
+},
+"Durability_Max" : {
+"min" : 431.0,
+"max" : 431.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 431.0,
+"max" : 431.0
+},
+"Vitality_Item" : {
+"min" : 601.0,
+"max" : 601.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Health_Globe_Bonus_Health" : {
+"min" : 19938.0,
+"max" : 19938.0
+},
+"Durability_Cur" : {
+"min" : 431.0,
+"max" : 431.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.7,
+"max" : 0.7
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Amulet",
+"slug" : "sovereign-amulet",
+"name" : "Sovereign Amulet",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Ruby_16",
+"name" : "Imperial Ruby",
+"icon" : "ruby_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-ruby"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_16",
+"name" : "Imperial Emerald",
+"icon" : "emerald_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-emerald"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_16",
+"name" : "Imperial Amethyst",
+"icon" : "amethyst_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-amethyst"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Topaz_16",
+"name" : "Imperial Topaz",
+"icon" : "topaz_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-topaz"
+}
+} ],
+"itemProduced" : {
+"id" : "Amulet17",
+"name" : "Sovereign Amulet",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-amulet"
+}
+} ]
+}

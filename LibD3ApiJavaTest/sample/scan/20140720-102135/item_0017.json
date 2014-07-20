@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_003_x1",
+"name" : "Krede’s Flame",
+"icon" : "unique_ring_003_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIlv-23wwSBwgEFQA-I7kd2T_Unx1nPuzkHTsnbyQdfnZVoR2pIDa6MIsCOJADQABQElgEYKIDgAFGtQE2VV1EGP-H5u0I",
+"requiredLevel" : 70,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"Drink in the fire of life, great warrior.\" —Duke Krede",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+477 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+99 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 7.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+12% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+4921 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Taking Fire damage restores your primary resource.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Hitpoints_On_Kill" : {
+"min" : 4921.0,
+"max" : 4921.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_669_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.12,
+"max" : 0.12
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 418.0,
+"max" : 418.0
+},
+"Resistance_All" : {
+"min" : 99.0,
+"max" : 99.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 418.0,
+"max" : 418.0
+},
+"Strength_Item" : {
+"min" : 477.0,
+"max" : 477.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Durability_Cur" : {
+"min" : 400.0,
+"max" : 400.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.07,
+"max" : 0.07
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

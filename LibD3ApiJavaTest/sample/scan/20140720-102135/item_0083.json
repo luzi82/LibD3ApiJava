@@ -1,0 +1,180 @@
+{
+"id" : "Unique_Ring_012_104",
+"name" : "Zunimassa's Pox",
+"icon" : "unique_ring_012_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/CjkI9c7h9wMSBwgEFSzgzN8dDVLdrB1-gLjUHT0rDogduNItxh05byLFHbJX1e4wCTi1AkAAUBJgtQIYp_-YgwSgAaf_mIME",
+"requiredLevel" : 60,
+"itemLevel" : 62,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"flavorText" : "Contains the power of the plague that took Zunimassa to the Unformed Land.",
+"typeName" : "Set Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+133 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+158 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+68 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 34.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+36 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 133.0,
+"max" : 133.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 309.0,
+"max" : 309.0
+},
+"Durability_Max" : {
+"min" : 309.0,
+"max" : 309.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.34,
+"max" : 0.34
+},
+"Durability_Cur" : {
+"min" : 309.0,
+"max" : 309.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance_All" : {
+"min" : 68.0,
+"max" : 68.0
+},
+"Resistance#Lightning" : {
+"min" : 36.0,
+"max" : 36.0
+},
+"Intelligence_Item" : {
+"min" : 158.0,
+"max" : 158.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"set" : {
+"name" : "Zunimassa's Whispers",
+"items" : [ {
+"id" : "Unique_Chest_016_104",
+"name" : "Zunimassa's Marrow",
+"icon" : "unique_chest_016_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/zunimassas-marrow-ypM2z"
+}, {
+"id" : "Unique_Ring_012_104",
+"name" : "Zunimassa's Pox",
+"icon" : "unique_ring_012_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/zunimassas-pox-466wVK"
+}, {
+"id" : "Unique_Mojo_011_104",
+"name" : "Zunimassa's String of Skulls",
+"icon" : "unique_mojo_011_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/zunimassas-string-of-skulls-2UnW5G"
+}, {
+"id" : "Unique_Boots_013_104",
+"name" : "Zunimassa's Trail",
+"icon" : "unique_boots_013_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/zunimassas-trail-4ijTFO"
+}, {
+"id" : "Unique_VoodooMask_007_104",
+"name" : "Zunimassa's Vision",
+"icon" : "unique_voodoomask_007_104_demonhunter_male",
+"displayColor" : "green",
+"tooltipParams" : "item/zunimassas-vision-2yoIIG"
+} ],
+"slug" : "zunimassas-whispers",
+"ranks" : [ {
+"required" : 2,
+"attributes" : {
+"primary" : [ {
+"text" : "+130 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence" : {
+"min" : 130.0,
+"max" : 130.0
+}
+}
+}, {
+"required" : 3,
+"attributes" : {
+"primary" : [ {
+"text" : "+55 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 55.0,
+"max" : 55.0
+}
+}
+}, {
+"required" : 4,
+"attributes" : {
+"primary" : [ {
+"text" : "Increases Mana Regeneration by 20.00 per Second (Witch Doctor Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Grants 10 Mana per Kill (Witch Doctor Only)",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resource_On_Kill#Mana" : {
+"min" : 10.0,
+"max" : 10.0
+},
+"Resource_Regen_Per_Second#Mana" : {
+"min" : 20.0,
+"max" : 20.0
+}
+}
+} ]
+},
+"craftedBy" : [ ]
+}

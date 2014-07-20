@@ -1,0 +1,375 @@
+{
+"id" : "Unique_Helm_011_x1",
+"name" : "The Helm of Rule",
+"icon" : "unique_helm_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkQIjt7c_AkSBwgEFfX__BMdTT8Y9h2bBgDLHX5y9yIdZz7s5B1LtflLHX-Oh8wwjwI4mwNAAEgDUBJYBGCiA40BWaXtExjq_-e_AlAKWAI",
+"requiredLevel" : 70,
+"itemLevel" : 71,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Worn by General Raylend while he stormed Yshrald's fortress during the War of the Hounds.",
+"transmogItem" : {
+"id" : "Unique_Helm_006_x1",
+"name" : "Mempo of Twilight",
+"icon" : "unique_helm_006_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/mempo-of-twilight",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 2,
+"bonusAffixesMax" : 2,
+"accountBound" : false,
+"flavorText" : "The helmet of the last of the honor-bound warriors. He roamed the far east long ago and lived and died by his code of honor.",
+"typeName" : "Legendary Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "Helm"
+},
+"armor" : {
+"min" : 397.0,
+"max" : 471.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Attack Speed Increased by 5.0–6.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.06
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Armor_Item" : {
+"min" : 397.5,
+"max" : 471.5
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+}
+},
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+330–524 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 330.0,
+"max" : 524.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+330–524 Strength",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 330.0,
+"max" : 524.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+330–524 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Intelligence_Item" : {
+"min" : 330.0,
+"max" : 524.0
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+81–85 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 81.0,
+"max" : 85.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+41–50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 41.0,
+"max" : 50.0
+}
+}
+} ]
+} ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Helm",
+"type" : {
+"twoHanded" : false,
+"id" : "Helm"
+},
+"armor" : {
+"min" : 738.0,
+"max" : 738.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+648 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+11% Life",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+11% Chance to Block",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Increases Blessed Shield Damage by 11% (Crusader Only)",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+142 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Reduces duration of control impairing effects by 24%",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"IsCrafted" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Power_Damage_Percent_Bonus#X1_Crusader_BlessedShield" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.11,
+"max" : 0.11
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 418.0,
+"max" : 418.0
+},
+"Armor_Item" : {
+"min" : 738.0,
+"max" : 738.0
+},
+"CrowdControl_Reduction" : {
+"min" : 0.24,
+"max" : 0.24
+},
+"Durability_Max" : {
+"min" : 418.0,
+"max" : 418.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 648.0,
+"max" : 648.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Cur" : {
+"min" : 411.0,
+"max" : 411.0
+},
+"Resistance#Lightning" : {
+"min" : 142.0,
+"max" : 142.0
+},
+"Block_Chance_Bonus_Item" : {
+"min" : 0.11,
+"max" : 0.11
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"recipe" : {
+"id" : "T12_Legendary_Unique_Helm_011_x1",
+"slug" : "the-helm-of-rule",
+"name" : "The Helm of Rule",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Unique_Helm_011_x1",
+"name" : "Skull of Raylend",
+"icon" : "craftingreagent_legendary_unique_helm_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/skull-of-raylend"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_011_x1",
+"name" : "The Helm of Rule",
+"icon" : "unique_helm_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/the-helm-of-rule"
+}
+},
+"craftedBy" : [ {
+"id" : "T12_Legendary_Unique_Helm_011_x1",
+"slug" : "the-helm-of-rule",
+"name" : "The Helm of Rule",
+"cost" : 36720,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Helm_208",
+"name" : "Ascended Crown",
+"icon" : "helm_208_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/ascended-crown"
+}
+}, {
+"quantity" : 6,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 90,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+}, {
+"quantity" : 2,
+"item" : {
+"id" : "Crafting_Legendary_01",
+"name" : "Forgotten Soul",
+"icon" : "crafting_legendary_01_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/forgotten-soul"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "CraftingReagent_Legendary_Unique_Helm_011_x1",
+"name" : "Skull of Raylend",
+"icon" : "craftingreagent_legendary_unique_helm_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/skull-of-raylend"
+}
+} ],
+"itemProduced" : {
+"id" : "Unique_Helm_011_x1",
+"name" : "The Helm of Rule",
+"icon" : "unique_helm_011_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "recipe/the-helm-of-rule"
+}
+} ],
+"blockChance" : {
+"min" : 0.11,
+"max" : 0.11
+}
+}

@@ -1,0 +1,192 @@
+{
+"id" : "Gloves_208",
+"name" : "Quickening Fists",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmcI1rfF5ggSBwgEFclbkqQdlq-57B0zkEoEHcj6vKAdqNZ1_B1wi3fwHW3NiR4iCwgAFbj-AQAYCiAOMIsCON0DQABIA1AQWARg-gSNAUBTkqSlAZavueytAXVn5vG4AaOZ57UGwAEBGO2Q7bYLUABYAg",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"transmogItem" : {
+"id" : "Gloves_001",
+"name" : "Gloves",
+"icon" : "gloves_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/gloves",
+"requiredLevel" : 1,
+"itemLevel" : 2,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 4.0,
+"max" : 5.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Armor_Item" : {
+"min" : 4.666666507720947,
+"max" : 5.666666507720947
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Rare Gloves",
+"type" : {
+"twoHanded" : false,
+"id" : "Gloves"
+},
+"armor" : {
+"min" : 564.0,
+"max" : 564.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+553 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 33.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 10.0%",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "Reduces all resource costs by 5%.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+138 Cold Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 634.0,
+"max" : 634.0
+},
+"Durability_Cur" : {
+"min" : 477.0,
+"max" : 477.0
+},
+"Durability_Max" : {
+"min" : 634.0,
+"max" : 634.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.33,
+"max" : 0.33
+},
+"Dexterity_Item" : {
+"min" : 553.0,
+"max" : 553.0
+},
+"Resource_Cost_Reduction_Percent_All" : {
+"min" : 0.050000000000000044,
+"max" : 0.050000000000000044
+},
+"Resistance#Cold" : {
+"min" : 138.0,
+"max" : 138.0
+},
+"Armor_Item" : {
+"min" : 564.3333129882812,
+"max" : 564.3333129882812
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Gloves",
+"slug" : "sovereign-ascended-gloves",
+"name" : "Sovereign Ascended Gloves",
+"cost" : 18360,
+"reagents" : [ {
+"quantity" : 8,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 45,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Gloves_208",
+"name" : "Sovereign Ascended Gloves",
+"icon" : "gloves_208_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-gloves"
+}
+} ]
+}

@@ -1,0 +1,105 @@
+{
+"id" : "Unique_Ring_018_x1",
+"name" : "Nagelring",
+"icon" : "unique_ring_018_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIiJ3jxAoSBwgEFWYUOLkdOnXajB1-dlWhHZuG9uId0p-eRB2svNNTMIsCOMwCQABQElgEYMwCgAFGtQE2VV1EGLOuv-wI",
+"requiredLevel" : 70,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Crafted by a mad sorcerer during his long imprisonment within the bitter labyrinths of the Black Obelisk of Vyr.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+485 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 2272 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1589 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "39% Better Chance of Finding Magical Items",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 1796 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 332.0,
+"max" : 332.0
+},
+"Magic_Find" : {
+"min" : 0.39,
+"max" : 0.39
+},
+"Durability_Max" : {
+"min" : 332.0,
+"max" : 332.0
+},
+"Intelligence_Item" : {
+"min" : 485.0,
+"max" : 485.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Hitpoints_On_Hit" : {
+"min" : 1589.0,
+"max" : 1589.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 2272.0,
+"max" : 2272.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 332.0,
+"max" : 332.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1796.0,
+"max" : 1796.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

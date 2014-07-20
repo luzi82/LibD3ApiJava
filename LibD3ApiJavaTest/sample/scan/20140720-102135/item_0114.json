@@ -1,0 +1,224 @@
+{
+"id" : "Unique_Sword_1H_101_x1",
+"name" : "Thunderfury, Blessed Blade of the Windseeker",
+"icon" : "unique_sword_1h_101_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CogBCPy9rs4BEgcIBBVWt3pQHfNwB60dj1jWHh1mIwZQHWpJaeodVKW8jTCLAjiJA0AAUBJYBGC4A2oqCgwIABCOyIfPgYCA4B8SGgjFioQ6EgcIBBUhlq6YMI8COABAAVgEkAEAgAFGjQG-C0udpQHzcAetrQHJ-rygtQGb2dnvuAGNjce5CsABAxis3dWHClAIWAI",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "This ancient blade, imbued with unpredictable elemental energies, crossed vast universes and hidden dimensions before arriving in Sanctuary. Thunderfury seeks the hand of a true hero, one capable of safely wielding its awesome power.",
+"transmogItem" : {
+"id" : "Mace_1H_001",
+"name" : "Club",
+"icon" : "mace_1h_001_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/club",
+"requiredLevel" : 1,
+"itemLevel" : 3,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Mace",
+"type" : {
+"twoHanded" : false,
+"id" : "Mace"
+},
+"dps" : {
+"min" : 5.400000214576721,
+"max" : 6.600000262260437
+},
+"attacksPerSecond" : {
+"min" : 1.2000000476837158,
+"max" : 1.2000000476837158
+},
+"minDamage" : {
+"min" : 3.0,
+"max" : 4.0
+},
+"maxDamage" : {
+"min" : 6.0,
+"max" : 7.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 3.0,
+"max" : 4.0
+},
+"Durability_Max" : {
+"min" : 550.0,
+"max" : 1100.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.2000000476837158,
+"max" : 1.2000000476837158
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 3.0,
+"max" : 3.0
+},
+"Durability_Cur" : {
+"min" : 550.0,
+"max" : 1100.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Sword",
+"type" : {
+"twoHanded" : false,
+"id" : "Sword"
+},
+"dps" : {
+"min" : 1989.39996612072,
+"max" : 1989.39996612072
+},
+"attacksPerSecond" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"minDamage" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"maxDamage" : {
+"min" : 392.0,
+"max" : 392.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1024–1258 Lightning Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+669 Dexterity",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+2541 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "1.6% Chance to Blind on Hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance on hit to blast your enemy with Lightning, dealing 313% weapon damage as Lightning and then jumping to additional nearby enemies. Each enemy hit has their attack speed and movement speed reduced by 30% for 3 seconds. Jumps up to 5 targets.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 440.0,
+"max" : 440.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -2.70935653E8,
+"max" : -2.70935653E8
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 168.0,
+"max" : 168.0
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 224.0,
+"max" : 224.0
+},
+"Durability_Cur" : {
+"min" : 393.0,
+"max" : 393.0
+},
+"Damage_Weapon_Delta#Lightning" : {
+"min" : 234.0,
+"max" : 234.0
+},
+"Weapon_On_Hit_Blind_Proc_Chance" : {
+"min" : 0.016199999999999992,
+"max" : 0.016199999999999992
+},
+"Sockets" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_581_x1" : {
+"min" : 3.13,
+"max" : 3.13
+},
+"Dexterity_Item" : {
+"min" : 669.0,
+"max" : 669.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 440.0,
+"max" : 440.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.399999976158142,
+"max" : 1.399999976158142
+},
+"Damage_Weapon_Min#Lightning" : {
+"min" : 1024.0,
+"max" : 1024.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 2541.0,
+"max" : 2541.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ {
+"item" : {
+"id" : "Emerald_17",
+"name" : "Flawless Imperial Emerald",
+"icon" : "emerald_17_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/ChoIxYqEOhIHCAQVIZaumDCPAjgAQAFYBJABABi9p4v1DA"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Critical Hit Damage Increased by 120.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Crit_Damage_Percent" : {
+"min" : 1.2,
+"max" : 1.2
+}
+}
+} ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

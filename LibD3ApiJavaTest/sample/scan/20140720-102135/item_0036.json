@@ -1,0 +1,128 @@
+{
+"id" : "Templar_Special_204",
+"name" : "Kinship Riot",
+"icon" : "templar_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cj0I14XNpwISBwgEFeoLY0QdoGyzFB1rtPJlHR_KXUkdh8QW7x2NQBfEIgsIARVnQgMAGCYgHDAJOABAAFAOGNSvmMYI",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Templar Relic",
+"type" : {
+"twoHanded" : false,
+"id" : "TemplarSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+257 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+96 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+13% Chance to Block",
+"affixType" : "utility",
+"color" : "blue"
+}, {
+"text" : "+282 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+43 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance#Physical" : {
+"min" : 43.0,
+"max" : 43.0
+},
+"Durability_Cur" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 282.0,
+"max" : 282.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Block_Chance_Bonus_Item" : {
+"min" : 0.13,
+"max" : 0.13
+},
+"Strength_Item" : {
+"min" : 257.0,
+"max" : 257.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Vitality_Item" : {
+"min" : 96.0,
+"max" : 96.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T09_Armor_TemplarSpecial",
+"slug" : "glorious-grail",
+"name" : "Glorious Grail",
+"cost" : 3300,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Templar_Special_204",
+"name" : "Glorious Grail",
+"icon" : "templar_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/glorious-grail"
+}
+} ],
+"blockChance" : {
+"min" : 0.13,
+"max" : 0.13
+}
+}

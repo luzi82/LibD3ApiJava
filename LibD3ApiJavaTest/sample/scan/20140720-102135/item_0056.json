@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Bracer_105_x1",
+"name" : "Sanguinary Vambraces",
+"icon" : "unique_bracer_105_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYI1cOj9wESBwgEFQLqXDkd0p-eRB06ddqMHay801Md5hXbDR2pIDa6MIsCOJ4DQABQElgEYKUDgAFGpQHSn55ErQHSn55EtQHbLMrLuAG5vdeCDMABCBiEqOeVB1AKWAI",
+"requiredLevel" : 70,
+"itemLevel" : 15,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "These wickedly serrated forearm guards remain caked with the dried blood of the Black King's innocent victims.",
+"typeName" : "Legendary Bracers",
+"type" : {
+"twoHanded" : false,
+"id" : "Bracers"
+},
+"armor" : {
+"min" : 369.0,
+"max" : 369.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+429 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 1970 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 5.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1924 Life per Hit",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Ranged and melee attackers take 1550 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance on being hit to deal 1000% of your Thorns damage to nearby enemies.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -8.75942693E8,
+"max" : -8.75942693E8
+},
+"Thorns_Fixed#Physical" : {
+"min" : 1550.0,
+"max" : 1550.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 421.0,
+"max" : 421.0
+},
+"Durability_Cur" : {
+"min" : 414.0,
+"max" : 414.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Bracer_105_x1" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1924.0,
+"max" : 1924.0
+},
+"Durability_Max" : {
+"min" : 421.0,
+"max" : 421.0
+},
+"Strength_Item" : {
+"min" : 429.0,
+"max" : 429.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.055,
+"max" : 0.055
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 1970.0,
+"max" : 1970.0
+},
+"Armor_Item" : {
+"min" : 369.6666564941406,
+"max" : 369.6666564941406
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

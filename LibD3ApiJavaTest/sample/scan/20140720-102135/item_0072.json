@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Bracer_004_x1",
+"name" : "Steady Strikers",
+"icon" : "unique_bracer_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkUI2Kj10wcSBwgEFQA1Bzcdf46HzB1xi3fwHakgNrod0p-eRB0gjTdUHX52VaEwiwI4_gFAAFASWARghAKAAUa1AdssyssYgNS58AZQAlgC",
+"requiredLevel" : 70,
+"itemLevel" : 11,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "You need only intend to strike your target, and your hands will wield the weapon with the confidence of a seasoned veteran.",
+"typeName" : "Legendary Bracers",
+"type" : {
+"twoHanded" : false,
+"id" : "Bracers"
+},
+"armor" : {
+"min" : 798.0,
+"max" : 798.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+484 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+382 Armor",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+1888 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+153 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Gold and Health Pickup by 1 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max" : {
+"min" : 260.0,
+"max" : 260.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -8.75942693E8,
+"max" : -8.75942693E8
+},
+"Strength_Item" : {
+"min" : 484.0,
+"max" : 484.0
+},
+"Durability_Cur" : {
+"min" : 254.0,
+"max" : 254.0
+},
+"Resistance#Lightning" : {
+"min" : 153.0,
+"max" : 153.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Armor_Item" : {
+"min" : 416.6666564941406,
+"max" : 416.6666564941406
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 260.0,
+"max" : 260.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 1888.0,
+"max" : 1888.0
+},
+"Armor_Bonus_Item" : {
+"min" : 382.0,
+"max" : 382.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

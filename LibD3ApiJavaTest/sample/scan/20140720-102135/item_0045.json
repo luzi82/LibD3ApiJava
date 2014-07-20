@@ -1,0 +1,76 @@
+{
+"id" : "Amulet12",
+"name" : "Honor Eye",
+"icon" : "amulet12_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CjwIiv2SxwkSBwgEFavFRGQdD1z0_B3n5anwHejoLjwd9mpQXyILCAEVcUIDABgAIAwwCTjyA0AAUAxg8gMY1pamxAw",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+163 Dexterity",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+245 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+92 Vitality",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+39 Physical Resistance",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Dexterity_Item" : {
+"min" : 163.0,
+"max" : 163.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 498.0,
+"max" : 498.0
+},
+"Durability_Max" : {
+"min" : 498.0,
+"max" : 498.0
+},
+"Resistance#Physical" : {
+"min" : 39.0,
+"max" : 39.0
+},
+"Durability_Cur" : {
+"min" : 498.0,
+"max" : 498.0
+},
+"Intelligence_Item" : {
+"min" : 245.0,
+"max" : 245.0
+},
+"Vitality_Item" : {
+"min" : 92.0,
+"max" : 92.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

@@ -1,0 +1,161 @@
+{
+"id" : "Unique_Shoulder_002_x1",
+"name" : "Death Watch Mantle",
+"icon" : "unique_shoulder_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/Cl4IhImNvw0SBwgEFXWXMIsdcYt38B0CmefLHSBlW0sdx9kpTh3-o_KPMIsCOKEDQABIA1ASWARgqAOAAUCNAUzwyBWlASBlW0utAWhr2TS1AdD4yBW4AYrtyooOwAEFGJWi-8wOUApYAg",
+"requiredLevel" : 61,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "These vicious pads draw their power from the very life force of your enemies.",
+"transmogItem" : {
+"id" : "Shoulders_004",
+"name" : "Amice",
+"icon" : "shoulders_004_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/amice",
+"requiredLevel" : 19,
+"itemLevel" : 22,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 58.0,
+"max" : 68.0
+},
+"attributes" : {
+"primary" : [ ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 450.0,
+"max" : 900.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Armor_Item" : {
+"min" : 58.66666793823242,
+"max" : 68.66667175292969
+},
+"Durability_Max" : {
+"min" : 450.0,
+"max" : 900.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+},
+"typeName" : "Legendary Shoulders",
+"type" : {
+"twoHanded" : false,
+"id" : "Shoulders"
+},
+"armor" : {
+"min" : 714.0,
+"max" : 714.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+382 Strength",
+"affixType" : "enchant",
+"color" : "blue"
+}, {
+"text" : "+376 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+14% Life",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+309 Armor",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "31% chance to explode in a fan of knives for 200% weapon damage when hit.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 424.0,
+"max" : 424.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 64.0,
+"max" : 64.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Shoulder_002_x1" : {
+"min" : 0.31,
+"max" : 0.31
+},
+"Armor_Item" : {
+"min" : 405.3333435058594,
+"max" : 405.3333435058594
+},
+"Armor_Bonus_Item" : {
+"min" : 309.0,
+"max" : 309.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.14,
+"max" : 0.14
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 417.0,
+"max" : 417.0
+},
+"Strength_Item" : {
+"min" : 382.0,
+"max" : 382.0
+},
+"Vitality_Item" : {
+"min" : 376.0,
+"max" : 376.0
+},
+"Durability_Max" : {
+"min" : 424.0,
+"max" : 424.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 3.65492432E8,
+"max" : 3.65492432E8
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

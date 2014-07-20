@@ -1,0 +1,145 @@
+{
+"id" : "Amulet17",
+"name" : "The Onslaught",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/Cl8I8-jfrAoSBwgEFbDFRGQdgIHGxB3A3IcbHZoGAMsdVfxoEB3DDZzlHW4RO3MiCwgBFWdCAwAYGCAoMIsCOOoBQABQEFgEYOcCpQFV_GgQrQF1Z-bxuAHigauACcABARjglqbEDFACWAI",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"typeName" : "Rare Amulet",
+"type" : {
+"twoHanded" : false,
+"id" : "Amulet"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+559 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+576 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Damage Increased by 79.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 8.5%",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+128 Poison Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+69% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Durability_Max" : {
+"min" : 359.0,
+"max" : 359.0
+},
+"Crit_Damage_Percent" : {
+"min" : 0.79,
+"max" : 0.79
+},
+"Strength_Item" : {
+"min" : 559.0,
+"max" : 559.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 234.0,
+"max" : 234.0
+},
+"Resistance#Poison" : {
+"min" : 128.0,
+"max" : 128.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.085,
+"max" : 0.085
+},
+"Vitality_Item" : {
+"min" : 576.0,
+"max" : 576.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Gold_Find" : {
+"min" : 0.69,
+"max" : 0.69
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Jeweler_Amulet",
+"slug" : "sovereign-amulet",
+"name" : "Sovereign Amulet",
+"cost" : 10000,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Ruby_16",
+"name" : "Imperial Ruby",
+"icon" : "ruby_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-ruby"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Emerald_16",
+"name" : "Imperial Emerald",
+"icon" : "emerald_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-emerald"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Amethyst_16",
+"name" : "Imperial Amethyst",
+"icon" : "amethyst_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-amethyst"
+}
+}, {
+"quantity" : 1,
+"item" : {
+"id" : "Topaz_16",
+"name" : "Imperial Topaz",
+"icon" : "topaz_16_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/imperial-topaz"
+}
+} ],
+"itemProduced" : {
+"id" : "Amulet17",
+"name" : "Sovereign Amulet",
+"icon" : "amulet17_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-amulet"
+}
+} ]
+}

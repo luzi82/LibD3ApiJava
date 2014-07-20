@@ -1,0 +1,124 @@
+{
+"id" : "Enchantress_Special_204",
+"name" : "Dauntless Trophy",
+"icon" : "enchantress_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CjgIk9rMow8SBwgEFTOjYi0dElbV7h0Shz5WHc7DR6wd5aoepiILCAAVvkQDABgaIBgwCTgAQABQDBjmjJXWBQ",
+"requiredLevel" : 59,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Enchantress Focus",
+"type" : {
+"twoHanded" : false,
+"id" : "EnchantressSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+47 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+85 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+18 Fire Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+579 Life after Each Kill",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance#Fire" : {
+"min" : 18.0,
+"max" : 18.0
+},
+"Resistance_All" : {
+"min" : 50.0,
+"max" : 50.0
+},
+"Durability_Max" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Hitpoints_On_Kill" : {
+"min" : 579.0,
+"max" : 579.0
+},
+"Strength_Item" : {
+"min" : 47.0,
+"max" : 47.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Intelligence_Item" : {
+"min" : 85.0,
+"max" : 85.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T09_Armor_EnchantressSpecial",
+"slug" : "glorious-herb",
+"name" : "Glorious Herb",
+"cost" : 3300,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Enchantress_Special_204",
+"name" : "Glorious Herb",
+"icon" : "enchantress_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/glorious-herb"
+}
+} ]
+}

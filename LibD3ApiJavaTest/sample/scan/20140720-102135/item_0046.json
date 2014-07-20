@@ -1,0 +1,108 @@
+{
+"id" : "Enchantress_Special_204",
+"name" : "Loyalty Lore",
+"icon" : "enchantress_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CjgI87bNiAkSBwgEFTOjYi0dnGyzFB3ORfRpHYnEFu8dD1z0_CILCAEVb0IDABgaIAQwCTgAQABQDBjmjJXWBQ",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Rare Enchantress Focus",
+"type" : {
+"twoHanded" : false,
+"id" : "EnchantressSpecial"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+201 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+242 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+579 Life per Hit",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 201.0,
+"max" : 201.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Intelligence_Item" : {
+"min" : 242.0,
+"max" : 242.0
+},
+"Hitpoints_On_Hit" : {
+"min" : 579.0,
+"max" : 579.0
+},
+"Durability_Cur" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Max" : {
+"min" : 0.0,
+"max" : 0.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T09_Armor_EnchantressSpecial",
+"slug" : "glorious-herb",
+"name" : "Glorious Herb",
+"cost" : 3300,
+"reagents" : [ {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+}, {
+"quantity" : 3,
+"item" : {
+"id" : "Crafting_Tier_04C",
+"name" : "Iridescent Tear",
+"icon" : "crafting_tier_04c_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/iridescent-tear"
+}
+} ],
+"itemProduced" : {
+"id" : "Enchantress_Special_204",
+"name" : "Glorious Herb",
+"icon" : "enchantress_special_204_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/glorious-herb"
+}
+} ]
+}

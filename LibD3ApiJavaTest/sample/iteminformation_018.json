@@ -1,0 +1,109 @@
+{
+"id" : "Unique_Ring_004_x1",
+"name" : "Puzzle Ring",
+"icon" : "unique_ring_004_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/CkAIp4Oo5QISBwgEFWHKI7kdOnXajB2L8XpCHX52VaEdP_IJ2B2bhvbiMIsCOK8CQABQElgEYK8CgAFGtQE2VV1EGL3W4e0I",
+"requiredLevel" : 70,
+"itemLevel" : 31,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "Clearly the product of an ingenious and befuddling mind, this ring has interlocking pieces that rotate and shift to reveal strange glowing patterns. Every configuration reveals a different magical property.",
+"typeName" : "Legendary Ring",
+"type" : {
+"twoHanded" : false,
+"id" : "Ring"
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+63–140 Damage",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+459 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Attack Speed Increased by 5.0%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Regenerates 1962 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+35% Extra Gold from Monsters",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Summon a treasure goblin who picks up normal-quality items for you. After picking up 12 items, he drops a rare item with a chance for a legendary.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Durability_Cur" : {
+"min" : 303.0,
+"max" : 303.0
+},
+"Attacks_Per_Second_Percent" : {
+"min" : 0.05,
+"max" : 0.05
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+},
+"Damage_Delta#Physical" : {
+"min" : 77.0,
+"max" : 77.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_513_x1" : {
+"min" : 12.0,
+"max" : 12.0
+},
+"Intelligence_Item" : {
+"min" : 459.0,
+"max" : 459.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Gold_Find" : {
+"min" : 0.35,
+"max" : 0.35
+},
+"Hitpoints_Regen_Per_Second" : {
+"min" : 1962.0,
+"max" : 1962.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : 1.14696735E9,
+"max" : 1.14696735E9
+},
+"Damage_Min#Physical" : {
+"min" : 63.0,
+"max" : 63.0
+},
+"Durability_Max" : {
+"min" : 303.0,
+"max" : 303.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 303.0,
+"max" : 303.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}

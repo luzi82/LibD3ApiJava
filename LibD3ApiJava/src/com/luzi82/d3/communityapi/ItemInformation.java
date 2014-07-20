@@ -242,6 +242,8 @@ public class ItemInformation {
 		@JsonProperty("Damage_Weapon_Percent_Bonus#Physical")
 		public Value<Float> Damage_Weapon_Percent_Bonus_Physical;
 		
+		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_513_x1")
+		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_513_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_515_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_515_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_581_x1")

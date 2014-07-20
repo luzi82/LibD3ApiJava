@@ -10,7 +10,6 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.luzi82.d3.communityapi.Const;
 import com.luzi82.d3.communityapi.IO;
 import com.luzi82.d3.communityapi.ItemInformation;
-import com.luzi82.d3.communityapi.ItemInformation.Value;
 
 public class ItemInformationTest {
 
@@ -324,5 +323,16 @@ public class ItemInformationTest {
 		
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_669_x1.min, 0.000001f);
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_669_x1.max, 0.000001f);
+	}
+
+	@Test
+	public void test_015() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_015.json");
+
+		Assert.assertEquals(1f, ii.attributesRaw.Damage_Weapon_Bonus_Min_Physical.min, 0.000001f);
+		Assert.assertEquals(1f, ii.attributesRaw.Damage_Weapon_Bonus_Min_Physical.max, 0.000001f);
+
+		Assert.assertEquals(1f, ii.attributesRaw.Crossbow.min, 0.000001f);
+		Assert.assertEquals(1f, ii.attributesRaw.Crossbow.max, 0.000001f);
 	}
 }

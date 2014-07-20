@@ -156,6 +156,8 @@ public class ItemInformation {
 		public Value<Float> Block_Chance_Item;
 		public Value<Float> Block_Chance_Bonus_Item;
 
+		public Value<Float> Crossbow;
+		
 		@JsonProperty("Resource_Max_Bonus#Arcanum")
 		public Value<Integer> Resource_Max_Bonus_Arcanum;
 		@JsonProperty("Resource_Regen_Per_Second#Arcanum")
@@ -226,6 +228,9 @@ public class ItemInformation {
 		public Value<Float> Resistance_Lightning;
 		@JsonProperty("Resistance#Physical")
 		public Value<Float> Resistance_Physical;
+
+		@JsonProperty("Damage_Weapon_Bonus_Min#Physical")
+		public Value<Float> Damage_Weapon_Bonus_Min_Physical;
 		
 		@JsonProperty("Thorns_Fixed#Physical")
 		public Value<Float> Thorns_Fixed_Physical;

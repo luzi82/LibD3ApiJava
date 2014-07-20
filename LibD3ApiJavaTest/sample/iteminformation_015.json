@@ -1,0 +1,115 @@
+{
+"id" : "Crossbow_001",
+"name" : "Light Crossbow of Slaying",
+"icon" : "crossbow_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/CiAIr6zJ2A8SBwgEFYJTygodR5uKMjAJOIkEQABQBmCJBBiEztKsAQ",
+"requiredLevel" : 3,
+"itemLevel" : 6,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : false,
+"typeName" : "Magic Crossbow",
+"type" : {
+"twoHanded" : true,
+"id" : "Crossbow"
+},
+"dps" : {
+"min" : 10.45000022649765,
+"max" : 10.45000022649765
+},
+"attacksPerSecond" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"minDamage" : {
+"min" : 9.0,
+"max" : 9.0
+},
+"maxDamage" : {
+"min" : 10.0,
+"max" : 10.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+1 Minimum Damage",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Durability_Max_Before_Reforge" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"Damage_Weapon_Min#Physical" : {
+"min" : 8.0,
+"max" : 8.0
+},
+"Durability_Max" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"Attacks_Per_Second_Item" : {
+"min" : 1.100000023841858,
+"max" : 1.100000023841858
+},
+"Damage_Weapon_Delta#Physical" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Durability_Cur" : {
+"min" : 521.0,
+"max" : 521.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Damage_Weapon_Bonus_Min#Physical" : {
+"min" : 1.0,
+"max" : 1.0
+},
+"Crossbow" : {
+"min" : 1.0,
+"max" : 1.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T01_Weapon_Crossbow",
+"slug" : "apprentice-light-crossbow",
+"name" : "Apprentice Light Crossbow",
+"cost" : 465,
+"reagents" : [ {
+"quantity" : 1,
+"item" : {
+"id" : "Crafting_Tier_04A",
+"name" : "Common Debris",
+"icon" : "crafting_tier_04a_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/common-debris"
+}
+}, {
+"quantity" : 5,
+"item" : {
+"id" : "Crafting_Tier_04B",
+"name" : "Exquisite Essence",
+"icon" : "crafting_tier_04b_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/exquisite-essence"
+}
+} ],
+"itemProduced" : {
+"id" : "Crossbow_001",
+"name" : "Apprentice Light Crossbow",
+"icon" : "crossbow_001_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "recipe/apprentice-light-crossbow"
+}
+} ]
+}

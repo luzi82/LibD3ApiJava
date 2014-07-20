@@ -343,4 +343,15 @@ public class ItemInformationTest {
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_653_x1.min, 0.000001f);
 		Assert.assertEquals(1f, ii.attributesRaw.Item_Power_Passive_ItemPassive_Unique_Ring_653_x1.max, 0.000001f);
 	}
+
+	@Test
+	public void test_017() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_017.json");
+
+		Assert.assertEquals(1319f, ii.attributesRaw.Damage_Weapon_Min_Poison.min, 0.000001f);
+		Assert.assertEquals(1319f, ii.attributesRaw.Damage_Weapon_Min_Poison.max, 0.000001f);
+
+		Assert.assertEquals(344f, ii.attributesRaw.Damage_Weapon_Delta_Poison.min, 0.000001f);
+		Assert.assertEquals(344f, ii.attributesRaw.Damage_Weapon_Delta_Poison.max, 0.000001f);
+	}
 }

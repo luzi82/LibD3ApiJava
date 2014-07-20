@@ -206,6 +206,8 @@ public class ItemInformation {
 		public Value<Float> Damage_Weapon_Delta_Lightning;
 		@JsonProperty("Damage_Weapon_Delta#Physical")
 		public Value<Float> Damage_Weapon_Delta_Physical;
+		@JsonProperty("Damage_Weapon_Delta#Poison")
+		public Value<Float> Damage_Weapon_Delta_Poison;
 
 		@JsonProperty("Damage_Weapon_Min#Arcane")
 		public Value<Float> Damage_Weapon_Min_Arcane;
@@ -217,6 +219,8 @@ public class ItemInformation {
 		public Value<Float> Damage_Weapon_Min_Lightning;
 		@JsonProperty("Damage_Weapon_Min#Physical")
 		public Value<Float> Damage_Weapon_Min_Physical;
+		@JsonProperty("Damage_Weapon_Min#Poison")
+		public Value<Float> Damage_Weapon_Min_Poison;
 
 		@JsonProperty("Resistance#Arcane")
 		public Value<Float> Resistance_Arcane;

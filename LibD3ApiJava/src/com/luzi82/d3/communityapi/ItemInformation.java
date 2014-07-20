@@ -31,6 +31,7 @@ public class ItemInformation {
 	public Value<Float> attacksPerSecond;
 	public Value<Float> minDamage;
 	public Value<Float> maxDamage;
+	public Value<Float> blockChance;
 
 	public Attributes attributes;
 	public AttributesRaw attributesRaw;
@@ -149,6 +150,10 @@ public class ItemInformation {
 		public Value<Float> CrowdControl_Reduction;
 		public Value<Float> Hitpoints_On_Hit;
 		public Value<Float> Weapon_On_Hit_Immobilize_Proc_Chance;
+		public Value<Float> Block_Amount_Item_Min;
+		public Value<Float> Block_Amount_Item_Delta;
+		public Value<Float> Block_Chance_Item;
+		public Value<Float> Block_Chance_Bonus_Item;
 
 		@JsonProperty("Resource_Max_Bonus#Arcanum")
 		public Value<Integer> Resource_Max_Bonus_Arcanum;

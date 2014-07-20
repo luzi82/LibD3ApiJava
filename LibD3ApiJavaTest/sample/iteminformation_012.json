@@ -1,0 +1,341 @@
+{
+"id" : "Shield_209",
+"name" : "Chivalry Essence",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/CmUIhtPKmAcSBwgEFRMMO2wdmgYAyx2AgcbEHf6j8o8ddWfm8R1PGawMHcOtOVwiCwgBFYpCAwAYCCAKMIsCOPQDQABQEFgEYPQDjQEIV5wJpQH-o_KPrQFMPxj2uAHei_SOD8ABAximsNjDDQ",
+"requiredLevel" : 70,
+"itemLevel" : 70,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"transmogItem" : {
+"id" : "Unique_Shield_002_x1",
+"name" : "Ivory Tower",
+"icon" : "unique_shield_002_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ivory-tower",
+"requiredLevel" : 60,
+"itemLevel" : 60,
+"bonusAffixes" : 2,
+"bonusAffixesMax" : 2,
+"accountBound" : false,
+"flavorText" : "This shield hums with the Song of the Arch.",
+"typeName" : "Legendary Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 860.0,
+"max" : 959.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "Regenerates 100–115 Life per Second",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Reduces damage from melee attacks by 15.0–20.0%",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Regen_Per_Second" : {
+"min" : 100.0,
+"max" : 115.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Damage_Percent_Reduction_From_Melee" : {
+"min" : 0.15000000000000002,
+"max" : 0.19999999999999996
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 2443.0,
+"max" : 3053.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 488.0,
+"max" : 1221.0
+},
+"Block_Chance_Item" : {
+"min" : 0.1,
+"max" : 0.2
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 1000.0
+},
+"Armor_Item" : {
+"min" : 860.0,
+"max" : 959.0
+}
+},
+"randomAffixes" : [ {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+81–85 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 81.0,
+"max" : 85.0
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+41–50 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Resistance_All" : {
+"min" : 41.0,
+"max" : 50.0
+}
+}
+} ]
+}, {
+"oneOf" : [ {
+"attributes" : {
+"primary" : [ {
+"text" : "+5% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.05,
+"max" : 0.05
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+6–12% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.06,
+"max" : 0.12
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–10% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.1
+}
+}
+}, {
+"attributes" : {
+"primary" : [ {
+"text" : "+9–16% Life",
+"affixType" : "default",
+"color" : "blue"
+} ],
+"secondary" : [ ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Hitpoints_Max_Percent_Bonus_Item" : {
+"min" : 0.09,
+"max" : 0.16
+}
+}
+} ]
+} ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ],
+"blockChance" : {
+"min" : 0.1,
+"max" : 0.2
+}
+},
+"typeName" : "Rare Shield",
+"type" : {
+"twoHanded" : false,
+"id" : "Shield"
+},
+"armor" : {
+"min" : 1793.0,
+"max" : 1793.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+588 Strength",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+570 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Critical Hit Chance Increased by 9.5%",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+10% Chance to Block",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "+134 Lightning Resistance",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Ranged and melee attackers take 3084 damage per hit",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ ]
+},
+"attributesRaw" : {
+"Strength_Item" : {
+"min" : 588.0,
+"max" : 588.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Durability_Cur" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"Thorns_Fixed#Physical" : {
+"min" : 3084.0,
+"max" : 3084.0
+},
+"Block_Amount_Item_Min" : {
+"min" : 15870.0,
+"max" : 15870.0
+},
+"Block_Amount_Item_Delta" : {
+"min" : 7935.0,
+"max" : 7935.0
+},
+"Vitality_Item" : {
+"min" : 570.0,
+"max" : 570.0
+},
+"Block_Chance_Bonus_Item" : {
+"min" : 0.1,
+"max" : 0.1
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"Durability_Max" : {
+"min" : 500.0,
+"max" : 500.0
+},
+"Block_Chance_Item" : {
+"min" : 0.18,
+"max" : 0.18
+},
+"Resistance#Lightning" : {
+"min" : 134.0,
+"max" : 134.0
+},
+"Crit_Percent_Bonus_Capped" : {
+"min" : 0.095,
+"max" : 0.095
+},
+"Armor_Item" : {
+"min" : 1793.0,
+"max" : 1793.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ {
+"id" : "T12_Armor_Shield",
+"slug" : "sovereign-ascended-shield",
+"name" : "Sovereign Ascended Shield",
+"cost" : 32400,
+"reagents" : [ {
+"quantity" : 12,
+"item" : {
+"id" : "Crafting_AssortedParts_01",
+"name" : "Reusable Parts",
+"icon" : "crafting_assortedparts_01_demonhunter_male",
+"displayColor" : "white",
+"tooltipParams" : "item/reusable-parts"
+}
+}, {
+"quantity" : 19,
+"item" : {
+"id" : "Crafting_Magic_01",
+"name" : "Arcane Dust",
+"icon" : "crafting_magic_01_demonhunter_male",
+"displayColor" : "blue",
+"tooltipParams" : "item/arcane-dust"
+}
+}, {
+"quantity" : 15,
+"item" : {
+"id" : "Crafting_Rare_01",
+"name" : "Veiled Crystal",
+"icon" : "crafting_rare_01_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "item/veiled-crystal"
+}
+} ],
+"itemProduced" : {
+"id" : "Shield_209",
+"name" : "Sovereign Ascended Shield",
+"icon" : "shield_209_demonhunter_male",
+"displayColor" : "yellow",
+"tooltipParams" : "recipe/sovereign-ascended-shield"
+}
+} ],
+"blockChance" : {
+"min" : 0.28,
+"max" : 0.28
+}
+}

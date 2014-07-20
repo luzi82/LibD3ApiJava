@@ -244,6 +244,8 @@ public class ItemInformation {
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_581_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_648_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_648_x1;
+		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_653_x1")
+		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_653_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_669_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_669_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_710_x1")

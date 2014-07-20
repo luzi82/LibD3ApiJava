@@ -148,6 +148,7 @@ public class ItemInformation {
 		public Value<Float> Attacks_Per_Second_Percent;
 		public Value<Float> CrowdControl_Reduction;
 		public Value<Float> Hitpoints_On_Hit;
+		public Value<Float> Weapon_On_Hit_Immobilize_Proc_Chance;
 
 		@JsonProperty("Resource_Max_Bonus#Arcanum")
 		public Value<Integer> Resource_Max_Bonus_Arcanum;
@@ -222,7 +223,10 @@ public class ItemInformation {
 		
 		@JsonProperty("Thorns_Fixed#Physical")
 		public Value<Float> Thorns_Fixed_Physical;
-
+		
+		@JsonProperty("Damage_Weapon_Percent_Bonus#Physical")
+		public Value<Float> Damage_Weapon_Percent_Bonus_Physical;
+		
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_515_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_515_x1;
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_581_x1")

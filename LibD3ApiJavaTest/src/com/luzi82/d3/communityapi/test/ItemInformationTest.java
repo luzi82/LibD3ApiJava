@@ -10,6 +10,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.luzi82.d3.communityapi.Const;
 import com.luzi82.d3.communityapi.IO;
 import com.luzi82.d3.communityapi.ItemInformation;
+import com.luzi82.d3.communityapi.ItemInformation.Value;
 
 public class ItemInformationTest {
 
@@ -286,4 +287,23 @@ public class ItemInformationTest {
 		Assert.assertEquals(0.010800000000000032f, ii.attributesRaw.Weapon_On_Hit_Immobilize_Proc_Chance.max, 0.000001f);
 	}
 		
+	@Test
+	public void test_012() throws JsonParseException, JsonMappingException, IOException {
+		ItemInformation ii = IO.readItemInformation("sample/iteminformation_012.json");
+		
+		Assert.assertEquals(2443f, ii.transmogItem.attributesRaw.Block_Amount_Item_Min.min, 0.000001f);
+		Assert.assertEquals(3053f, ii.transmogItem.attributesRaw.Block_Amount_Item_Min.max, 0.000001f);
+		
+		Assert.assertEquals(488f, ii.transmogItem.attributesRaw.Block_Amount_Item_Delta.min, 0.000001f);
+		Assert.assertEquals(1221f, ii.transmogItem.attributesRaw.Block_Amount_Item_Delta.max, 0.000001f);
+		
+		Assert.assertEquals(0.1f, ii.transmogItem.attributesRaw.Block_Chance_Item.min, 0.000001f);
+		Assert.assertEquals(0.2f, ii.transmogItem.attributesRaw.Block_Chance_Item.max, 0.000001f);
+		
+		Assert.assertEquals(0.1f, ii.transmogItem.blockChance.min, 0.000001f);
+		Assert.assertEquals(0.2f, ii.transmogItem.blockChance.max, 0.000001f);
+
+		Assert.assertEquals(0.1f, ii.attributesRaw.Block_Chance_Bonus_Item.min, 0.000001f);
+		Assert.assertEquals(0.1f, ii.attributesRaw.Block_Chance_Bonus_Item.max, 0.000001f);
+	}
 }

@@ -233,6 +233,8 @@ public class ItemInformation {
 		public Value<Float> Resistance_Lightning;
 		@JsonProperty("Resistance#Physical")
 		public Value<Float> Resistance_Physical;
+		@JsonProperty("Resistance#Poison")
+		public Value<Float> Resistance_Poison;
 
 		@JsonProperty("Damage_Weapon_Bonus_Min#Physical")
 		public Value<Float> Damage_Weapon_Bonus_Min_Physical;
@@ -242,6 +244,9 @@ public class ItemInformation {
 		
 		@JsonProperty("Damage_Weapon_Percent_Bonus#Physical")
 		public Value<Float> Damage_Weapon_Percent_Bonus_Physical;
+
+		@JsonProperty("Power_Damage_Percent_Bonus#Trait_Witchdoctor_ZombieDogSpawner_Passive")
+		public Value<Float> Power_Damage_Percent_Bonus_Trait_Witchdoctor_ZombieDogSpawner_Passive;
 		
 		@JsonProperty("Item_Power_Passive#ItemPassive_Unique_Ring_513_x1")
 		public Value<Float> Item_Power_Passive_ItemPassive_Unique_Ring_513_x1;

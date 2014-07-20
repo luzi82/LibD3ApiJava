@@ -11,76 +11,71 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class IO {
 
-	public static CareerProfile readCareerProfile(String string)
-			throws JsonParseException, JsonMappingException, IOException {
+	public static CareerProfile readCareerProfile(String string) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		CareerProfile out = mapper.readValue(new File(string),
-				CareerProfile.class);
+		CareerProfile out = mapper.readValue(new File(string), CareerProfile.class);
 		return out;
 	}
 
-	public static HeroProfile readHeroProfile(String string)
-			throws JsonParseException, JsonMappingException, IOException {
+	public static HeroProfile readHeroProfile(String string) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		HeroProfile out = mapper.readValue(new File(string), HeroProfile.class);
 		return out;
 	}
 
-	public static ItemInformation readItemInformation(String string)
-			throws JsonParseException, JsonMappingException, IOException {
+	public static ItemInformation readItemInformation(String string) throws JsonParseException, JsonMappingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		ItemInformation out = mapper.readValue(new File(string),
-				ItemInformation.class);
+		ItemInformation out = mapper.readValue(new File(string), ItemInformation.class);
 		return out;
 	}
 
-	public static CareerProfile readCareerProfile(String server, String name,
-			int code) throws JsonParseException, IOException {
-		final String URL_FORMAT = "%s/api/d3/profile/%s-%d/";
-		String urlString = String.format(URL_FORMAT, server, name, code);
-		System.err.println(urlString);
-		URL url = null;
+	public static URL careerProfileUrl(String server, String name, int code) {
 		try {
-			url = new URL(urlString);
+			final String URL_FORMAT = "%s/api/d3/profile/%s-%d/";
+			String urlString = String.format(URL_FORMAT, server, name, code);
+			return new URL(urlString);
 		} catch (MalformedURLException e) {
 			throw new Error(e);
 		}
+	}
+
+	public static CareerProfile readCareerProfile(String server, String name, int code) throws JsonParseException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		CareerProfile out = mapper.readValue(url, CareerProfile.class);
+		CareerProfile out = mapper.readValue(careerProfileUrl(server, name, code), CareerProfile.class);
 		return out;
 	}
 
-	public static HeroProfile readHeroProfile(String server, String name,
-			int code, int id) throws JsonParseException, IOException {
-		final String URL_FORMAT = "%s/api/d3/profile/%s-%d/hero/%d";
-		String urlString = String.format(URL_FORMAT, server, name, code, id);
-		System.err.println(urlString);
-		URL url = null;
+	public static URL heroProfileUrl(String server, String name, int code, int id) {
 		try {
-			url = new URL(urlString);
+			final String URL_FORMAT = "%s/api/d3/profile/%s-%d/hero/%d";
+			String urlString = String.format(URL_FORMAT, server, name, code, id);
+			return new URL(urlString);
 		} catch (MalformedURLException e) {
 			throw new Error(e);
 		}
+	}
+
+	public static HeroProfile readHeroProfile(String server, String name, int code, int id) throws JsonParseException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		HeroProfile out = mapper.readValue(url, HeroProfile.class);
+		HeroProfile out = mapper.readValue(heroProfileUrl(server, name, code, id), HeroProfile.class);
 		return out;
+	}
+
+	public static URL itemInformationUrl(String server, String tooltipParams) {
+		try {
+			final String URL_FORMAT = "%s/api/d3/data/%s";
+			String urlString = String.format(URL_FORMAT, server, tooltipParams);
+			return new URL(urlString);
+		} catch (MalformedURLException e) {
+			throw new Error(e);
+		}
 	}
 
 	public static ItemInformation readItemInformation(String server, String tooltipParams) throws JsonParseException, IOException {
-		final String URL_FORMAT = "%s/api/d3/data/%s";
-		String urlString = String.format(URL_FORMAT, server, tooltipParams);
-		System.err.println(urlString);
-		URL url = null;
-		try {
-			url = new URL(urlString);
-		} catch (MalformedURLException e) {
-			throw new Error(e);
-		}
 		ObjectMapper mapper = new ObjectMapper();
-		ItemInformation out = mapper.readValue(url, ItemInformation.class);
+		ItemInformation out = mapper.readValue(itemInformationUrl(server, tooltipParams), ItemInformation.class);
 		return out;
-		
-		
+
 	}
 
 }

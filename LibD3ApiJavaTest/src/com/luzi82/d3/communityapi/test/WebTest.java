@@ -63,24 +63,30 @@ public class WebTest {
 			checkItem(server, hp.items.leftFinger);
 			checkItem(server, hp.items.neck);
 
-			checkItem(server, hp.followers.templar.items.special);
-			checkItem(server, hp.followers.templar.items.mainHand);
-			checkItem(server, hp.followers.templar.items.offHand);
-			checkItem(server, hp.followers.templar.items.rightFinger);
-			checkItem(server, hp.followers.templar.items.leftFinger);
-			checkItem(server, hp.followers.templar.items.neck);
-			checkItem(server, hp.followers.scoundrel.items.special);
-			checkItem(server, hp.followers.scoundrel.items.mainHand);
-			checkItem(server, hp.followers.scoundrel.items.offHand);
-			checkItem(server, hp.followers.scoundrel.items.rightFinger);
-			checkItem(server, hp.followers.scoundrel.items.leftFinger);
-			checkItem(server, hp.followers.scoundrel.items.neck);
-			checkItem(server, hp.followers.enchantress.items.special);
-			checkItem(server, hp.followers.enchantress.items.mainHand);
-			checkItem(server, hp.followers.enchantress.items.offHand);
-			checkItem(server, hp.followers.enchantress.items.rightFinger);
-			checkItem(server, hp.followers.enchantress.items.leftFinger);
-			checkItem(server, hp.followers.enchantress.items.neck);
+			if (hp.followers.templar != null) {
+				checkItem(server, hp.followers.templar.items.special);
+				checkItem(server, hp.followers.templar.items.mainHand);
+				checkItem(server, hp.followers.templar.items.offHand);
+				checkItem(server, hp.followers.templar.items.rightFinger);
+				checkItem(server, hp.followers.templar.items.leftFinger);
+				checkItem(server, hp.followers.templar.items.neck);
+			}
+			if (hp.followers.scoundrel != null) {
+				checkItem(server, hp.followers.scoundrel.items.special);
+				checkItem(server, hp.followers.scoundrel.items.mainHand);
+				checkItem(server, hp.followers.scoundrel.items.offHand);
+				checkItem(server, hp.followers.scoundrel.items.rightFinger);
+				checkItem(server, hp.followers.scoundrel.items.leftFinger);
+				checkItem(server, hp.followers.scoundrel.items.neck);
+			}
+			if (hp.followers.enchantress != null) {
+				checkItem(server, hp.followers.enchantress.items.special);
+				checkItem(server, hp.followers.enchantress.items.mainHand);
+				checkItem(server, hp.followers.enchantress.items.offHand);
+				checkItem(server, hp.followers.enchantress.items.rightFinger);
+				checkItem(server, hp.followers.enchantress.items.leftFinger);
+				checkItem(server, hp.followers.enchantress.items.neck);
+			}
 
 		}
 	}

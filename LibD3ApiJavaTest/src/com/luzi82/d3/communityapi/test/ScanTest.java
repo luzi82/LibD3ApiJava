@@ -56,6 +56,7 @@ public class ScanTest {
 					}
 				} catch (Exception e) {
 					System.err.println(e.getMessage());
+					System.err.println();
 					good = false;
 				}
 			}
